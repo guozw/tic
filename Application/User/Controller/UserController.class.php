@@ -1,8 +1,10 @@
 <?php
+
 namespace User\Controller;
 use Think\Controller;
 
 class UserController extends Controller{
+  
   // function __construct() {
   //   if(!session()) return show(-999,'未登录');
   // }
@@ -226,7 +228,8 @@ class UserController extends Controller{
     $upload->saveName = $account;
     $info = $upload->upload($_FILES);
     if(!$info) {
-      return show(-1,"上传失败");
+      $this->show($upload->getError());
+      // return show(-1,"上传失败");
     }else{
       foreach($info as $file){
         $img =  'Public/'.$file['savepath'].$file['savename'];
@@ -256,7 +259,8 @@ class UserController extends Controller{
 
   public function test(){
     // print_r(session());
-    
+    $user = D('User') -> get_by_email('1239236430@qq.com');
+    print_r($user);
   }  
 }
 
