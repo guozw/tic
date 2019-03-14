@@ -10,9 +10,10 @@ use Think\Model;
 
 class UserModel extends Model{
   private $_db = '';
-
+  
   public function __construct(){
       $this -> $_db = M('user');
+      
   }
   
   public function get_by_email($email){
@@ -25,14 +26,14 @@ class UserModel extends Model{
   }
   public function login($username,$password,$code){
     $password = SafePassword($password.$code);
-    return $this -> $_db -> field('id,account,email,nickname,phone,birthday,constellation,describe,createtime,createtimes,status') -> where("(account = '".$username."' OR email = '".$username."') AND password = '".$password."' ") -> find();
+    return $this -> $_db -> field('id,account,email,nickname,sex,portrait,score,province,city,phone,birthday,constellation,describe,createtime,createtimes,status') -> where("(account = '".$username."' OR email = '".$username."') AND password = '".$password."' ") -> find();
   }
   public function get_by_username($username,$password){
     return $this -> $_db -> where("(account = '".$username."' OR email = '".$username."') ") -> find();
   }
   public function get_by_id($userid){
     $where['id'] = $userid;
-    return $this -> $_db -> field('id,account,email,nickname,phone,birthday,constellation,describe,createtime,createtimes,status') -> where($where) -> find();
+    return $this -> $_db -> field('id,account,email,nickname,sex,portrait,score,province,city,phone,birthday,constellation,describe,createtime,createtimes,status') -> where($where) -> find();
   }
   public function change_password($email,$password,$code){
     $where['email'] = $email;
@@ -45,17 +46,10 @@ class UserModel extends Model{
     $data['portrait'] = $img;
     return $this -> $_db -> where($where) -> save($data);
   }
-
-    public function getAllUser(){
-            $where['level'] = 1;
-            $res = $this -> $_db -> field('admin_id,user_name,usable') -> where($where) -> select();
-            return $res;
-        }
-        public function editUserUsable($admin_id,$usable){
-            $where['admin_id'] = $admin_id;
-            $res = $this -> $_db -> where($where) ->setField('usable',$usable);
-            return $res;
-        }
+  public function updateUserinfo($userid,$data){
+    $where['id'] = $userid;
+    return $this -> $_db -> where($where) -> save($data);
+  }
 
 
 }

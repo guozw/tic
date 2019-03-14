@@ -380,3 +380,195 @@ SQL: SELECT * FROM `user` WHERE `email` = '1239236430@qq.com' LIMIT 1   [ RunTim
 NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 24 行.
 SQL: INSERT INTO `user` (`id`,`email`,`account`,`nickname`,`password`,`sex`,`portrait`,`code`,`score`,`phone`,`birthday`,`constellation`,`describe`,`province`,`city`,`createtime`,`createtimes`,`status`) VALUES ('de82c1d5-ad3b-2ebb-5681-0cc0770c6561','1239236430@qq.com','903452785','郭.','71ac861b2bd8873d7cd95243b72273f3','男','Public/img/portraits/mandefault.png','498953','0','空','1997-01-01','摩羯座','这个人很懒什么都没留下','天津','天津市','1552532797','2019-03-14 11:06:37','1') [ RunTime:0.0005s ]
 
+[ 2019-03-14T13:13:51+08:00 ] ::1 /tic/?m=user&c=user&a=update_userinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+
+[ 2019-03-14T13:14:00+08:00 ] ::1 /tic/?m=user&c=user&a=update_userinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+
+[ 2019-03-14T13:14:06+08:00 ] ::1 /tic/?m=user&c=user&a=update_userinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 50 行.
+SQL: UPDATE `user` SET `nickname`='gzw' WHERE `id` = 'e752ea4e-f57c-3c04-333c-21310ae145e7' [ RunTime:0.0009s ]
+
+[ 2019-03-14T13:14:44+08:00 ] ::1 /tic/?m=user&c=user&a=update_userinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002197s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 50 行.
+SQL: UPDATE `user` SET `nickname`='gzw' WHERE `id` = 'de82c1d5-ad3b-2ebb-5681-0cc0770c6561' [ RunTime:0.0010s ]
+
+[ 2019-03-14T13:16:14+08:00 ] ::1 /tic/?m=user&c=user&a=update_userinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0026s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 50 行.
+SQL: UPDATE `user` SET `nickname`='wendy',`sex`='女',`phone`='15510843983',`birthday`='1998-03-16',`constellation`='双鱼座',`describe`='人生真是寂寞如雪啊',`province`='天津市',`city`='塘沽区' WHERE `id` = 'de82c1d5-ad3b-2ebb-5681-0cc0770c6561' [ RunTime:0.0021s ]
+
+[ 2019-03-14T13:19:32+08:00 ] ::1 /tic/?m=user&c=user&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2019-03-14T13:23:15+08:00 ] ::1 /tic/?m=user&c=user&a=get_userinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 36 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 'de82c1d5-ad3b-2ebb-5681-0cc0770c6561' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-03-14T13:23:38+08:00 ] ::1 /tic/?m=user&c=user&a=get_userinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0033s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 36 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 'de82c1d5-ad3b-2ebb-5681-0cc0770c6561' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-03-14T13:23:59+08:00 ] ::1 /tic/?m=user&c=user&a=get_userinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 36 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 'de82c1d5-ad3b-2ebb-5681-0cc0770c6561' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-03-14T13:25:27+08:00 ] ::1 /tic/?m=user&c=user&a=get_userinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 37 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 'de82c1d5-ad3b-2ebb-5681-0cc0770c6561' AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-03-14T13:26:19+08:00 ] ::1 /tic/?m=user&c=user&a=get_userinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 36 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 'de82c1d5-ad3b-2ebb-5681-0cc0770c6561' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-03-14T13:27:26+08:00 ] ::1 /tic/?m=user&c=user&a=get_userinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 36 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 'de82c1d5-ad3b-2ebb-5681-0cc0770c6561' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-03-14T13:29:54+08:00 ] ::1 /tic/?m=user&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0042s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [2] Missing argument 2 for Common\Model\UserModel::get_by_username(), called in /Applications/XAMPP/xamppfiles/htdocs/tic/Application/User/Controller/UserController.class.php on line 62 and defined /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 31 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 32 行.
+SQL: SELECT * FROM `user` WHERE ( (account = '610729607' OR email = '610729607')  ) LIMIT 1   [ RunTime:0.0023s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 29 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE ( (account = '610729607' OR email = '610729607') AND password = '6af1cc3bbba7b006d084b936170bcf36'  ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2019-03-14T13:30:10+08:00 ] ::1 /tic/?m=user&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [2] Missing argument 2 for Common\Model\UserModel::get_by_username(), called in /Applications/XAMPP/xamppfiles/htdocs/tic/Application/User/Controller/UserController.class.php on line 62 and defined /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 31 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 32 行.
+SQL: SELECT * FROM `user` WHERE ( (account = '903452785' OR email = '903452785')  ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 29 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE ( (account = '903452785' OR email = '903452785') AND password = '71ac861b2bd8873d7cd95243b72273f3'  ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-03-14T13:30:23+08:00 ] ::1 /tic/?m=user&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [2] Missing argument 2 for Common\Model\UserModel::get_by_username(), called in /Applications/XAMPP/xamppfiles/htdocs/tic/Application/User/Controller/UserController.class.php on line 62 and defined /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 31 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 32 行.
+SQL: SELECT * FROM `user` WHERE ( (account = '903452785' OR email = '903452785')  ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 29 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE ( (account = '903452785' OR email = '903452785') AND password = '71ac861b2bd8873d7cd95243b72273f3'  ) LIMIT 1   [ RunTime:0.0003s ]
+
