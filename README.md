@@ -9,6 +9,7 @@
 
 config.php
 
+```
 <?php
 return array(
   //'配置项'=>'配置值'
@@ -34,11 +35,12 @@ return array(
         'subName'    =>    'pictures',
     ),
 );
+```
 
 文件2:
 
 db.php
-
+```
 <?php
 return array(
     'DB_TYPE' => 'mysql',
@@ -50,7 +52,7 @@ return array(
     'DB_CHARSET' => 'utf8',
 )
 ?>
-
+```
 此文件需要根据自己数据库配置自行修改
 
 为了安全起见 需要创建文件3 index.html
