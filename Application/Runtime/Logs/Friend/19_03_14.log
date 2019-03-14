@@ -1,0 +1,27 @@
+[ 2019-03-14T15:58:29+08:00 ] ::1 /tic/?m=friend&c=friend&a=addFriend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/FriendModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/FriendModel.class.php 第 17 行.
+SQL: INSERT INTO `friend` (`userid`,`friendid`,`id`,`createtime`,`createtimes`,`status`) VALUES ('de82c1d5-ad3b-2ebb-5681-0cc0770c6561','e752ea4e-f57c-3c04-333c-21310ae145e7','a0f1962f-df6a-37f5-c648-facefc8c3d0e','1552550309','2019-03-14 15:58:29','1') [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001106s ]
+
+[ 2019-03-14T17:22:44+08:00 ] ::1 /tic/?m=friend&c=friend&a=addFriend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/FriendModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/FriendModel.class.php 第 17 行.
+SQL: INSERT INTO `friend` (`userid`,`friendid`,`id`,`createtime`,`createtimes`,`status`) VALUES ('de82c1d5-ad3b-2ebb-5681-0cc0770c6561','e752ea4e-f57c-3c04-333c-21310ae145e7','b075e410-86ff-cf80-b055-7ac5b24b5d87','1552555364','2019-03-14 17:22:44','1') [ RunTime:0.0008s ]
+

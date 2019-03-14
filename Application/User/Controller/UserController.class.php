@@ -141,17 +141,23 @@ class UserController extends Controller{
   public function change_password(){
     $email = I('post.email');
     $password = I('post.password');
-    if(!$email || !$password || $email == '' || $password == '') missing_parameter();
+    $code = I('post.code');
+    if(!$email || !$password || $email == '' || $password == '' || !$code || $code == '') missing_parameter();
     $user = D('User') -> get_by_email($email);
     $verifyinfo = D('Verify') -> get_code($email);
-    $code = $verifyinfo['code'];
-    $password = SafePassword($password.$code);
-    $res = D('User') -> change_password($email,$password,$code);
-    if($res){
-      return show(0,'修改成功',$res);
+    if($code == $verifyinfo['code']){
+      $code = $verifyinfo['code'];
+      $password = SafePassword($password.$code);
+      $res = D('User') -> change_password($email,$password,$code);
+      if($res){
+        return show(0,'修改成功',$res);
+      }else{
+        return show(-1,'修改失败');
+      }
     }else{
-      return show(-1,'修改失败');
+      return show(-1,'验证码不正确');
     }
+    
   }
   //获取用户详情
   public function get_userinfo(){
@@ -249,7 +255,8 @@ class UserController extends Controller{
   }
 
   public function test(){
-    print_r(session());
+    // print_r(session());
+    
   }  
 }
 
