@@ -20,7 +20,6 @@ return array(
         'replace'   =>     true,
         'rootPath'   =>    'public/',
         'savePath'   =>    'img/',
-        // 'saveName'   =>    array('uniqid',''),
         'autoSub'    =>    true,
         'subName'    =>    'portraits',
     ),
