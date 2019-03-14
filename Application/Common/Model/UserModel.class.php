@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: guozw
  * Date: 2017/10/17
- * Time: 下午2:11
+ * Time: 下坈2:11
  */
 namespace Common\Model;
 use Think\Model;
@@ -40,7 +40,11 @@ class UserModel extends Model{
     $data['code'] = $code;
     return $this -> $_db -> where($where) -> save($data);
   }
-    
+  public function uploadPicture($account,$img){
+    $where['account'] = $account;
+    $data['portrait'] = $img;
+    return $this -> $_db -> where($where) -> save($data);
+  }
 
     public function getAllUser(){
             $where['level'] = 1;

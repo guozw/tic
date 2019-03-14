@@ -1,0 +1,382 @@
+[ 2019-03-14T09:39:58+08:00 ] ::1 /tic/?m=user&c=user&a=uploadPicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+
+[ 2019-03-14T09:40:24+08:00 ] ::1 /tic/?m=user&c=user&a=uploadPicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+
+[ 2019-03-14T09:40:57+08:00 ] ::1 /tic/?m=user&c=user&a=uploadPicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+
+[ 2019-03-14T09:42:28+08:00 ] ::1 /tic/?m=user&c=user&a=uploadPicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+
+[ 2019-03-14T09:43:11+08:00 ] ::1 /tic/?m=user&c=user&a=uploadPicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+
+[ 2019-03-14T09:43:37+08:00 ] ::1 /tic/?m=user&c=user&a=uploadPicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+
+[ 2019-03-14T09:44:42+08:00 ] ::1 /tic/?m=user&c=user&a=uploadPicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+
+[ 2019-03-14T09:44:50+08:00 ] ::1 /tic/?m=user&c=user&a=uploadPicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+
+[ 2019-03-14T09:45:13+08:00 ] ::1 /tic/?m=user&c=user&a=uploadPicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Applications/XAMPP/xamppfiles/htdocs/tic/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2019-03-14T09:45:55+08:00 ] ::1 /tic/?m=user&c=user&a=uploadPicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+
+[ 2019-03-14T09:46:13+08:00 ] ::1 /tic/?m=user&c=user&a=uploadPicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Applications/XAMPP/xamppfiles/htdocs/tic/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2019-03-14T09:58:02+08:00 ] ::1 /tic/?m=user&c=user&a=uploadPicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Applications/XAMPP/xamppfiles/htdocs/tic/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2019-03-14T10:03:10+08:00 ] ::1 /tic/?m=user&c=user&a=uploadPicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Applications/XAMPP/xamppfiles/htdocs/tic/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2019-03-14T10:03:22+08:00 ] ::1 /tic/?m=user&c=user&a=uploadPicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+
+[ 2019-03-14T10:03:36+08:00 ] ::1 /tic/?m=user&c=user&a=uploadPicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+
+[ 2019-03-14T10:04:09+08:00 ] ::1 /tic/?m=user&c=user&a=uploadPicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Applications/XAMPP/xamppfiles/htdocs/tic/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2019-03-14T10:06:55+08:00 ] ::1 /tic/?m=user&c=user&a=uploadPicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Applications/XAMPP/xamppfiles/htdocs/tic/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2019-03-14T10:09:11+08:00 ] ::1 /tic/?m=user&c=user&a=uploadPicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Applications/XAMPP/xamppfiles/htdocs/tic/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2019-03-14T10:09:29+08:00 ] ::1 /tic/?m=user&c=user&a=uploadPicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Applications/XAMPP/xamppfiles/htdocs/tic/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2019-03-14T10:12:06+08:00 ] ::1 /tic/?m=user&c=user&a=uploadPicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Applications/XAMPP/xamppfiles/htdocs/tic/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2019-03-14T10:34:47+08:00 ] ::1 /tic/?m=user&c=user&a=uploadPicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Applications/XAMPP/xamppfiles/htdocs/tic/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2019-03-14T10:36:00+08:00 ] ::1 /tic/?m=user&c=user&a=uploadPicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Applications/XAMPP/xamppfiles/htdocs/tic/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2019-03-14T10:36:58+08:00 ] ::1 /tic/?m=user&c=user&a=uploadPicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Applications/XAMPP/xamppfiles/htdocs/tic/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2019-03-14T10:38:17+08:00 ] ::1 /tic/?m=user&c=user&a=uploadPicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Applications/XAMPP/xamppfiles/htdocs/tic/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2019-03-14T10:46:11+08:00 ] ::1 /tic/?m=user&c=user&a=uploadPicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Applications/XAMPP/xamppfiles/htdocs/tic/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 46 行.
+SQL: UPDATE `user` SET `portrait`='public/img/portraits/610729607.png' WHERE `account` = '610729607' [ RunTime:0.0008s ]
+
+[ 2019-03-14T10:49:07+08:00 ] ::1 /tic/?m=user&c=user&a=uploadPicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+NOTIC: [8] Undefined variable: account /Applications/XAMPP/xamppfiles/htdocs/tic/Application/User/Controller/UserController.class.php 第 194 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Applications/XAMPP/xamppfiles/htdocs/tic/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2019-03-14T10:49:58+08:00 ] ::1 /tic/?m=user&c=user&a=uploadPicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Applications/XAMPP/xamppfiles/htdocs/tic/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2019-03-14T11:04:25+08:00 ] ::1 /tic/?m=user&c=user&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+NOTIC: [2048] Declaration of Common\Model\VerifyModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/VerifyModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `verify` [ RunTime:0.0026s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/VerifyModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/VerifyModel.class.php 第 21 行.
+SQL: SELECT * FROM `verify` WHERE `user` = '1239236430@qq.com' LIMIT 1   [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/VerifyModel.class.php 第 17 行.
+SQL: INSERT INTO `verify` (`user`,`code`,`createtime`) VALUES ('1239236430@qq.com','498953','1552532665') [ RunTime:0.0019s ]
+
+[ 2019-03-14T11:05:14+08:00 ] ::1 /tic/?m=user&c=user&a=register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+
+[ 2019-03-14T11:05:28+08:00 ] ::1 /tic/?m=user&c=user&a=register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001688s ]
+NOTIC: [2048] Declaration of Common\Model\VerifyModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/VerifyModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `verify` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/VerifyModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/VerifyModel.class.php 第 21 行.
+SQL: SELECT * FROM `verify` WHERE `user` = '1239236430@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 20 行.
+SQL: SELECT * FROM `user` WHERE `email` = '1239236430@qq.com' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 24 行.
+SQL: INSERT INTO `user` (`id`,`email`,`account`,`nickname`,`password`,`portrait`,`code`,`score`,`phone`,`birthday`,`constellation`,`describe`,`province`,`city`,`createtime`,`createtimes`,`status`) VALUES ('3a5b46c0-7072-8c4e-27a5-c1cb0b2f79ec','1239236430@qq.com','162393789','郭.','71ac861b2bd8873d7cd95243b72273f3','Public\\/img\\/portraits\\/mandefault.png','498953','0','空','1997-01-01','摩羯座','这个人很懒什么都没留下','天津','天津市','1552532728','2019-03-14 11:05:28','1') [ RunTime:0.0010s ]
+
+[ 2019-03-14T11:06:37+08:00 ] ::1 /tic/?m=user&c=user&a=register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+NOTIC: [2048] Declaration of Common\Model\VerifyModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/VerifyModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `verify` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/VerifyModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/VerifyModel.class.php 第 21 行.
+SQL: SELECT * FROM `verify` WHERE `user` = '1239236430@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 20 行.
+SQL: SELECT * FROM `user` WHERE `email` = '1239236430@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 24 行.
+SQL: INSERT INTO `user` (`id`,`email`,`account`,`nickname`,`password`,`sex`,`portrait`,`code`,`score`,`phone`,`birthday`,`constellation`,`describe`,`province`,`city`,`createtime`,`createtimes`,`status`) VALUES ('de82c1d5-ad3b-2ebb-5681-0cc0770c6561','1239236430@qq.com','903452785','郭.','71ac861b2bd8873d7cd95243b72273f3','男','Public/img/portraits/mandefault.png','498953','0','空','1997-01-01','摩羯座','这个人很懒什么都没留下','天津','天津市','1552532797','2019-03-14 11:06:37','1') [ RunTime:0.0005s ]
+

@@ -33,6 +33,8 @@ class UserController extends Controller{
     $data['account'] = get_account();
     $data['nickname'] = $nickname;
     $data['password'] = $password;
+    $data['sex'] = '男';
+    $data['portrait'] = 'Public/img/portraits/mandefault.png';
     $data['code'] = $code;
     $data['score'] = 0;
     $data['phone'] = '空';
@@ -165,13 +167,56 @@ class UserController extends Controller{
     
   }
 
-  public function test(){
-    $birthday = I('post.birthday');
-    $month = substr($birthday,5,2);
-    $day = substr($birthday,8,2);
-    echo get_constellation($month,$day);
+  public function uploadPortrait(){
+    $account = I('post.account');
+    $img = 'aaa';
+    header("content-type:text/html;charset=utf-8");
+    $upload = new \Think\Upload(C('PortraitsUpload'));
+    $upload->saveName = $account;
+    // 上传文件
+    $info = $upload->upload($_FILES);
+    // print_r($info);exit;
+    if(!$info) {
+      return show(-1,"上传失败");
+      // $this->error($upload->getError());
+    }else{
+      foreach($info as $file){
+        $img =  'Public/'.$file['savepath'].$file['savename'];
+      }
+      $res = D('User')->uploadPicture($account,$img);
+      return show(0,'上传成功',$res);
+    }
     
-    // print_r(session());
+  }
+  public function uploadPicture(){
+    // $account = I('post.id');
+    $img = 'aaa';
+    header("content-type:text/html;charset=utf-8");
+    $upload = new \Think\Upload(C('PicturesUpload'));
+    // $upload->saveName = $account;
+    // 上传文件
+    $info = $upload->upload($_FILES);
+    // print_r($info);exit;
+    if(!$info) {
+      return show(-1,"上传失败");
+      // $this->error($upload->getError());
+    }else{
+      foreach($info as $file){
+        $img =  'Public/'.$file['savepath'].$file['savename'];
+      }
+      // $res = D('User')->uploadPicture($account,$img);
+      return show(0,'上传成功',$img);
+    }
+    
+  }
+
+  public function test(){
+    // $birthday = I('post.birthday');
+    // $month = substr($birthday,5,2);
+    // $day = substr($birthday,8,2);
+    // echo get_constellation($month,$day);
+    
+    print_r(session());
   }  
 }
 
