@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>没有上传的文件！
