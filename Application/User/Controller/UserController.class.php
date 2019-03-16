@@ -243,7 +243,8 @@ class UserController extends Controller{
     $account = I('post.account');
     $portrait = I('post.portrait');
     if(!$account || $account == '' || !$portrait || $portrait == '') missing_parameter();
-    $res = D('User')->uploadPicture($img);
+    // echo $account. ' ' .$portrait;
+    $res = D('User')->uploadPicture($account,$portrait);
     if($res){
       return show(0,'保存成功',$res);
     }else{

@@ -109,3 +109,250 @@ INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
 NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
 
+[ 2019-03-16T10:32:22+08:00 ] ::1 /tic/?m=user&c=user&a=savePortrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0106s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: img E:\phpstudy\WWW\tic\Application\User\Controller\UserController.class.php 第 246 行.
+NOTIC: [2] Missing argument 2 for Common\Model\UserModel::uploadPicture(), called in E:\phpstudy\WWW\tic\Application\User\Controller\UserController.class.php on line 246 and defined E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 44 行.
+NOTIC: [8] Undefined variable: img E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 47 行.
+SQL: UPDATE `user` SET `portrait`=NULL WHERE `account` = null [ RunTime:0.0003s ]
+
+[ 2019-03-16T10:33:38+08:00 ] ::1 /tic/?m=user&c=user&a=uploadPortrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2019-03-16T10:33:53+08:00 ] ::1 /tic/?m=user&c=user&a=savePortrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: img E:\phpstudy\WWW\tic\Application\User\Controller\UserController.class.php 第 246 行.
+NOTIC: [2] Missing argument 2 for Common\Model\UserModel::uploadPicture(), called in E:\phpstudy\WWW\tic\Application\User\Controller\UserController.class.php on line 246 and defined E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 44 行.
+NOTIC: [8] Undefined variable: img E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 47 行.
+SQL: UPDATE `user` SET `portrait`=NULL WHERE `account` = null [ RunTime:0.0002s ]
+
+[ 2019-03-16T10:34:09+08:00 ] ::1 /tic/?m=user&c=user&a=savePortrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0164s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: img E:\phpstudy\WWW\tic\Application\User\Controller\UserController.class.php 第 246 行.
+NOTIC: [2] Missing argument 2 for Common\Model\UserModel::uploadPicture(), called in E:\phpstudy\WWW\tic\Application\User\Controller\UserController.class.php on line 246 and defined E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 44 行.
+NOTIC: [8] Undefined variable: img E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 47 行.
+SQL: UPDATE `user` SET `portrait`=NULL WHERE `account` = null [ RunTime:0.0002s ]
+
+[ 2019-03-16T10:34:40+08:00 ] ::1 /tic/?m=user&c=user&a=savePortrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0119s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: img E:\phpstudy\WWW\tic\Application\User\Controller\UserController.class.php 第 246 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 47 行.
+SQL: UPDATE `user` SET `portrait`=NULL WHERE `account` = '565617544' [ RunTime:0.0531s ]
+
+[ 2019-03-16T10:34:58+08:00 ] ::1 /tic/?m=user&c=user&a=savePortrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0122s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: img E:\phpstudy\WWW\tic\Application\User\Controller\UserController.class.php 第 246 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 47 行.
+SQL: UPDATE `user` SET `portrait`=NULL WHERE `account` = '565617544' [ RunTime:0.0375s ]
+
+[ 2019-03-16T10:35:03+08:00 ] ::1 /tic/?m=user&c=user&a=savePortrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0124s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: img E:\phpstudy\WWW\tic\Application\User\Controller\UserController.class.php 第 246 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 47 行.
+SQL: UPDATE `user` SET `portrait`=NULL WHERE `account` = '565617544' [ RunTime:0.0278s ]
+
+[ 2019-03-16T10:35:05+08:00 ] ::1 /tic/?m=user&c=user&a=savePortrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0124s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: img E:\phpstudy\WWW\tic\Application\User\Controller\UserController.class.php 第 246 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 47 行.
+SQL: UPDATE `user` SET `portrait`=NULL WHERE `account` = '565617544' [ RunTime:0.1338s ]
+
+[ 2019-03-16T10:35:18+08:00 ] ::1 /tic/?m=user&c=user&a=savePortrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0122s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: img E:\phpstudy\WWW\tic\Application\User\Controller\UserController.class.php 第 246 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 47 行.
+SQL: UPDATE `user` SET `portrait`=NULL WHERE `account` = '565617544' [ RunTime:0.0309s ]
+
+[ 2019-03-16T10:36:49+08:00 ] ::1 /tic/?m=user&c=user&a=savePortrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0131s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: img E:\phpstudy\WWW\tic\Application\User\Controller\UserController.class.php 第 246 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 47 行.
+SQL: UPDATE `user` SET `portrait`=NULL WHERE `account` = '565617544' [ RunTime:0.0361s ]
+
+[ 2019-03-16T10:36:54+08:00 ] ::1 /tic/?m=user&c=user&a=savePortrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0132s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: img E:\phpstudy\WWW\tic\Application\User\Controller\UserController.class.php 第 246 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 47 行.
+SQL: UPDATE `user` SET `portrait`=NULL WHERE `account` = '565617544' [ RunTime:0.0535s ]
+
+[ 2019-03-16T10:36:55+08:00 ] ::1 /tic/?m=user&c=user&a=savePortrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0126s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: img E:\phpstudy\WWW\tic\Application\User\Controller\UserController.class.php 第 246 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 47 行.
+SQL: UPDATE `user` SET `portrait`=NULL WHERE `account` = '565617544' [ RunTime:0.0766s ]
+
+[ 2019-03-16T10:37:43+08:00 ] ::1 /tic/?m=user&c=user&a=savePortrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0113s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: img E:\phpstudy\WWW\tic\Application\User\Controller\UserController.class.php 第 247 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 47 行.
+SQL: UPDATE `user` SET `portrait`=NULL WHERE `account` = '565617544' [ RunTime:0.0458s ]
+
+[ 2019-03-16T10:39:02+08:00 ] ::1 /tic/?m=user&c=user&a=savePortrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 47 行.
+SQL: UPDATE `user` SET `portrait`='www.codergzw.com/tic/Public/img/portraits/5c8c608228a01.gif' WHERE `account` = '565617544' [ RunTime:0.0314s ]
+
+[ 2019-03-16T10:39:14+08:00 ] ::1 /tic/?m=user&c=user&a=savePortrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0118s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 47 行.
+SQL: UPDATE `user` SET `portrait`='www.codergzw.com\\/tic\\/Public\\/img\\/portraits\\/5c8c608228a01.gif' WHERE `account` = '565617544' [ RunTime:0.0363s ]
+
+[ 2019-03-16T10:39:39+08:00 ] ::1 /tic/?m=user&c=user&a=savePortrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0128s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 47 行.
+SQL: UPDATE `user` SET `portrait`='www.codergzw.com/tic/Public/img/portraits/5c8c608228a01.gif' WHERE `account` = '565617544' [ RunTime:0.0378s ]
+
+[ 2019-03-16T14:55:43+08:00 ] ::1 /tic/?m=user&c=user&a=search_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+ERR: 非法操作:search_user
+
+[ 2019-03-16T14:57:10+08:00 ] ::1 /tic/?m=user&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006093s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0129s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [2] Missing argument 2 for Common\Model\UserModel::get_by_username(), called in E:\phpstudy\WWW\tic\Application\User\Controller\UserController.class.php on line 64 and defined E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 31 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 32 行.
+SQL: SELECT * FROM `user` WHERE ( (account = '1239236430@qq.com' OR email = '1239236430@qq.com')  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 29 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE ( (account = '1239236430@qq.com' OR email = '1239236430@qq.com') AND password = '71ac861b2bd8873d7cd95243b72273f3'  ) LIMIT 1   [ RunTime:0.0002s ]
+
