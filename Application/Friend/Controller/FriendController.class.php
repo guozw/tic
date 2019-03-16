@@ -11,6 +11,7 @@ class FriendController extends Controller{
     $userid = I('post.userid');
     $friendid = I('post.friendid');
     if(!$userid || !$friendid || $userid == '' || $friendid == '') missing_parameter();
+    
     if($userid < $friendid){
       $data['userid'] = $userid;
       $data['friendid'] = $friendid;

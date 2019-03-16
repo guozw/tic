@@ -36,7 +36,7 @@ class UserController extends Controller{
     $data['nickname'] = $nickname;
     $data['password'] = $password;
     $data['sex'] = '男';
-    $data['portrait'] = 'Public/img/portraits/mandefault.png';
+    $data['portrait'] = 'www.codergzw.com/tic/Public/img/portraits/mandefault.png';
     $data['code'] = $code;
     $data['score'] = 0;
     $data['phone'] = '空';
@@ -163,7 +163,7 @@ class UserController extends Controller{
   }
   //获取用户详情
   public function get_userinfo(){
-    if(!session()) return show(-999,'未登录');
+    // if(!session()) return show(-999,'未登录');
     $userid = I('post.userid');
     if(!$userid || $userid == ''){
       missing_parameter();
@@ -232,7 +232,7 @@ class UserController extends Controller{
       // return show(-1,"上传失败");
     }else{
       foreach($info as $file){
-        $img =  'Public/'.$file['savepath'].$file['savename'];
+        $img =  'www.codergzw.com/tic/Public/'.$file['savepath'].$file['savename'];
       }
       $res = D('User')->uploadPicture($account,$img);
       return show(0,'上传成功',$res);
