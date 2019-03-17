@@ -727,3 +727,16 @@ SQL: select u.id as id ,account,email,nickname,sex,portrait,score,province,city,
     where (f.userid = '1d3399f8-6c26-f6d4-0909-2b53ba0199ea' OR f.friendid = '1d3399f8-6c26-f6d4-0909-2b53ba0199ea')
     AND u.id <> '1d3399f8-6c26-f6d4-0909-2b53ba0199ea' [ RunTime:0.0004s ]
 
+[ 2019-03-16T16:51:37+08:00 ] ::1 /tic/?m=friend&c=friend&a=search_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 55 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtimes` FROM `user` WHERE ( account LIKE '%610729607%' OR nickname LIKE '%610729607%' )  [ RunTime:0.0003s ]
+

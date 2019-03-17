@@ -1,0 +1,228 @@
+[ 2019-03-17T14:27:40+08:00 ] ::1 /tic/?m=friend&c=friend&a=search_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 55 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtimes` FROM `user` WHERE ( account LIKE '%610729607%' OR nickname LIKE '%610729607%' )  [ RunTime:0.0003s ]
+
+[ 2019-03-17T14:28:24+08:00 ] ::1 /tic/?m=friend&c=friend&a=add_approval
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.0232s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FriendModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FriendModel.class.php 第 25 行.
+SQL: SELECT * FROM `friend` WHERE `userid` = 1 AND `friendid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\ApprovalModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `approval` [ RunTime:0.0122s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 37 行.
+SQL: SELECT * FROM `approval` WHERE `userid` = 3 AND `approvalid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 32 行.
+SQL: INSERT INTO `approval` (`userid`,`approvalid`,`createtime`,`createtimes`,`isread`,`status`) VALUES ('3','1','1552804104','2019-03-17 14:28:24','1','1') [ RunTime:0.0002s ]
+
+[ 2019-03-17T14:29:41+08:00 ] ::1 /tic/?m=friend&c=friend&a=add_approval
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FriendModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FriendModel.class.php 第 25 行.
+SQL: SELECT * FROM `friend` WHERE `userid` = 1 AND `friendid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\ApprovalModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `approval` [ RunTime:0.0097s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 37 行.
+SQL: SELECT * FROM `approval` WHERE `userid` = 3 AND `approvalid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 32 行.
+SQL: INSERT INTO `approval` (`userid`,`approvalid`,`createtime`,`createtimes`,`isread`,`status`) VALUES ('3','1','1552804181','2019-03-17 14:29:41','1','1') [ RunTime:0.0003s ]
+
+[ 2019-03-17T14:29:59+08:00 ] ::1 /tic/?m=friend&c=friend&a=add_approval
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.0114s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FriendModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FriendModel.class.php 第 25 行.
+SQL: SELECT * FROM `friend` WHERE `userid` = 1 AND `friendid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\ApprovalModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `approval` [ RunTime:0.0092s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 37 行.
+SQL: SELECT * FROM `approval` WHERE `userid` = 3 AND `approvalid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-03-17T14:30:10+08:00 ] ::1 /tic/?m=friend&c=friend&a=get_approval_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+NOTIC: [2048] Declaration of Common\Model\ApprovalModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `approval` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 10 行.
+SQL: select 
+            u.id as userid,account,email,nickname,sex,portrait,
+            score,province,city,phone,birthday,constellation,
+            a.id as apprvoalid
+            from approval a
+            left join user u on (a.approvalid = u.id)
+            where a.userid = '3' [ RunTime:0.0003s ]
+
+[ 2019-03-17T14:30:27+08:00 ] ::1 /tic/?m=friend&c=friend&a=isRead
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+NOTIC: [2048] Declaration of Common\Model\ApprovalModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `approval` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 42 行.
+SQL: UPDATE `approval` SET `isread`='2' WHERE `id` = 1 [ RunTime:0.0002s ]
+
+[ 2019-03-17T14:30:42+08:00 ] ::1 /tic/?m=friend&c=friend&a=addFriend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.0118s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FriendModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FriendModel.class.php 第 25 行.
+SQL: SELECT * FROM `friend` WHERE `userid` = 1 AND `friendid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FriendModel.class.php 第 19 行.
+SQL: INSERT INTO `friend` (`userid`,`friendid`,`createtime`,`createtimes`,`status`) VALUES ('1','3','1552804242','2019-03-17 14:30:42','1') [ RunTime:0.0226s ]
+NOTIC: [2048] Declaration of Common\Model\ApprovalModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `approval` [ RunTime:0.0089s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 47 行.
+SQL: UPDATE `approval` SET `isread`='3' WHERE `id` = 1 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 37 行.
+SQL: SELECT * FROM `approval` WHERE `userid` = 1 AND `approvalid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2019-03-17T14:30:45+08:00 ] ::1 /tic/?m=friend&c=friend&a=addFriend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.0121s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FriendModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FriendModel.class.php 第 25 行.
+SQL: SELECT * FROM `friend` WHERE `userid` = 1 AND `friendid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-03-17T14:30:51+08:00 ] ::1 /tic/?m=friend&c=friend&a=get_friendList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.0136s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FriendModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FriendModel.class.php 第 34 行.
+SQL: select u.id as id ,account,email,nickname,sex,portrait,score,province,city,phone,birthday,constellation,`describe`,u.createtimes as createtimes
+    from friend f
+    LEFT JOIN `user` u on f.userid = u.id OR f.friendid = u.id
+    where (f.userid = '3' OR f.friendid = '3')
+    AND u.id <> '3' [ RunTime:0.0004s ]
+
+[ 2019-03-17T14:31:41+08:00 ] ::1 /tic/?m=friend&c=friend&a=add_approval
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.0131s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FriendModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FriendModel.class.php 第 25 行.
+SQL: SELECT * FROM `friend` WHERE `userid` = 1 AND `friendid` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\ApprovalModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `approval` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 37 行.
+SQL: SELECT * FROM `approval` WHERE `userid` = 2 AND `approvalid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 32 行.
+SQL: INSERT INTO `approval` (`userid`,`approvalid`,`createtime`,`createtimes`,`isread`,`status`) VALUES ('2','1','1552804301','2019-03-17 14:31:41','1','1') [ RunTime:0.0002s ]
+
+[ 2019-03-17T14:31:58+08:00 ] ::1 /tic/?m=friend&c=friend&a=addFriend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.0124s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FriendModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FriendModel.class.php 第 25 行.
+SQL: SELECT * FROM `friend` WHERE `userid` = 1 AND `friendid` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FriendModel.class.php 第 19 行.
+SQL: INSERT INTO `friend` (`userid`,`friendid`,`createtime`,`createtimes`,`status`) VALUES ('1','2','1552804318','2019-03-17 14:31:58','1') [ RunTime:0.0345s ]
+NOTIC: [2048] Declaration of Common\Model\ApprovalModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `approval` [ RunTime:0.0092s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 47 行.
+SQL: UPDATE `approval` SET `isread`='3' WHERE `id` = 2 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 37 行.
+SQL: SELECT * FROM `approval` WHERE `userid` = 1 AND `approvalid` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-03-17T14:32:27+08:00 ] ::1 /tic/?m=friend&c=friend&a=add_approval
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.0136s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FriendModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FriendModel.class.php 第 25 行.
+SQL: SELECT * FROM `friend` WHERE `userid` = 2 AND `friendid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\ApprovalModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `approval` [ RunTime:0.0095s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 37 行.
+SQL: SELECT * FROM `approval` WHERE `userid` = 2 AND `approvalid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 32 行.
+SQL: INSERT INTO `approval` (`userid`,`approvalid`,`createtime`,`createtimes`,`isread`,`status`) VALUES ('2','3','1552804347','2019-03-17 14:32:27','1','1') [ RunTime:0.0002s ]
+
+[ 2019-03-17T14:32:48+08:00 ] ::1 /tic/?m=friend&c=friend&a=addFriend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.0123s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FriendModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FriendModel.class.php 第 25 行.
+SQL: SELECT * FROM `friend` WHERE `userid` = 2 AND `friendid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FriendModel.class.php 第 19 行.
+SQL: INSERT INTO `friend` (`userid`,`friendid`,`createtime`,`createtimes`,`status`) VALUES ('2','3','1552804368','2019-03-17 14:32:48','1') [ RunTime:0.0396s ]
+NOTIC: [2048] Declaration of Common\Model\ApprovalModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `approval` [ RunTime:0.0089s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 47 行.
+SQL: UPDATE `approval` SET `isread`='3' WHERE `id` = 3 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ApprovalModel.class.php 第 37 行.
+SQL: SELECT * FROM `approval` WHERE `userid` = 3 AND `approvalid` = 2 LIMIT 1   [ RunTime:0.0001s ]
+

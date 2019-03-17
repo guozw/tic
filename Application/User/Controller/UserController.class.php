@@ -30,7 +30,7 @@ class UserController extends Controller{
     }
     
     $password = SafePassword($password.$code);
-    $data['id'] = uuid();
+    // $data['id'] = uuid();
     $data['email'] = $email;
     $data['account'] = get_account();
     $data['nickname'] = $nickname;

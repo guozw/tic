@@ -30,7 +30,7 @@ class SubtaskModel extends Model{
             $re = $this -> $_db -> where($where) -> select();
             $c = count($re);
             if($c == 0){
-                $data['id'] = uuid();
+                // $data['id'] = uuid();
                 $data['phone'] = $phone;
                 $data['task_id'] = $task_id;
                 $data['user_name'] = $user_name;

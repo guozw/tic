@@ -24,7 +24,7 @@ class ApprovalModel extends Model{
     // return $this -> $_db -> join('left join user u on ') -> where($where) -> select();
   }
   public function add($data){
-    $data['id'] = uuid();
+    // $data['id'] = uuid();
     $data['createtime'] = time();
     $data['createtimes'] = date('Y-m-d H:i:s',time());
     $data['isread'] = 1;

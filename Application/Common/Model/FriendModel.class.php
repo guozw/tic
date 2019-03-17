@@ -10,7 +10,7 @@ class FriendModel extends Model{
     $this -> $_db = M('friend');     
   }
   public function addFriend($minid,$maxid){
-    $data['id'] = uuid();
+    // $data['id'] = uuid();
     $data['userid'] = $minid;
     $data['friendid'] = $maxid;
     $data['createtime'] = time();
