@@ -171,3 +171,17 @@ function islogin($userid){
     return '2';
   }
 }
+
+
+function sortbytime($a,$b){
+  if($a['createtime'] < $b['createtime']){
+    return 1;
+  }else if($a['createtime'] == $b['createtime']){
+    return $a['id'] < $b['id'] ? 1 : -1;
+  }else{
+    return -1;
+  }
+
+}
+
+

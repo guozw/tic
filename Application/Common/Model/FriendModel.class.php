@@ -34,5 +34,6 @@ class FriendModel extends Model{
     $result = $this -> $_db -> query($sql);
     return $result;
   }
+ 
 
 }

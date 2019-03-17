@@ -59,6 +59,11 @@ class UserModel extends Model{
     // $result = $Model->query($sql);
     //  $this -> $_db->getLastSql();
   }
+  public function get_user_sortinfo($userid){
+    $where['id'] = $userid;
+    return $this -> $_db -> field('id,account,nickname') -> where($where) -> find();
+    //  $this -> $_db->getLastSql();
+  }
 
 
 }
