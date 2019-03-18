@@ -50,6 +50,20 @@ class UserModel extends Model{
     $where['id'] = $userid;
     return $this -> $_db -> where($where) -> save($data);
   }
+  public function find_user($search){
+    // $where['account'] = $account;
+    return $this -> $_db -> field('id,account,email,nickname,sex,portrait,score,province,city,phone,birthday,constellation,describe,createtimes')
+            ->where("account LIKE '%".$search."%' OR nickname LIKE '%".$search."%'") -> select();
+    // $sql = "select * from goods";
+    // $Model = M();
+    // $result = $Model->query($sql);
+    //  $this -> $_db->getLastSql();
+  }
+  public function get_user_sortinfo($userid){
+    $where['id'] = $userid;
+    return $this -> $_db -> field('id,account,nickname') -> where($where) -> find();
+    //  $this -> $_db->getLastSql();
+  }
 
 
 }

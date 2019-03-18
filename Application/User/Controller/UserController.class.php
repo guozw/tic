@@ -30,7 +30,7 @@ class UserController extends Controller{
     }
     
     $password = SafePassword($password.$code);
-    $data['id'] = uuid();
+    // $data['id'] = uuid();
     $data['email'] = $email;
     $data['account'] = get_account();
     $data['nickname'] = $nickname;
@@ -122,7 +122,7 @@ class UserController extends Controller{
   //退出登录
   public function logout(){
     session('login',null);
-    return show(-1,'退出成功');
+    return show(0,'退出成功');
   }
   //验证邮箱格式以及存不存在
   public function verify_email(){
@@ -221,23 +221,36 @@ class UserController extends Controller{
   }
   //上传 修改 头像
   public function uploadPortrait(){
-    $account = I('post.account');
+    // $account = I('post.account');
     $img = 'aaa';
     header("content-type:text/html;charset=utf-8");
     $upload = new \Think\Upload(C('PortraitsUpload'));
-    $upload->saveName = $account;
+    // $upload->saveName = $account;
     $info = $upload->upload($_FILES);
     if(!$info) {
-      $this->show($upload->getError());
-      // return show(-1,"上传失败");
+      return show(-1, $this->show($upload->getError()));
     }else{
       foreach($info as $file){
-        $img =  'www.codergzw.com/tic/Public/'.$file['savepath'].$file['savename'];
+        $img =  'http://tic.codergzw.com/Public/'.$file['savepath'].$file['savename'];
       }
-      $res = D('User')->uploadPicture($account,$img);
-      return show(0,'上传成功',$res);
+      // $res = D('User')->uploadPicture($img);
+      return show(0,'上传成功',$img);
     }
     
+  }
+  //保存头像路径
+  public function savePortrait(){
+    $account = I('post.account');
+    $portrait = I('post.portrait');
+    if(!$account || $account == '' || !$portrait || $portrait == '') missing_parameter();
+    // echo $account. ' ' .$portrait;
+    $res = D('User')->uploadPicture($account,$portrait);
+    if($res){
+      return show(0,'保存成功',$res);
+    }else{
+      return show(-1,'保存失败');
+    }
+
   }
   //上传图片
   public function uploadPicture(){
