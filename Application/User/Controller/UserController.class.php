@@ -36,7 +36,7 @@ class UserController extends Controller{
     $data['nickname'] = $nickname;
     $data['password'] = $password;
     $data['sex'] = '男';
-    $data['portrait'] = 'www.codergzw.com/tic/Public/img/portraits/mandefault.png';
+    $data['portrait'] = 'http://tic.codergzw.com/Public/img/portraits/mandefault.png';
     $data['code'] = $code;
     $data['score'] = 0;
     $data['phone'] = '空';
