@@ -4,7 +4,7 @@ use Think\Controller;
 
 class FriendController extends Controller{
   function __construct() {
-    if(!session()) return show(-999,'未登录');
+    // if(!session()) return show(-999,'未登录');
   }
   //添加好友
   public function addFriend(){
@@ -48,8 +48,9 @@ class FriendController extends Controller{
   //所有用户
   public function search_user(){
     $search = I('post.search');
-    if(!$search || $search == '') missing_parameter();
-    $list = D('User') -> find_user($search);
+    $userid = I('post.userid');
+    if(!$search || $search == '' || !$userid || $userid == '') missing_parameter();
+    $list = D('User') -> find_user($search,$userid);
     if($list){
       return show(0,'搜索成功',$list);
     }else{
@@ -61,6 +62,7 @@ class FriendController extends Controller{
     $approvalid = I('post.myid');
     $userid = I('post.touserid');
     if(!$approvalid || $approvalid == '' || !$userid || $userid == '') missing_parameter();
+    if($approvalid == $userid) return show(-1,'不能添加自己为好友');
     $minid = $approvalid < $userid ? $approvalid : $userid;
     $maxid = $approvalid < $userid ? $userid : $approvalid;
     $friendrow = D('Friend') -> get_one($minid,$maxid);
@@ -102,7 +104,17 @@ class FriendController extends Controller{
       return show(-1,'修改失败');
     }
   }
-
+//小圆点
+public function noRead(){
+  $userid = I('post.userid');
+  if(!$userid || $userid == '') missing_parameter();
+  $list = D('Approval') -> get_noread_list($userid);
+  if($list){
+    return show(0,'获取成功',count($list));
+  }else{
+    return show(-1,'无未读信息');
+  }
+}
 
 
 }

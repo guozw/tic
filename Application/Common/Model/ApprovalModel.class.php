@@ -23,6 +23,20 @@ class ApprovalModel extends Model{
     // $where['userid'] = $userid;
     // return $this -> $_db -> join('left join user u on ') -> where($where) -> select();
   }
+  public function get_noread_list($userid){
+    $sql = "select 
+            u.id as userid,account,email,nickname,sex,portrait,
+            score,province,city,phone,birthday,constellation,
+            a.id as apprvoalid
+            from approval a
+            left join user u on (a.approvalid = u.id)
+            where a.userid = '".$userid."' AND a.isread <> 3";
+    $Model = M();
+    $result = $Model->query($sql);
+    return $result;
+    // $where['userid'] = $userid;
+    // return $this -> $_db -> join('left join user u on ') -> where($where) -> select();
+  }
   public function add($data){
     // $data['id'] = uuid();
     $data['createtime'] = time();

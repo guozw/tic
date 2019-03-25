@@ -26,7 +26,8 @@ class MomentsModel extends Model{
       from friend f
       LEFT JOIN `user` u on f.userid = u.id OR f.friendid = u.id
       where (f.userid = '".$userid."' OR f.friendid = '".$userid."')
-      AND u.id <> '".$userid."') AND status = 1";
+
+      ) AND status = 1";
     $result = $this -> $_db -> query($sql);
     return $result;
   }

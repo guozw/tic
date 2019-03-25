@@ -39,7 +39,7 @@ class UserController extends Controller{
     $data['portrait'] = 'http://tic.codergzw.com/Public/img/portraits/mandefault.png';
     $data['code'] = $code;
     $data['score'] = 0;
-    $data['phone'] = '空';
+    $data['phone'] = ' ';
     $data['birthday'] = '1997-01-01';
     $data['constellation'] = '摩羯座';
     $data['describe'] = '这个人很懒什么都没留下';
@@ -49,7 +49,8 @@ class UserController extends Controller{
     $data['createtimes'] = date('Y-m-d H:i:s',time());
     $newuser = D('User') -> add($data);
     if($newuser){
-      return show(0,'注册成功',$newuser);
+      $data['id'] = $nuewuser;
+      return show(0,'注册成功',$data);
     }else{
       return show(-1,'系统错误');
     }
@@ -81,6 +82,7 @@ class UserController extends Controller{
   }
   //发送邮件验证码
   public function verify(){
+    // phpinfo();exit;
     $mailto = I('post.mailto');
     $type = I('post.type');
     if(!$mailto || !$type){
@@ -142,22 +144,27 @@ class UserController extends Controller{
   //修改密码
   public function change_password(){
     $email = I('post.email');
+    $account = I('post.account');
     $password = I('post.password');
     $code = I('post.code');
-    if(!$email || !$password || $email == '' || $password == '' || !$code || $code == '') missing_parameter();
-    $user = D('User') -> get_by_email($email);
-    $verifyinfo = D('Verify') -> get_code($email);
-    if($code == $verifyinfo['code']){
-      $code = $verifyinfo['code'];
-      $password = SafePassword($password.$code);
-      $res = D('User') -> change_password($email,$password,$code);
-      if($res){
-        return show(0,'修改成功',$res);
+    if(!$email || !$password || $email == '' || $password == '' || !$code || $code == '' || !$account || $account == '') missing_parameter();
+    $user = D('User') -> get_email_account($account,$email);
+    if($user){
+      $verifyinfo = D('Verify') -> get_code($email);
+      if($code == $verifyinfo['code']){
+        $code = $verifyinfo['code'];
+        $password = SafePassword($password.$code);
+        $res = D('User') -> change_password($email,$password,$code);
+        if($res){
+          return show(0,'修改成功',$res);
+        }else{
+          return show(-1,'修改失败');
+        }
       }else{
-        return show(-1,'修改失败');
+        return show(-1,'验证码不正确');
       }
     }else{
-      return show(-1,'验证码不正确');
+      return show(-1,'邮箱与账号不匹配');
     }
     
   }

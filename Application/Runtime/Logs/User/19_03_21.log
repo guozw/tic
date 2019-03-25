@@ -1,0 +1,17 @@
+[ 2019-03-21T18:30:33+08:00 ] ::1 /tic/?m=user&c=user&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+NOTIC: [2048] Declaration of Common\Model\VerifyModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/VerifyModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `verify` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/VerifyModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/VerifyModel.class.php 第 21 行.
+SQL: SELECT * FROM `verify` WHERE `user` = '1239236430@qq.com' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/VerifyModel.class.php 第 25 行.
+SQL: DELETE FROM `verify` WHERE `id` = 16 [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/VerifyModel.class.php 第 17 行.
+SQL: INSERT INTO `verify` (`user`,`code`,`createtime`) VALUES ('1239236430@qq.com','568702','1553164233') [ RunTime:0.0013s ]
+

@@ -4,7 +4,7 @@ use Think\Controller;
 
 class MomentsController extends Controller{
   function __construct() {
-    if(!session()) return show(-999,'未登录');
+    // if(!session()) return show(-999,'未登录');
   }
   //发布朋友圈
   public function add_moments(){

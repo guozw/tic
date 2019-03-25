@@ -50,10 +50,10 @@ class UserModel extends Model{
     $where['id'] = $userid;
     return $this -> $_db -> where($where) -> save($data);
   }
-  public function find_user($search){
+  public function find_user($search,$userid){
     // $where['account'] = $account;
     return $this -> $_db -> field('id,account,email,nickname,sex,portrait,score,province,city,phone,birthday,constellation,describe,createtimes')
-            ->where("account LIKE '%".$search."%' OR nickname LIKE '%".$search."%'") -> select();
+            ->where("(account LIKE '%".$search."%' OR nickname LIKE '%".$search."%') AND id <> '".$userid."'") -> select();
     // $sql = "select * from goods";
     // $Model = M();
     // $result = $Model->query($sql);
@@ -63,6 +63,11 @@ class UserModel extends Model{
     $where['id'] = $userid;
     return $this -> $_db -> field('id,account,nickname') -> where($where) -> find();
     //  $this -> $_db->getLastSql();
+  }
+  public function get_email_account($account,$email){
+    $where['account'] = $account;
+    $where['email'] = $email;
+    return $this -> $_db -> where($where) -> find();
   }
 
 

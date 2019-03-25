@@ -88,7 +88,7 @@ function sendMail($emailsubject,$emailbody,$smtpemailto,$type) {
   $mail->Host       = "smtp.qq.com";         // 必填，设置SMTP服务器
   if($type == 1){
     $mail->Username   = "1239236430@qq.com";           // 必填，开通SMTP服务的邮箱；
-    $mail->Password   = "qhnrbjggesisiaaj";         // 必填， 以上邮箱对应的密码
+    $mail->Password   = "doeneirlytqwbabi";         // 必填， 以上邮箱对应的密码
     $mail->From       = "1239236430@qq.com";       // 必填，发件人Email
     
   }else{
