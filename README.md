@@ -56,3 +56,15 @@ return array(
 
 为了安全起见 需要创建文件3 index.html
 只需要创建空文件就可以 否则发布出来 路由访问有可能直接拉出文件目录结构
+
+聊天服务
+```
+启动
+php start.php start -d
+重启
+php start.php reload
+关闭
+php start.php stop
+
+```
+
