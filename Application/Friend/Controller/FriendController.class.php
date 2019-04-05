@@ -4,14 +4,16 @@ use Think\Controller;
 
 class FriendController extends Controller{
   function __construct() {
-    // if(!session()) return show(-999,'未登录');
+    if(!session('login')) return show(-999,'未登录');
   }
   //添加好友
   public function addFriend(){
     $approvalid = I('post.approvalid');
-    $userid = I('post.userid');
+    $userid = session('login');
+    if(!$userid || $userid == '' )
+      missing_login();
     $friendid = I('post.friendid');
-    if(!$userid || !$friendid || $userid == '' || $friendid == '' || !$approvalid || $approvalid == '') missing_parameter();
+    if( !$friendid || $friendid == '' || !$approvalid || $approvalid == '') missing_parameter();
     $minid = $userid < $friendid ? $userid : $friendid;
     $maxid = $userid < $friendid ? $friendid : $userid;
     $friendrow = D('Friend') -> get_one($minid,$maxid);
@@ -36,7 +38,9 @@ class FriendController extends Controller{
   }
   //获取好友列表
   public function get_friendList(){
-    $userid = I('post.userid');
+    $userid = session('login');
+    if(!$userid || $userid == '' )
+      missing_login();
     if(!$userid || $userid == '') missing_parameter();
     $list = D('Friend') -> get_friendList($userid);
     if($list){
@@ -48,7 +52,9 @@ class FriendController extends Controller{
   //所有用户
   public function search_user(){
     $search = I('post.search');
-    $userid = I('post.userid');
+    $userid = session('login');
+    if(!$userid || $userid == '' )
+      missing_login();
     if(!$search || $search == '' || !$userid || $userid == '') missing_parameter();
     $list = D('User') -> find_user($search,$userid);
     if($list){
@@ -59,9 +65,10 @@ class FriendController extends Controller{
   }
   //申请添加好友
   public function add_approval(){
-    $approvalid = I('post.myid');
+    $approvalid = session('login');
+    if(!$approvalid || $approvalid == '') missing_parameter();
     $userid = I('post.touserid');
-    if(!$approvalid || $approvalid == '' || !$userid || $userid == '') missing_parameter();
+    if(!$userid || $userid == '') missing_parameter();
     if($approvalid == $userid) return show(-1,'不能添加自己为好友');
     $minid = $approvalid < $userid ? $approvalid : $userid;
     $maxid = $approvalid < $userid ? $userid : $approvalid;
@@ -84,7 +91,9 @@ class FriendController extends Controller{
   }
   //获取申请列表
   public function get_approval_list(){
-    $userid = I('post.userid');
+    $userid = session('login');
+    if(!$userid || $userid == '' )
+      missing_login();
     if(!$userid || $userid == '') missing_parameter();
     $list = D('Approval') -> get_list($userid);
     if($list){
@@ -95,26 +104,34 @@ class FriendController extends Controller{
   }
   //申请列表已读
   public function isRead(){
-    $id = I('post.approvalid');
-    if(!$id || $id == '') missing_parameter();
-    $res = D('Approval') -> isRead($id);
+    $userid = session('login');
+    if(!$userid || $userid == '' )
+      missing_login();
+    // $id = I('post.approvalid');
+    // if(!$id || $id == '') missing_parameter();
+    $res = D('Approval') -> isRead($userid);
     if($res){
       return show(0,'修改成功',$res);
     }else{
       return show(-1,'修改失败');
     }
   }
-//小圆点
-public function noRead(){
-  $userid = I('post.userid');
-  if(!$userid || $userid == '') missing_parameter();
-  $list = D('Approval') -> get_noread_list($userid);
-  if($list){
-    return show(0,'获取成功',count($list));
-  }else{
-    return show(-1,'无未读信息');
+  //小圆点
+  public function noRead(){
+    
+    $userid = session('login');
+    if(!$userid || $userid == '' )
+      missing_login();
+    // $userid = I('post.userid');
+    if(!$userid || $userid == '') missing_parameter();
+    $list = D('Approval') -> get_noread_list($userid);
+    if($list){
+      return show(0,'获取成功',count($list));
+    }else{
+      return show(0,'无未读信息',0);
+    }
   }
-}
+
 
 
 }

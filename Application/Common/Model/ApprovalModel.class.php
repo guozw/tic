@@ -13,7 +13,7 @@ class ApprovalModel extends Model{
     $sql = "select 
             u.id as userid,account,email,nickname,sex,portrait,
             score,province,city,phone,birthday,constellation,
-            a.id as apprvoalid
+            a.id as apprvoalid,a.isread as isread
             from approval a
             left join user u on (a.approvalid = u.id)
             where a.userid = '".$userid."'";
@@ -50,8 +50,9 @@ class ApprovalModel extends Model{
     $where['approvalid'] = $approvalid;
     return $this -> $_db -> where($where) -> find();
   }
-  public function isRead($id){
-    $where['id'] = $id;
+  public function isRead($userid){
+    $where['userid'] = $userid;
+    $where['isread'] = 1;
     $data['isread'] = 2;
     return $this -> $_db -> where($where) -> save($data);
   }

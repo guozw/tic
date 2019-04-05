@@ -4,11 +4,13 @@ use Think\Controller;
 
 class MomentsController extends Controller{
   function __construct() {
-    // if(!session()) return show(-999,'未登录');
+    if(!session('login')) return show(-999,'未登录');
   }
   //发布朋友圈
   public function add_moments(){
-    $userid = I('post.userid');
+    $userid = session('login');
+    if(!$userid || $userid == '' )
+      missing_login();
     $content = I('post.content');
     $pictures = I('post.pritures');
     $blacklist = I('post.blacklist');
@@ -33,8 +35,9 @@ class MomentsController extends Controller{
   }
   //查看朋友圈
   public function get_moments(){
-    $userid = I('post.userid');
-    if(!$userid || $userid == '') missing_parameter();
+    $userid = session('login');
+    if(!$userid || $userid == '' )
+      missing_login();
     $list = D('Moments') -> get_moments($userid);
     $i = 0;
     foreach($list as &$moments){
@@ -46,7 +49,9 @@ class MomentsController extends Controller{
           // print_r($usersortinfo);
           $list[$i]['likes'][] = $usersortinfo;
           if($usersortinfo['id'] == $userid)
-            $list[$i]['islike'] = 1;
+            $list[$i]['islike'] = true;
+          else
+            $list[$i]['islike'] = false;
         }
         
       }
@@ -79,9 +84,11 @@ class MomentsController extends Controller{
   }
   //点赞朋友圈
   public function like_moments(){
-    $userid = I('post.userid');
+    $userid = session('login');
+    if(!$userid || $userid == '' )
+      missing_login();
     $momentsid = I('post.momentsid');
-    if(!$userid || $userid == '' || !$momentsid || $momentsid == '') missing_parameter();
+    if(!$momentsid || $momentsid == '') missing_parameter();
     $moments = D('Moments') -> get_one($momentsid);
     if($moments){
       $data['like'] = $moments['like'];
@@ -102,9 +109,11 @@ class MomentsController extends Controller{
   }
   //取消点赞
   public function unlike_moments(){
-    $userid = I('post.userid');
+    $userid = session('login');
+    if(!$userid || $userid == '' )
+      missing_login();
     $momentsid = I('post.momentsid');
-    if(!$userid || $userid == '' || !$momentsid || $momentsid == '') missing_parameter();
+    if(!$momentsid || $momentsid == '') missing_parameter();
     $moments = D('Moments') -> get_one($momentsid);
     if($moments){
       $likearr = explode("|", $moments['like']);
@@ -128,10 +137,12 @@ class MomentsController extends Controller{
   }
   //评论朋友圈
   public function remark_moments(){
-    $userid = I('post.userid');
+    $userid = session('login');
+    if(!$userid || $userid == '' )
+      missing_login();
     $momentsid = I('post.momentsid');
     $content = I('post.content');
-    if(!$userid || $userid == '' || !$momentsid || $momentsid == '') missing_parameter();
+    if(!$momentsid || $momentsid == '') missing_parameter();
     $data['userid'] = $userid;
     $data['momentsid'] = $momentsid;
     $data['content'] = $content;

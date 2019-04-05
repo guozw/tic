@@ -18,16 +18,17 @@ class MomentsModel extends Model{
     return $this -> $_db -> add($data);
   }
   public function get_moments($userid){
-    $sql = "select * 
-    FROM moments
+    $sql = "select m.*,tt.nickname,tt.account,tt.portrait 
+    FROM moments m
+    left join `user` tt on m.userid = tt.id
     where userid IN
     (
       select u.id as id
       from friend f
       LEFT JOIN `user` u on f.userid = u.id OR f.friendid = u.id
       where (f.userid = '".$userid."' OR f.friendid = '".$userid."')
-
-      ) AND status = 1";
+     
+      ) AND m.status = 1";
     $result = $this -> $_db -> query($sql);
     return $result;
   }

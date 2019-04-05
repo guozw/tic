@@ -59,7 +59,7 @@ class UserController extends Controller{
   public function login(){
     $username = I('post.username');
     $password = I('post.password');
-    if(!$username || !$password || $username == '' || $password == '' ){
+    if(!$username || !$password || $username == '' || $password == ''){
       missing_parameter();
     }
     $userinfo = D('User')->get_by_username($username);
@@ -168,13 +168,29 @@ class UserController extends Controller{
     }
     
   }
-  //获取用户详情
+  //获取用户详情(自己)
   public function get_userinfo(){
     // if(!session()) return show(-999,'未登录');
-    $userid = I('post.userid');
-    if(!$userid || $userid == ''){
-      missing_parameter();
+    $userid = session('login');
+    if(!$userid || $userid == '' )
+      missing_login();
+    $user = D('User') -> get_by_id($userid);
+    if($user){
+      if($user['status'] == 1){
+        return show(0,'获取成功',$user);
+      }else{
+        return show(-1,'用户被封禁,请联系管理员');
+      }
+    }else{
+      return show(-1,'获取失败');
     }
+  }
+  //获取用户详情(某人)
+  public function get_userinfo_byid(){
+    // if(!session()) return show(-999,'未登录');
+    $userid = I('post.userid');
+    if(!$userid || $userid == '' )
+      missing_parameter();
     $user = D('User') -> get_by_id($userid);
     if($user){
       if($user['status'] == 1){
@@ -188,7 +204,10 @@ class UserController extends Controller{
   }
   //修改用户信息
   public function update_userinfo(){
-    $userid = I('post.userid');
+    // $userid = I('post.userid');
+    $userid = session('login');
+    if(!$userid || $userid == '' )
+      missing_login();
     $nickname = I('post.nickname');
     $sex = I('post.sex');
     $phone = I('post.phone');
@@ -279,8 +298,11 @@ class UserController extends Controller{
 
   public function test(){
     // print_r(session());
-    $user = D('User') -> get_by_email('1239236430@qq.com');
-    print_r($user);
+    // $user = D('User') -> get_by_email('1239236430@qq.com');
+    // print_r($user);
+    $go = I('post.go');
+    if(!$go || $go == '' ) missing_parameter();
+    return show(0,'asd',$go);
   }  
 }
 
