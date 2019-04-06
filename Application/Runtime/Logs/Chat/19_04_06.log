@@ -1,0 +1,232 @@
+[ 2019-04-06T12:36:57+08:00 ] ::1 /tic/?m=chat&c=chat&a=create_group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+ERR: 无法加载控制器:Chat
+
+[ 2019-04-06T12:37:33+08:00 ] ::1 /tic/?m=chat&c=chat&a=create_group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+
+[ 2019-04-06T12:38:39+08:00 ] ::1 /tic/?m=chat&c=chat&a=create_group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 16 行.
+SQL: INSERT INTO `groups` (`group_name`,`group_user`,`createtime`,`createtimes`,`status`) VALUES ('准备准备写毕设了','3|7|8','1554525519','2019-04-06 12:38:39','1') [ RunTime:0.0013s ]
+
+[ 2019-04-06T12:42:37+08:00 ] ::1 /tic/?m=chat&c=chat&a=create_group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0027s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 16 行.
+SQL: INSERT INTO `groups` (`group_name`,`group_user`,`createtime`,`createtimes`,`status`) VALUES ('test1','3|4|7','1554525757','2019-04-06 12:42:37','1') [ RunTime:0.0013s ]
+
+[ 2019-04-06T12:53:15+08:00 ] ::1 /tic/?m=chat&c=chat&a=create_group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 16 行.
+SQL: INSERT INTO `groups` (`group_name`,`group_user`,`createtime`,`createtimes`,`status`) VALUES ('test1','3,44|7','1554526395','2019-04-06 12:53:15','1') [ RunTime:0.0014s ]
+
+[ 2019-04-06T12:53:27+08:00 ] ::1 /tic/?m=chat&c=chat&a=create_group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 16 行.
+SQL: INSERT INTO `groups` (`group_name`,`group_user`,`createtime`,`createtimes`,`status`) VALUES ('test1','3,4,77','1554526407','2019-04-06 12:53:27','1') [ RunTime:0.0022s ]
+
+[ 2019-04-06T12:57:02+08:00 ] ::1 /tic/?m=chat&c=chat&a=get_grouplist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 10 行.
+SQL: SELECT
+              * 
+            FROM
+              groups 
+            WHERE
+              group_user REGEXP "^3," 
+              OR group_user REGEXP ",3$" 
+              OR group_user REGEXP ",3," [ RunTime:0.0004s ]
+
+[ 2019-04-06T13:04:30+08:00 ] ::1 /tic/?m=chat&c=chat&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001815s ]
+
+[ 2019-04-06T13:04:39+08:00 ] ::1 /tic/?m=chat&c=chat&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2019-04-06T13:14:02+08:00 ] ::1 /tic/?m=chat&c=chat&a=out_group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 33 行.
+SQL: SELECT * FROM `groups` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-04-06T13:14:18+08:00 ] ::1 /tic/?m=chat&c=chat&a=out_group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 33 行.
+SQL: SELECT * FROM `groups` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: group_users /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Chat/Controller/ChatController.class.php 第 49 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 38 行.
+ERR: Think\Model:del方法不存在！
+
+[ 2019-04-06T13:16:58+08:00 ] ::1 /tic/?m=chat&c=chat&a=out_group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 33 行.
+SQL: SELECT * FROM `groups` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: group_users /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Chat/Controller/ChatController.class.php 第 49 行.
+
+[ 2019-04-06T13:17:09+08:00 ] ::1 /tic/?m=chat&c=chat&a=out_group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 33 行.
+SQL: SELECT * FROM `groups` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-04-06T13:17:20+08:00 ] ::1 /tic/?m=chat&c=chat&a=out_group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0047s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 33 行.
+SQL: SELECT * FROM `groups` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: newusers /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Chat/Controller/ChatController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 44 行.
+SQL: UPDATE `groups` SET `group_user`='33,4,77' WHERE `id` = 4 [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000802s ]
+
+[ 2019-04-06T13:17:42+08:00 ] ::1 /tic/?m=chat&c=chat&a=out_group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 33 行.
+SQL: SELECT * FROM `groups` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: newusers /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Chat/Controller/ChatController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 44 行.
+SQL: UPDATE `groups` SET `group_user`='33,4,77' WHERE `id` = 4 [ RunTime:0.0008s ]
+
+[ 2019-04-06T13:18:32+08:00 ] ::1 /tic/?m=chat&c=chat&a=out_group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 33 行.
+SQL: SELECT * FROM `groups` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: newusers /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Chat/Controller/ChatController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 44 行.
+SQL: UPDATE `groups` SET `group_user`='44,7' WHERE `id` = 3 [ RunTime:0.0009s ]
+
+[ 2019-04-06T13:18:50+08:00 ] ::1 /tic/?m=chat&c=chat&a=out_group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 33 行.
+SQL: SELECT * FROM `groups` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/GroupsModel.class.php 第 38 行.
+SQL: DELETE FROM `groups` WHERE `id` = 3 [ RunTime:0.0009s ]
+
