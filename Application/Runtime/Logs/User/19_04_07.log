@@ -1,0 +1,16 @@
+[ 2019-04-07T14:43:53+08:00 ] ::1 /tic/?m=user&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010897s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0447s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [2] Missing argument 2 for Common\Model\UserModel::get_by_username(), called in E:\phpstudy\WWW\tic\Application\User\Controller\UserController.class.php on line 65 and defined E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 31 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 32 行.
+SQL: SELECT * FROM `user` WHERE ( (account = 'ah1239236430@163.com' OR email = 'ah1239236430@163.com')  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 29 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE ( (account = 'ah1239236430@163.com' OR email = 'ah1239236430@163.com') AND password = '98b673d12fe24d49c886ecc2778da149'  ) LIMIT 1   [ RunTime:0.0002s ]
+

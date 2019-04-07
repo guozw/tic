@@ -483,7 +483,7 @@ class ChatController extends Controller{
         }  
       }
       
-      return show(0,'获取成功成功',$chatlist);
+      return show(0,'获取成功',$chatlist);
     }else{
       return show(-1,'获取失败');
     }
@@ -516,6 +516,29 @@ class ChatController extends Controller{
     }else{
       return show(-1,'获取失败');
     }
+  }
+   //获取群组详细信息
+   public function get_groupinfo(){
+    $userid = session('login');
+    if(!$userid || $userid == '' )  missing_login();
+    $groupid = I('groupid');
+    if(!$groupid || $groupid == '' ) missing_parameter();
+    $groupinfo = D('Groups') -> get_by_id($groupid);
+    
+    if($groupinfo){
+      $groupinfo['users'] = array();
+      $users = explode(",", $groupinfo['group_user']);
+      foreach($users as $user){
+        $userinfo = D('User')->get_by_id($user);
+        if($userinfo){
+          $groupinfo['users'][] = $userinfo;
+        }
+      }
+      return show(0,'获取成功',$groupinfo);
+    }else{
+      return show(-1,'群组不存在');
+    }
+
   }
   //退出群组
   public function out_group(){

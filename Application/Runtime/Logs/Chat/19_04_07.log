@@ -1,0 +1,56 @@
+[ 2019-04-07T14:44:01+08:00 ] ::1 /tic/?m=chat&c=chat&a=get_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0320s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-04-07T14:45:00+08:00 ] ::1 /tic/?m=chat&c=chat&a=get_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0239s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0083s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 33 行.
+SQL: SELECT * FROM `groups` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `chathistory` [ RunTime:0.0102s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChathistoryModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChathistoryModel.class.php 第 15 行.
+SQL: SELECT * FROM `chathistory` WHERE `to_user` = 1 AND `type` = 2 ORDER BY createtime desc LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0083s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 36 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * 
+          FROM chathistory 
+          WHERE `type` = 1 
+          AND ((send_user = "3" AND to_user = "7") OR (to_user = "3" AND send_user = "7"))
+          ORDER BY createtime DESC [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 36 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * 
+          FROM chathistory 
+          WHERE `type` = 1 
+          AND ((send_user = "3" AND to_user = "6") OR (to_user = "3" AND send_user = "6"))
+          ORDER BY createtime DESC [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 33 行.
+SQL: SELECT * FROM `groups` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChathistoryModel.class.php 第 15 行.
+SQL: SELECT * FROM `chathistory` WHERE `to_user` = 2 AND `type` = 2 ORDER BY createtime desc LIMIT 1   [ RunTime:0.0001s ]
+
