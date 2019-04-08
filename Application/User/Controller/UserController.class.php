@@ -19,14 +19,14 @@ class UserController extends Controller{
     }
     $verifyinfo = D('Verify') -> get_code($email);
     if(!$verifyinfo){
-      return show(-1,'非法请求,请获取验证码后再注册');
+      return showmiya(-1,'非法请求,请获取验证码后再注册');
     }
     if($code != $verifyinfo['code']){
-      return show(-1,'验证码不正确');
+      return showmiya(-1,'验证码不正确');
     }
     $user = D('User') -> get_by_email($email);
     if($user){
-      return show(-1,'邮箱已注册');
+      return showmiya(-1,'邮箱已注册');
     }
     
     $password = SafePassword($password.$code);
@@ -92,7 +92,7 @@ class UserController extends Controller{
         $verifyinfo = D('Verify') -> get_code($mailto);
         if($verifyinfo){
           if(time() - $verifyinfo['createtime'] < 60)
-            return show(-1,'验证码请求过于频繁,请过一分钟后再试');
+            return showmiya(-1,'验证码请求过于频繁,请过一分钟后再试');
           else{
             D('Verify') -> del($verifyinfo['id']);
           }
@@ -102,22 +102,22 @@ class UserController extends Controller{
           $send = sendMail("Talk Is Cheap 注册验证码", "感谢您注册Talk Is Cheap!<br>您的验证码是:".$verifycode."<br>制作团队：徐弥阳 郭志伟 文亚兰",$mailto,1);
           if($send){
             $data = D('Verify') -> add($mailto,$verifycode);
-            return show(0,'success',$data);
+            return showmiya(0,'success',$data);
           }else{
-            return show(-1,'mail server is error');
+            return showmiya(-1,'mail server is error');
           }
         }else{
           $send = sendMail("Talk Is Cheap 找回密码验证码", "Talk Is Cheap!<br>您的验证码是:".$verifycode."<br>:( 您不要忘记新密码了哦<br>制作团队：徐弥阳 郭志伟 文亚兰",$mailto,2);
           if($send){
             $data = D('Verify') -> add($mailto,$verifycode);
-            return show(0,'success',$data);
+            return showmiya(0,'success',$data);
           }else{
-            return show(-1,'mail server is error');
+            return showmiya(-1,'mail server is error');
           }
           echo '找回密码';
         }
       }else{
-        return show(-1,'邮箱格式错误');
+        return showmiya(-1,'邮箱格式错误');
       }
     }
   }
@@ -133,12 +133,12 @@ class UserController extends Controller{
     if(verifyEmail($email)){
       $user = D('User') -> get_by_email($email);
       if($user){
-        return show(0,'获取成功',$user['id']);
+        return showmiya(0,'获取成功',$user['id']);
       }else{
-        return show(-1,'邮箱不存在');
+        return showmiya(-1,'邮箱不存在');
       }
     }else{
-      return show(-1,'邮箱格式错误');
+      return showmiya(-1,'邮箱格式错误');
     }
   }
   //修改密码
@@ -156,15 +156,15 @@ class UserController extends Controller{
         $password = SafePassword($password.$code);
         $res = D('User') -> change_password($email,$password,$code);
         if($res){
-          return show(0,'修改成功',$res);
+          return showmiya(0,'修改成功',$res);
         }else{
-          return show(-1,'修改失败');
+          return showmiya(-1,'修改失败');
         }
       }else{
-        return show(-1,'验证码不正确');
+        return showmiya(-1,'验证码不正确');
       }
     }else{
-      return show(-1,'邮箱与账号不匹配');
+      return showmiya(-1,'邮箱与账号不匹配');
     }
     
   }

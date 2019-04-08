@@ -19,6 +19,27 @@ function show($s, $m, $d=array()) {
   }
     exit(json_encode($result, JSON_UNESCAPED_UNICODE));
 }
+function showmiya($s, $m, $d=array()) {
+  $result = array(
+      'code' => $s,
+      'message' => $m,
+      'data' => $d
+  );
+  header('Access-Control-Allow-Origin:*');
+// // 响应类型  
+header('Access-Control-Allow-Methods:*');
+// 响应头设置  
+
+header('Access-Control-Allow-Origin:*'); 
+header('Access-Control-Allow-Origin:http://codermiya.com');
+header('Access-Control-Allow-Credentials:true');
+header('Access-Control-Allow-Headers:content-type'); 
+header('Access-Control-Request-Method:GET,POST,OPTIONS'); 
+if(strtoupper($_SERVER['REQUEST_METHOD'])== 'OPTIONS'){ 
+  exit;
+}
+  exit(json_encode($result, JSON_UNESCAPED_UNICODE));
+}
 
 function missing_parameter(){
   return show(-1,'缺少参数');

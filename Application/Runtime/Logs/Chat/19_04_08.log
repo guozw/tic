@@ -1,0 +1,2447 @@
+[ 2019-04-08T20:32:24+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007698s ]
+
+[ 2019-04-08T20:32:32+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0095s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 21 行.
+SQL: INSERT INTO `chatlist` (`userid`,`list`,`createtime`,`createtimes`,`status`) VALUES ('3','{\"top\":[],\"normal\":[{\"type\":1,\"id\":7}]}','1554726752','2019-04-08 20:32:32','1') [ RunTime:0.0316s ]
+
+[ 2019-04-08T20:32:47+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0112s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[],\"normal\":[{\"type\":\"1\",\"id\":\"6\"}]}' WHERE `userid` = 3 [ RunTime:0.0260s ]
+
+[ 2019-04-08T20:33:34+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0104s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 21 行.
+SQL: INSERT INTO `chatlist` (`userid`,`list`,`createtime`,`createtimes`,`status`) VALUES ('3','{\"top\":[],\"normal\":[{\"type\":1,\"id\":7}]}','1554726814','2019-04-08 20:33:34','1') [ RunTime:0.0356s ]
+
+[ 2019-04-08T20:33:42+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0107s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[],\"normal\":[{\"type\":1,\"id\":7},[{\"type\":\"1\",\"id\":\"6\"}]]}' WHERE `userid` = 3 [ RunTime:0.0378s ]
+
+[ 2019-04-08T20:33:53+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0101s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[],\"normal\":[{\"type\":1,\"id\":7},[{\"type\":\"1\",\"id\":\"6\"}],[{\"type\":\"2\",\"id\":\"6\"}]]}' WHERE `userid` = 3 [ RunTime:0.0281s ]
+
+[ 2019-04-08T20:34:35+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0113s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[],\"normal\":[[{\"type\":\"1\",\"id\":\"7\"}]]}' WHERE `userid` = 3 [ RunTime:0.0233s ]
+
+[ 2019-04-08T20:34:43+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0094s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[],\"normal\":[[{\"type\":\"1\",\"id\":\"7\"}],[{\"type\":\"1\",\"id\":\"6\"}]]}' WHERE `userid` = 3 [ RunTime:0.0312s ]
+
+[ 2019-04-08T20:43:25+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0103s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: type E:\phpstudy\WWW\tic\Application\Chat\Controller\ChatController.class.php 第 552 行.
+NOTIC: [8] Undefined index: type E:\phpstudy\WWW\tic\Application\Chat\Controller\ChatController.class.php 第 552 行.
+
+[ 2019-04-08T20:44:25+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0091s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: type E:\phpstudy\WWW\tic\Application\Chat\Controller\ChatController.class.php 第 553 行.
+NOTIC: [8] Undefined index: type E:\phpstudy\WWW\tic\Application\Chat\Controller\ChatController.class.php 第 553 行.
+
+[ 2019-04-08T20:45:14+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: type E:\phpstudy\WWW\tic\Application\Chat\Controller\ChatController.class.php 第 555 行.
+NOTIC: [8] Undefined index: type E:\phpstudy\WWW\tic\Application\Chat\Controller\ChatController.class.php 第 555 行.
+
+[ 2019-04-08T20:45:34+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0116s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: type E:\phpstudy\WWW\tic\Application\Chat\Controller\ChatController.class.php 第 555 行.
+NOTIC: [8] Undefined index: type E:\phpstudy\WWW\tic\Application\Chat\Controller\ChatController.class.php 第 555 行.
+
+[ 2019-04-08T20:47:18+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0104s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: type E:\phpstudy\WWW\tic\Application\Chat\Controller\ChatController.class.php 第 553 行.
+NOTIC: [8] Undefined index: type E:\phpstudy\WWW\tic\Application\Chat\Controller\ChatController.class.php 第 553 行.
+
+[ 2019-04-08T20:48:59+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 21 行.
+SQL: INSERT INTO `chatlist` (`userid`,`list`,`createtime`,`createtimes`,`status`) VALUES ('3','{\"top\":[],\"normal\":[{\"type\":1,\"id\":7}]}','1554727739','2019-04-08 20:48:59','1') [ RunTime:0.0856s ]
+
+[ 2019-04-08T20:49:05+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0108s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[],\"normal\":[{\"type\":1,\"id\":7},{\"type\":\"1\",\"id\":\"6\"}]}' WHERE `userid` = 3 [ RunTime:0.0210s ]
+
+[ 2019-04-08T20:49:17+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[],\"normal\":[{\"type\":1,\"id\":7},{\"type\":\"1\",\"id\":\"6\"},{\"type\":\"2\",\"id\":\"1\"}]}' WHERE `userid` = 3 [ RunTime:0.0239s ]
+
+[ 2019-04-08T20:49:37+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0121s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-04-08T20:50:22+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0101s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T20:51:17+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\phpstudy\WWW\tic\Application\Chat\Controller\ChatController.class.php 第 558 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `id`='1',`userid`='3',`list`='{\"top\":[],\"normal\":[{\"type\":1,\"id\":7},{\"type\":\"1\",\"id\":\"6\"},{\"type\":\"2\",\"id\":\"1\"}]}',`createtime`='1554727739',`createtimes`='2019-04-08 20:48:59',`status`='1' WHERE `userid` = 3 [ RunTime:0.0001s ]
+
+[ 2019-04-08T20:51:43+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0112s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[],\"normal\":[{\"type\":1,\"id\":7},{\"type\":\"1\",\"id\":\"6\"},{\"type\":\"2\",\"id\":\"1\"}]}' WHERE `userid` = 3 [ RunTime:0.0224s ]
+
+[ 2019-04-08T20:52:10+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0148s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T21:01:01+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0099s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T21:01:09+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0099s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T21:01:25+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0102s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T21:03:26+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0096s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T21:05:37+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T21:08:46+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0104s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T21:09:55+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0096s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T21:10:20+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0102s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T21:10:29+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0114s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T21:10:44+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0112s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[],\"normal\":[{\"type\":1,\"id\":7},{\"type\":\"2\",\"id\":\"1\"}]}' WHERE `userid` = 3 [ RunTime:0.0375s ]
+
+[ 2019-04-08T21:10:55+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0114s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[],\"normal\":[{\"type\":\"2\",\"id\":\"1\"}]}' WHERE `userid` = 3 [ RunTime:0.0243s ]
+
+[ 2019-04-08T21:11:05+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0103s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[],\"normal\":[]}' WHERE `userid` = 3 [ RunTime:0.0360s ]
+
+[ 2019-04-08T21:11:08+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0116s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-04-08T21:11:45+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0104s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[],\"normal\":[{\"type\":\"2\",\"id\":\"1\"}]}' WHERE `userid` = 3 [ RunTime:0.0504s ]
+
+[ 2019-04-08T21:11:53+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0177s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[],\"normal\":[{\"type\":\"2\",\"id\":\"1\"},{\"type\":\"1\",\"id\":\"7\"}]}' WHERE `userid` = 3 [ RunTime:0.0396s ]
+
+[ 2019-04-08T21:18:26+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+
+[ 2019-04-08T21:18:34+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0106s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"1\",\"id\":\"7\"}],\"normal\":[{\"type\":\"2\",\"id\":\"1\"}]}' WHERE `userid` = 3 [ RunTime:0.0387s ]
+
+[ 2019-04-08T21:18:42+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0101s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T21:18:49+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T21:18:58+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"2\",\"id\":\"1\"},{\"type\":\"1\",\"id\":\"7\"}],\"normal\":[]}' WHERE `userid` = 3 [ RunTime:0.0346s ]
+
+[ 2019-04-08T21:20:31+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0146s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"1\",\"id\":\"7\"}],\"normal\":[{\"type\":\"2\",\"id\":\"1\"}]}' WHERE `userid` = 3 [ RunTime:0.0238s ]
+
+[ 2019-04-08T21:20:42+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0111s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[],\"normal\":[{\"type\":\"1\",\"id\":\"7\"},{\"type\":\"2\",\"id\":\"1\"}]}' WHERE `userid` = 3 [ RunTime:0.0220s ]
+
+[ 2019-04-08T21:20:44+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0118s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T21:33:16+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0103s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[],\"normal\":[{\"type\":\"2\",\"id\":\"1\"}]}' WHERE `userid` = 3 [ RunTime:0.0407s ]
+
+[ 2019-04-08T21:33:48+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0095s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[],\"normal\":[{\"type\":\"2\",\"id\":\"1\"},{\"type\":\"1\",\"id\":\"7\"}]}' WHERE `userid` = 3 [ RunTime:0.0371s ]
+
+[ 2019-04-08T21:33:55+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0180s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[],\"normal\":[{\"type\":\"2\",\"id\":\"1\"},{\"type\":\"1\",\"id\":\"7\"},{\"type\":\"2\",\"id\":\"1\"}]}' WHERE `userid` = 3 [ RunTime:0.0317s ]
+
+[ 2019-04-08T21:37:36+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0103s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T21:37:44+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0106s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[],\"normal\":[{\"type\":\"2\",\"id\":\"1\"},{\"type\":\"1\",\"id\":\"7\"}]}' WHERE `userid` = 3 [ RunTime:0.0463s ]
+
+[ 2019-04-08T21:43:28+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0096s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[],\"normal\":[{\"type\":\"2\",\"id\":\"1\"},{\"type\":\"1\",\"id\":\"7\"}]}' WHERE `userid` = 3 [ RunTime:0.0296s ]
+
+[ 2019-04-08T21:47:21+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0105s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T21:47:34+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0106s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[],\"normal\":[{\"type\":\"1\",\"id\":\"7\"},{\"type\":\"2\",\"id\":\"1\"}]}' WHERE `userid` = 3 [ RunTime:0.0343s ]
+
+[ 2019-04-08T21:47:47+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0115s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"1\",\"id\":\"7\"}],\"normal\":[{\"type\":\"2\",\"id\":\"1\"}]}' WHERE `userid` = 3 [ RunTime:0.0477s ]
+
+[ 2019-04-08T21:47:53+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0106s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T21:48:00+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0107s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-04-08T21:48:06+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0106s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T21:48:33+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0103s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"1\",\"id\":\"7\"}],\"normal\":[{\"type\":\"2\",\"id\":\"1\"},{\"type\":\"1\",\"id\":\"6\"}]}' WHERE `userid` = 3 [ RunTime:0.0306s ]
+
+[ 2019-04-08T21:51:44+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0094s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] array_unshift() expects parameter 1 to be array, null given E:\phpstudy\WWW\tic\Application\Chat\Controller\ChatController.class.php 第 591 行.
+
+[ 2019-04-08T21:51:55+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0125s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] array_unshift() expects parameter 1 to be array, null given E:\phpstudy\WWW\tic\Application\Chat\Controller\ChatController.class.php 第 591 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+NOTIC: [8] Undefined offset: 0 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"1\",\"id\":\"7\"}],\"normal\":[]}' WHERE (  )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"1\",\"id\":\"7\"}],\"normal\":[]}' WHERE (  )
+
+[ 2019-04-08T21:52:39+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0113s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"1\",\"id\":\"7\"}],\"normal\":[{\"type\":\"1\",\"id\":\"6\"}]}' WHERE `userid` = 3 [ RunTime:0.0376s ]
+
+[ 2019-04-08T21:52:52+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0107s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T21:53:00+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"1\",\"id\":\"7\"}],\"normal\":[{\"type\":\"1\",\"id\":\"5\"},{\"type\":\"1\",\"id\":\"6\"}]}' WHERE `userid` = 3 [ RunTime:0.0262s ]
+
+[ 2019-04-08T21:53:08+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0101s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"1\",\"id\":\"7\"}],\"normal\":[{\"type\":\"2\",\"id\":\"1\"},{\"type\":\"1\",\"id\":\"5\"},{\"type\":\"1\",\"id\":\"6\"}]}' WHERE `userid` = 3 [ RunTime:0.0291s ]
+
+[ 2019-04-08T21:53:27+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0114s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"2\",\"id\":\"1\"},{\"type\":\"1\",\"id\":\"7\"}],\"normal\":[{\"type\":\"1\",\"id\":\"5\"},{\"type\":\"1\",\"id\":\"6\"}]}' WHERE `userid` = 3 [ RunTime:0.0363s ]
+
+[ 2019-04-08T21:53:36+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0106s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"1\",\"id\":\"7\"},{\"type\":\"2\",\"id\":\"1\"}],\"normal\":[{\"type\":\"1\",\"id\":\"5\"},{\"type\":\"1\",\"id\":\"6\"}]}' WHERE `userid` = 3 [ RunTime:0.0352s ]
+
+[ 2019-04-08T21:53:44+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0119s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"1\",\"id\":\"7\"},{\"type\":\"2\",\"id\":\"1\"}],\"normal\":[{\"type\":\"1\",\"id\":\"6\"},{\"type\":\"1\",\"id\":\"5\"}]}' WHERE `userid` = 3 [ RunTime:0.0378s ]
+
+[ 2019-04-08T21:59:07+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0094s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"1\",\"id\":\"7\"},{\"type\":\"2\",\"id\":\"1\"}],\"normal\":[{\"type\":\"1\",\"id\":\"5\"},{\"type\":\"1\",\"id\":\"6\"}]}' WHERE `userid` = 3 [ RunTime:0.0385s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 5 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 21 行.
+SQL: INSERT INTO `chatlist` (`list`,`userid`,`createtime`,`createtimes`,`status`) VALUES ('{\"top\":[],\"normal\":[{\"type\":1,\"id\":3}]}','5','1554731947','2019-04-08 21:59:07','1') [ RunTime:0.0225s ]
+
+[ 2019-04-08T22:00:01+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0101s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T22:01:11+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 5 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[],\"normal\":[{\"type\":\"1\",\"id\":\"4\"},{\"type\":1,\"id\":3}]}' WHERE `userid` = 5 [ RunTime:0.0547s ]
+
+[ 2019-04-08T22:01:36+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0123s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T22:04:00+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0101s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2019-04-08T22:08:11+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0097s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 5 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2019-04-08T22:10:35+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0101s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T22:17:27+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0095s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"1\",\"id\":\"7\"},{\"type\":\"2\",\"id\":\"1\"}],\"normal\":[{\"type\":\"1\",\"id\":\"6\"},{\"type\":\"1\",\"id\":\"5\"},{\"type\":\"1\",\"id\":\"6\"}]}' WHERE `userid` = 3 [ RunTime:0.0391s ]
+
+[ 2019-04-08T22:20:43+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0112s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: normal E:\phpstudy\WWW\tic\Application\Chat\Controller\ChatController.class.php 第 637 行.
+NOTIC: [8] Undefined variable: normal E:\phpstudy\WWW\tic\Application\Chat\Controller\ChatController.class.php 第 638 行.
+NOTIC: [8] Undefined variable: normal E:\phpstudy\WWW\tic\Application\Chat\Controller\ChatController.class.php 第 637 行.
+NOTIC: [8] Undefined variable: normal E:\phpstudy\WWW\tic\Application\Chat\Controller\ChatController.class.php 第 638 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":null,\"id\":null},{\"type\":null,\"id\":null}],\"normal\":[{\"type\":\"1\",\"id\":\"6\"},{\"type\":\"1\",\"id\":\"5\"}]}' WHERE `userid` = 3 [ RunTime:0.0310s ]
+
+[ 2019-04-08T22:22:17+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0102s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: normal E:\phpstudy\WWW\tic\Application\Chat\Controller\ChatController.class.php 第 637 行.
+NOTIC: [8] Undefined variable: normal E:\phpstudy\WWW\tic\Application\Chat\Controller\ChatController.class.php 第 638 行.
+NOTIC: [8] Undefined variable: normal E:\phpstudy\WWW\tic\Application\Chat\Controller\ChatController.class.php 第 637 行.
+NOTIC: [8] Undefined variable: normal E:\phpstudy\WWW\tic\Application\Chat\Controller\ChatController.class.php 第 638 行.
+
+[ 2019-04-08T22:22:35+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: normal E:\phpstudy\WWW\tic\Application\Chat\Controller\ChatController.class.php 第 637 行.
+NOTIC: [8] Undefined variable: normal E:\phpstudy\WWW\tic\Application\Chat\Controller\ChatController.class.php 第 638 行.
+NOTIC: [8] Undefined variable: normal E:\phpstudy\WWW\tic\Application\Chat\Controller\ChatController.class.php 第 637 行.
+NOTIC: [8] Undefined variable: normal E:\phpstudy\WWW\tic\Application\Chat\Controller\ChatController.class.php 第 638 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":null,\"id\":null},{\"type\":null,\"id\":null}],\"normal\":[{\"type\":\"1\",\"id\":\"6\"},{\"type\":\"1\",\"id\":\"5\"}]}' WHERE `userid` = 3 [ RunTime:0.0219s ]
+
+[ 2019-04-08T22:23:27+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0105s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"1\",\"id\":\"7\"},{\"type\":\"2\",\"id\":\"1\"}],\"normal\":[{\"type\":\"1\",\"id\":\"6\"},{\"type\":\"1\",\"id\":\"5\"}]}' WHERE `userid` = 3 [ RunTime:0.0362s ]
+
+[ 2019-04-08T22:23:33+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0104s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-04-08T22:23:48+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0116s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"1\",\"id\":\"7\"},{\"type\":\"2\",\"id\":\"1\"}],\"normal\":[{\"type\":\"1\",\"id\":\"5\"},{\"type\":\"1\",\"id\":\"6\"}]}' WHERE `userid` = 3 [ RunTime:0.0267s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 5 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T22:24:20+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0101s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 21 行.
+SQL: INSERT INTO `chatlist` (`userid`,`list`,`createtime`,`createtimes`,`status`) VALUES ('4','{\"top\":[],\"normal\":[{\"type\":1,\"id\":3}]}','1554733460','2019-04-08 22:24:20','1') [ RunTime:0.0530s ]
+
+[ 2019-04-08T22:24:38+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0098s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"1\",\"id\":\"3\"}],\"normal\":[]}' WHERE `userid` = 4 [ RunTime:0.0261s ]
+
+[ 2019-04-08T22:24:42+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0124s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"1\",\"id\":\"3\"}],\"normal\":[{\"type\":\"1\",\"id\":\"5\"}]}' WHERE `userid` = 4 [ RunTime:0.0393s ]
+
+[ 2019-04-08T22:24:50+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0101s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T22:24:55+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0175s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 4 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-04-08T22:25:08+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0101s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"1\",\"id\":\"3\"}],\"normal\":[{\"type\":\"2\",\"id\":\"3\"},{\"type\":\"1\",\"id\":\"5\"}]}' WHERE `userid` = 4 [ RunTime:0.0281s ]
+
+[ 2019-04-08T22:25:20+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0105s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"1\",\"id\":\"5\"},{\"type\":\"1\",\"id\":\"3\"}],\"normal\":[{\"type\":\"2\",\"id\":\"3\"}]}' WHERE `userid` = 4 [ RunTime:0.0712s ]
+
+[ 2019-04-08T22:25:26+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0106s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T22:25:35+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0121s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"1\",\"id\":\"5\"}],\"normal\":[{\"type\":\"1\",\"id\":\"3\"},{\"type\":\"2\",\"id\":\"3\"}]}' WHERE `userid` = 4 [ RunTime:0.0451s ]
+
+[ 2019-04-08T22:27:31+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0111s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"2\",\"id\":\"1\"},{\"type\":\"1\",\"id\":\"7\"}],\"normal\":[{\"type\":\"1\",\"id\":\"5\"},{\"type\":\"1\",\"id\":\"6\"}]}' WHERE `userid` = 3 [ RunTime:0.0353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000797s ]
+
+[ 2019-04-08T22:29:05+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0108s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"1\",\"id\":\"7\"},{\"type\":\"2\",\"id\":\"1\"}],\"normal\":[{\"type\":\"1\",\"id\":\"5\"},{\"type\":\"1\",\"id\":\"6\"}]}' WHERE `userid` = 3 [ RunTime:0.0359s ]
+
+[ 2019-04-08T22:30:08+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0105s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 5 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T22:34:40+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0105s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 5 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"1\",\"id\":\"7\"},{\"type\":\"2\",\"id\":\"1\"}],\"normal\":[{\"type\":\"1\",\"id\":\"5\"},{\"type\":\"1\",\"id\":\"6\"},{\"type\":\"1\",\"id\":\"4\"}]}' WHERE `userid` = 3 [ RunTime:0.0370s ]
+
+[ 2019-04-08T22:36:20+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 5 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"1\",\"id\":\"7\"},{\"type\":\"2\",\"id\":\"1\"}],\"normal\":[{\"type\":\"1\",\"id\":\"3\"},{\"type\":\"1\",\"id\":\"6\"},{\"type\":\"1\",\"id\":\"4\"},{\"type\":\"1\",\"id\":\"4\"}]}' WHERE `userid` = 5 [ RunTime:0.0360s ]
+
+[ 2019-04-08T22:39:27+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0108s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 5 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"1\",\"id\":\"7\"},{\"type\":\"2\",\"id\":\"1\"}],\"normal\":[{\"type\":\"1\",\"id\":\"3\"},{\"type\":\"1\",\"id\":\"6\"},{\"type\":\"1\",\"id\":\"4\"},{\"type\":\"1\",\"id\":\"4\"}]}' WHERE `userid` = 5 [ RunTime:0.0303s ]
+
+[ 2019-04-08T22:40:54+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0102s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 5 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[],\"normal\":[{\"type\":\"1\",\"id\":\"3\"},{\"type\":\"1\",\"id\":\"4\"}]}' WHERE `userid` = 5 [ RunTime:0.0310s ]
+
+[ 2019-04-08T22:41:30+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+
+[ 2019-04-08T22:41:37+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0103s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 5 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2019-04-08T22:41:55+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0099s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 5 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[],\"normal\":[{\"type\":\"1\",\"id\":\"4\"},{\"type\":\"1\",\"id\":\"3\"}]}' WHERE `userid` = 5 [ RunTime:0.0352s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T22:42:17+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0116s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 5 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"1\",\"id\":\"4\"}],\"normal\":[{\"type\":\"1\",\"id\":\"3\"}]}' WHERE `userid` = 5 [ RunTime:0.0345s ]
+
+[ 2019-04-08T22:42:20+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0106s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 5 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"1\",\"id\":\"3\"},{\"type\":\"1\",\"id\":\"4\"}],\"normal\":[]}' WHERE `userid` = 5 [ RunTime:0.0231s ]
+
+[ 2019-04-08T22:42:30+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0112s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 5 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"1\",\"id\":\"4\"},{\"type\":\"1\",\"id\":\"3\"}],\"normal\":[]}' WHERE `userid` = 5 [ RunTime:0.0335s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T22:42:55+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0102s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"1\",\"id\":\"7\"},{\"type\":\"2\",\"id\":\"1\"}],\"normal\":[{\"type\":\"1\",\"id\":\"4\"},{\"type\":\"1\",\"id\":\"5\"},{\"type\":\"1\",\"id\":\"6\"}]}' WHERE `userid` = 3 [ RunTime:0.0364s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T22:43:20+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0105s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"1\",\"id\":\"7\"},{\"type\":\"2\",\"id\":\"1\"}],\"normal\":[{\"type\":\"1\",\"id\":\"5\"},{\"type\":\"1\",\"id\":\"4\"},{\"type\":\"1\",\"id\":\"6\"}]}' WHERE `userid` = 3 [ RunTime:0.0305s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 5 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"1\",\"id\":\"3\"},{\"type\":\"1\",\"id\":\"4\"}],\"normal\":[]}' WHERE `userid` = 5 [ RunTime:0.0229s ]
+
+[ 2019-04-08T22:51:31+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0167s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"2\",\"id\":\"1\"},{\"type\":\"1\",\"id\":\"7\"}],\"normal\":[{\"type\":\"1\",\"id\":\"5\"},{\"type\":\"1\",\"id\":\"4\"},{\"type\":\"1\",\"id\":\"6\"}]}' WHERE `userid` = 3 [ RunTime:0.0397s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0107s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 10 行.
+SQL: SELECT
+              * 
+            FROM
+              groups 
+            WHERE
+              group_user REGEXP "^3," 
+              OR group_user REGEXP ",3$" 
+              OR group_user REGEXP ",3," [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+NOTIC: [8] Undefined offset: 0 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 1 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 2 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 2 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 3 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 3 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 4 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 4 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 4 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 4 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 5 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 5 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 5 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 5 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+SQL: SELECT * FROM `chatlist` WHERE ( `userid` = null AND `userid` = null AND `userid` = null AND `userid` = null AND `userid` = null AND `userid` = null  ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `chatlist` (`list`,`createtime`,`createtimes`,`status`) VALUES ('{\"top\":[],\"normal\":[{\"type\":2,\"id\":3}]}','1554735091','2019-04-08 22:51:31','1') [ RunTime:0.0226s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+NOTIC: [8] Undefined offset: 0 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 1 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 2 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 2 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 3 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 3 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 4 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 4 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 4 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 4 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 5 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 5 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 5 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 5 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+SQL: SELECT * FROM `chatlist` WHERE ( `userid` = null AND `userid` = null AND `userid` = null AND `userid` = null AND `userid` = null AND `userid` = null  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 E:\phpstudy\WWW\tic\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `chatlist` (`list`,`createtime`,`createtimes`,`status`) VALUES ('{\"top\":[],\"normal\":[{\"type\":2,\"id\":3}]}','1554735091','2019-04-08 22:51:31','1') [ RunTime:0.0224s ]
+
+[ 2019-04-08T22:53:13+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0115s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0083s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 10 行.
+SQL: SELECT
+              * 
+            FROM
+              groups 
+            WHERE
+              group_user REGEXP "^3," 
+              OR group_user REGEXP ",3$" 
+              OR group_user REGEXP ",3," [ RunTime:0.0002s ]
+
+[ 2019-04-08T22:57:43+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0105s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 10 行.
+SQL: SELECT
+              * 
+            FROM
+              groups 
+            WHERE
+              group_user REGEXP "^3," 
+              OR group_user REGEXP ",3$" 
+              OR group_user REGEXP ",3," [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: users E:\phpstudy\WWW\tic\Application\Chat\Controller\ChatController.class.php 第 656 行.
+
+[ 2019-04-08T22:58:08+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0108s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0099s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 10 行.
+SQL: SELECT
+              * 
+            FROM
+              groups 
+            WHERE
+              group_user REGEXP "^3," 
+              OR group_user REGEXP ",3$" 
+              OR group_user REGEXP ",3," [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: group_user E:\phpstudy\WWW\tic\Application\Chat\Controller\ChatController.class.php 第 657 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 0 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 21 行.
+SQL: INSERT INTO `chatlist` (`userid`,`list`,`createtime`,`createtimes`,`status`) VALUES ('0','{\"top\":[],\"normal\":[{\"type\":2,\"id\":1}]}','1554735488','2019-04-08 22:58:08','1') [ RunTime:0.0265s ]
+
+[ 2019-04-08T23:00:19+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0097s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0075s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 10 行.
+SQL: SELECT
+              * 
+            FROM
+              groups 
+            WHERE
+              group_user REGEXP "^3," 
+              OR group_user REGEXP ",3$" 
+              OR group_user REGEXP ",3," [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: group_user E:\phpstudy\WWW\tic\Application\Chat\Controller\ChatController.class.php 第 657 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 0 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[],\"normal\":[{\"type\":\"2\",\"id\":\"3\"},{\"type\":2,\"id\":1}]}' WHERE `userid` = 0 [ RunTime:0.0264s ]
+
+[ 2019-04-08T23:01:09+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0155s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0083s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 10 行.
+SQL: SELECT
+              * 
+            FROM
+              groups 
+            WHERE
+              group_user REGEXP "^3," 
+              OR group_user REGEXP ",3$" 
+              OR group_user REGEXP ",3," [ RunTime:0.0002s ]
+
+[ 2019-04-08T23:01:45+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0118s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0192s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 10 行.
+SQL: SELECT
+              * 
+            FROM
+              groups 
+            WHERE
+              group_user REGEXP "^3," 
+              OR group_user REGEXP ",3$" 
+              OR group_user REGEXP ",3," [ RunTime:0.0002s ]
+
+[ 2019-04-08T23:02:18+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0092s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0079s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 10 行.
+SQL: SELECT
+              * 
+            FROM
+              groups 
+            WHERE
+              group_user REGEXP "^3," 
+              OR group_user REGEXP ",3$" 
+              OR group_user REGEXP ",3," [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 7 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 21 行.
+SQL: INSERT INTO `chatlist` (`userid`,`list`,`createtime`,`createtimes`,`status`) VALUES ('7','{\"top\":[],\"normal\":[{\"type\":2,\"id\":1}]}','1554735738','2019-04-08 23:02:18','1') [ RunTime:0.0536s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 8 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 21 行.
+SQL: INSERT INTO `chatlist` (`userid`,`list`,`createtime`,`createtimes`,`status`) VALUES ('8','{\"top\":[],\"normal\":[{\"type\":2,\"id\":1}]}','1554735738','2019-04-08 23:02:18','1') [ RunTime:0.0229s ]
+
+[ 2019-04-08T23:02:25+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0101s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0083s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 10 行.
+SQL: SELECT
+              * 
+            FROM
+              groups 
+            WHERE
+              group_user REGEXP "^3," 
+              OR group_user REGEXP ",3$" 
+              OR group_user REGEXP ",3," [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 7 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[],\"normal\":[{\"type\":\"2\",\"id\":\"3\"},{\"type\":2,\"id\":1}]}' WHERE `userid` = 7 [ RunTime:0.0305s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 8 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[],\"normal\":[{\"type\":\"2\",\"id\":\"3\"},{\"type\":2,\"id\":1}]}' WHERE `userid` = 8 [ RunTime:0.0263s ]
+
+[ 2019-04-08T23:03:52+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0105s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 10 行.
+SQL: SELECT
+              * 
+            FROM
+              groups 
+            WHERE
+              group_user REGEXP "^3," 
+              OR group_user REGEXP ",3$" 
+              OR group_user REGEXP ",3," [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 7 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 8 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2019-04-08T23:04:00+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 10 行.
+SQL: SELECT
+              * 
+            FROM
+              groups 
+            WHERE
+              group_user REGEXP "^3," 
+              OR group_user REGEXP ",3$" 
+              OR group_user REGEXP ",3," [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 7 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 8 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2019-04-08T23:04:34+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0106s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0086s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 10 行.
+SQL: SELECT
+              * 
+            FROM
+              groups 
+            WHERE
+              group_user REGEXP "^3," 
+              OR group_user REGEXP ",3$" 
+              OR group_user REGEXP ",3," [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 7 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 8 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T23:05:03+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0101s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 10 行.
+SQL: SELECT
+              * 
+            FROM
+              groups 
+            WHERE
+              group_user REGEXP "^3," 
+              OR group_user REGEXP ",3$" 
+              OR group_user REGEXP ",3," [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 7 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"2\",\"id\":\"1\"},{\"type\":2,\"id\":2}],\"normal\":[]}' WHERE `userid` = 7 [ RunTime:0.0315s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 8 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T23:05:11+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0103s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T23:05:27+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"2\",\"id\":\"1\"},{\"type\":\"1\",\"id\":\"7\"}],\"normal\":[{\"type\":\"2\",\"id\":\"2\"},{\"type\":\"1\",\"id\":\"5\"},{\"type\":\"1\",\"id\":\"4\"},{\"type\":\"1\",\"id\":\"6\"}]}' WHERE `userid` = 3 [ RunTime:0.0485s ]
+
+[ 2019-04-08T23:05:32+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0107s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0081s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 10 行.
+SQL: SELECT
+              * 
+            FROM
+              groups 
+            WHERE
+              group_user REGEXP "^3," 
+              OR group_user REGEXP ",3$" 
+              OR group_user REGEXP ",3," [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 7 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"2\",\"id\":\"2\"},{\"type\":\"2\",\"id\":\"1\"}],\"normal\":[]}' WHERE `userid` = 7 [ RunTime:0.0348s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 8 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[],\"normal\":[{\"type\":\"2\",\"id\":\"2\"},{\"type\":2,\"id\":1}]}' WHERE `userid` = 8 [ RunTime:0.0227s ]
+
+[ 2019-04-08T23:06:15+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0107s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0081s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 10 行.
+SQL: SELECT
+              * 
+            FROM
+              groups 
+            WHERE
+              group_user REGEXP "^3," 
+              OR group_user REGEXP ",3$" 
+              OR group_user REGEXP ",3," [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 7 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 8 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2019-04-08T23:06:55+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0082s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 10 行.
+SQL: SELECT
+              * 
+            FROM
+              groups 
+            WHERE
+              group_user REGEXP "^3," 
+              OR group_user REGEXP ",3$" 
+              OR group_user REGEXP ",3," [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 7 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"2\",\"id\":\"1\"}],\"normal\":[{\"type\":\"2\",\"id\":\"2\"}]}' WHERE `userid` = 7 [ RunTime:0.0334s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 8 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-04-08T23:07:20+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0083s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 10 行.
+SQL: SELECT
+              * 
+            FROM
+              groups 
+            WHERE
+              group_user REGEXP "^3," 
+              OR group_user REGEXP ",3$" 
+              OR group_user REGEXP ",3," [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 7 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 8 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[],\"normal\":[{\"type\":\"2\",\"id\":\"2\"},{\"type\":2,\"id\":1}]}' WHERE `userid` = 8 [ RunTime:0.0434s ]
+
+[ 2019-04-08T23:07:46+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0108s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0072s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 10 行.
+SQL: SELECT
+              * 
+            FROM
+              groups 
+            WHERE
+              group_user REGEXP "^3," 
+              OR group_user REGEXP ",3$" 
+              OR group_user REGEXP ",3," [ RunTime:0.0002s ]
+
+[ 2019-04-08T23:08:12+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0098s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0074s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 10 行.
+SQL: SELECT
+              * 
+            FROM
+              groups 
+            WHERE
+              group_user REGEXP "^2," 
+              OR group_user REGEXP ",2$" 
+              OR group_user REGEXP ",2," [ RunTime:0.0002s ]
+
+[ 2019-04-08T23:08:38+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0104s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0083s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 33 行.
+SQL: SELECT * FROM `groups` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 E:\phpstudy\WWW\tic\Application\Chat\Controller\ChatController.class.php 第 658 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 21 行.
+SQL: INSERT INTO `chatlist` (`userid`,`list`,`createtime`,`createtimes`,`status`) VALUES ('0','{\"top\":[],\"normal\":[{\"type\":2,\"id\":2}]}','1554736118','2019-04-08 23:08:38','1') [ RunTime:0.0363s ]
+
+[ 2019-04-08T23:09:03+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0102s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0079s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 33 行.
+SQL: SELECT * FROM `groups` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T23:09:30+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0111s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 33 行.
+SQL: SELECT * FROM `groups` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 4 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"1\",\"id\":\"5\"}],\"normal\":[{\"type\":\"2\",\"id\":\"2\"},{\"type\":\"1\",\"id\":\"3\"}]}' WHERE `userid` = 4 [ RunTime:0.0397s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 7 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T23:09:50+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0075s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 33 行.
+SQL: SELECT * FROM `groups` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 4 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 7 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 25 行.
+SQL: UPDATE `chatlist` SET `list`='{\"top\":[{\"type\":\"2\",\"id\":\"2\"},{\"type\":\"2\",\"id\":\"1\"}],\"normal\":[]}' WHERE `userid` = 7 [ RunTime:0.0352s ]
+
+[ 2019-04-08T23:09:57+08:00 ] ::1 /tic/?m=chat&c=chat&a=update_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0102s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0074s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 33 行.
+SQL: SELECT * FROM `groups` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 4 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 7 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2019-04-08T23:11:54+08:00 ] ::1 /tic/?m=chat&c=chat&a=get_chatList_old
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0139s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T23:15:46+08:00 ] ::1 /tic/?m=chat&c=chat&a=get_chatList_old
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0138s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: top E:\phpstudy\WWW\tic\Application\Chat\Controller\ChatController.class.php 第 16 行.
+
+[ 2019-04-08T23:16:36+08:00 ] ::1 /tic/?m=chat&c=chat&a=get_chatList_old
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0101s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-08T23:23:45+08:00 ] ::1 /tic/?m=chat&c=chat&a=get_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0096s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0076s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 36 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `chathistory` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChathistoryModel.class.php 第 10 行.
+SQL: SELECT * 
+          FROM chathistory 
+          WHERE `type` = 1 
+          AND ((send_user = "3" AND to_user = "7") OR (to_user = "3" AND send_user = "7"))
+          ORDER BY createtime DESC [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 36 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * 
+          FROM chathistory 
+          WHERE `type` = 1 
+          AND ((send_user = "3" AND to_user = "5") OR (to_user = "3" AND send_user = "5"))
+          ORDER BY createtime DESC [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 36 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * 
+          FROM chathistory 
+          WHERE `type` = 1 
+          AND ((send_user = "3" AND to_user = "4") OR (to_user = "3" AND send_user = "4"))
+          ORDER BY createtime DESC [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 36 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * 
+          FROM chathistory 
+          WHERE `type` = 1 
+          AND ((send_user = "3" AND to_user = "6") OR (to_user = "3" AND send_user = "6"))
+          ORDER BY createtime DESC [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2019-04-08T23:24:03+08:00 ] ::1 /tic/?m=chat&c=chat&a=get_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0109s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0084s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 36 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `chathistory` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChathistoryModel.class.php 第 10 行.
+SQL: SELECT * 
+          FROM chathistory 
+          WHERE `type` = 1 
+          AND ((send_user = "3" AND to_user = "7") OR (to_user = "3" AND send_user = "7"))
+          ORDER BY createtime DESC [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 36 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * 
+          FROM chathistory 
+          WHERE `type` = 1 
+          AND ((send_user = "3" AND to_user = "5") OR (to_user = "3" AND send_user = "5"))
+          ORDER BY createtime DESC [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 36 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * 
+          FROM chathistory 
+          WHERE `type` = 1 
+          AND ((send_user = "3" AND to_user = "4") OR (to_user = "3" AND send_user = "4"))
+          ORDER BY createtime DESC [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 36 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * 
+          FROM chathistory 
+          WHERE `type` = 1 
+          AND ((send_user = "3" AND to_user = "6") OR (to_user = "3" AND send_user = "6"))
+          ORDER BY createtime DESC [ RunTime:0.0002s ]
+
+[ 2019-04-08T23:26:35+08:00 ] ::1 /tic/?m=chat&c=chat&a=get_chatList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+NOTIC: [2048] Declaration of Common\Model\ChatlistModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `chatlist` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChatlistModel.class.php 第 14 行.
+SQL: SELECT * FROM `chatlist` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\GroupsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0076s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 33 行.
+SQL: SELECT * FROM `groups` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `chathistory` [ RunTime:0.0075s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChathistoryModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChathistoryModel.class.php 第 15 行.
+SQL: SELECT * FROM `chathistory` WHERE `to_user` = 1 AND `type` = 2 ORDER BY createtime desc LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: flag E:\phpstudy\WWW\tic\Application\Chat\Controller\ChatController.class.php 第 123 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0074s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 36 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * 
+          FROM chathistory 
+          WHERE `type` = 1 
+          AND ((send_user = "3" AND to_user = "7") OR (to_user = "3" AND send_user = "7"))
+          ORDER BY createtime DESC [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\GroupsModel.class.php 第 33 行.
+SQL: SELECT * FROM `groups` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChathistoryModel.class.php 第 15 行.
+SQL: SELECT * FROM `chathistory` WHERE `to_user` = 2 AND `type` = 2 ORDER BY createtime desc LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: flag E:\phpstudy\WWW\tic\Application\Chat\Controller\ChatController.class.php 第 163 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 36 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * 
+          FROM chathistory 
+          WHERE `type` = 1 
+          AND ((send_user = "3" AND to_user = "5") OR (to_user = "3" AND send_user = "5"))
+          ORDER BY createtime DESC [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 36 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * 
+          FROM chathistory 
+          WHERE `type` = 1 
+          AND ((send_user = "3" AND to_user = "4") OR (to_user = "3" AND send_user = "4"))
+          ORDER BY createtime DESC [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 36 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * 
+          FROM chathistory 
+          WHERE `type` = 1 
+          AND ((send_user = "3" AND to_user = "6") OR (to_user = "3" AND send_user = "6"))
+          ORDER BY createtime DESC [ RunTime:0.0001s ]
+

@@ -6,438 +6,39 @@ class ChatController extends Controller{
   function __construct() {
     if(!session('login')) return show(-999,'未登录');
   }
-  //更新、创建、维护聊天列表
-  public function update_chatList(){
-    $userid = session('login');
-    if(!$userid || $userid == '' )  missing_login();
-    $action = I('post.action'); //1:发送消息  2:点击按钮创建  3:置顶  4:取消置顶  5:删除
-    $touserid = I('post.touserid');
-    $type = I('post.type'); //1:私聊 2:群聊
-    if(!$action || $action == '' || !$type || $type == '' || !$touserid || $touserid == '' ) missing_parameter();
-    $otherlisttouserid = $touserid;
-    if($action == 1){
-      $top = I('post.top');
-      // if(!$top || $top == '' ) missing_parameter();
-      //发送消息置顶
-      if($type == 1){
-        //私聊逻辑处理
-        //另一个人列表 以及 另一个人id 先保存起来 防止被改写 
-        $otherlist = D('Chatlist') -> get_list($touserid);
-        
-        if($top){
-          //如果是 置顶
-          $flag = $touserid .'.1';
-          $touserid .= '.1';
-          $newlist = $touserid . ',';
-          $list = D('Chatlist') -> get_list($userid);
-          $listarr = explode(",",$list['list']);
-          foreach($listarr as $room){
-            if($room != $flag){
-              $newlist .= $room.',';
-            }
-          }
-          $data['list'] = substr($newlist,0,strlen($newlist)-1);
-          $res = D('Chatlist') -> update_list($userid,$data);
-          if($res){
-            // return show(0,'成功',$res);
-          }else{
-            // return show(-1,'失败');
-          }
-        }else{
-          //如果不是置顶
-          $touserid = $touserid.'.0';
-          $flag = 1;
-          $newlist;
-          $list = D('Chatlist') -> get_list($userid);
-          $listarr = explode(",",$list['list']);
-          foreach($listarr as $room){
-            if($room != $touserid){
-              if(strpos($room,'.1') == false){
-                if($flag == 1){
-                  $flag = 0;
-                  $newlist .= $touserid .',' . $room .',';
-                }else{
-                  $newlist .= $room . ',';
-                }
-              }else{
-                $newlist .= $room . ',';
-              }
-            }
-          }
-          $data['list'] = substr($newlist,0,strlen($newlist)-1);
-          $res = D('Chatlist') -> update_list($userid,$data);
-          if($res){
-            // return show(0,'成功',$res);
-          }else{
-            // return show(-1,'失败');
-          }
-        }
-        //更新对方列表
-        if($otherlist){
-          $otop = $userid . '.1'; 
-          $otheristop = false;
-          $otherlistarr = explode(",",$otherlist['list']);
-          foreach($otherlistarr as $room){
-            if($room == $otop){
-              $otheristop = true;
-            }
-          }
-          if($otheristop){
-            //本人在对方列表是置顶
-            $flag = $userid .'.1';
-            $userid .= '.1';
-            $newlist = $userid . ',';
-            foreach($otherlistarr as $room){
-              if($room != $flag){
-                $newlist .= $room.',';
-              }
-            }
-            $data['list'] = substr($newlist,0,strlen($newlist)-1);
-            $res = D('Chatlist') -> update_list($otherlisttouserid,$data);
-            if($res){
-              // return show(0,'成功',$res);
-            }else{
-              // return show(-1,'失败');
-            }
-          }else{
-            //本人在对方列表不是置顶
-            $flag = true;
-            $userid .= '.0';
-            $newlist = '';
-
-            foreach($otherlistarr as $room){
-              if(strpos($room,'.1') != false){
-                $newlist .= $room . ',';
-              }else{
-                if($room != $userid){
-                  if($flag){
-                    $newlist .= $userid . ',' . $room.',';
-                    $flag = false;
-                  }else{
-                    $newlist .= $room.',';
-                  }
-                }
-              }
-            }
-            $data['list'] = substr($newlist,0,strlen($newlist)-1);
-            $res = D('Chatlist') -> update_list($otherlisttouserid,$data);
-            if($res){
-              // return show(0,'成功',$res);
-            }else{
-              // return show(-1,'失败');
-            }
-          }
-
-        }else{
-          $data['list'] = $userid.'.0';
-          $data['userid'] = $otherlisttouserid;
-          $res = D('Chatlist') -> add($data);
-          if($res){
-            // return show(0,'成功',$res);
-          }else{
-            // return show(-1,'失败');
-          }
-        }
-      }else{
-        //群聊逻辑处理
-        $others = D('Groups') -> get_by_id($touserid);
-        $tousersarr = explode(",",$others['group_user']);
-        if($top){
-          //如果是置顶的操作
-          $flag = 'q'.$touserid .'.1';
-          $touserid ='q'. $touserid .'.1';
-          $newlist = $touserid . ',';
-          $list = D('Chatlist') -> get_list($userid);
-          $listarr = explode(",",$list['list']);
-          foreach($listarr as $room){
-            if($room != $flag){
-              $newlist .= $room.',';
-            }
-          }
-          $data['list'] = substr($newlist,0,strlen($newlist)-1);
-          $res = D('Chatlist') -> update_list($userid,$data);
-          if($res){
-            // return show(0,'成功',$res);
-          }else{
-            // return show(-1,'失败');
-          }
-        }else{
-          //如果不是置顶的操作
-          $touserid = 'q'.$touserid.'.0';
-          $flag = 1;
-          $newlist;
-          $list = D('Chatlist') -> get_list($userid);
-          $listarr = explode(",",$list['list']);
-          foreach($listarr as $room){
-            if($room != $touserid){
-              if(strpos($room,'.1') == false){
-                if($flag == 1){
-                  $flag = 0;
-                  $newlist .= $touserid .',' . $room .',';
-                }else{
-                  $newlist .= $room . ',';
-                }
-              }else{
-                $newlist .= $room . ',';
-              }
-            }
-          }
-          $data['list'] = substr($newlist,0,strlen($newlist)-1);
-          $res = D('Chatlist') -> update_list($userid,$data);
-          if($res){
-            // return show(0,'成功',$res);
-          }else{
-            // return show(-1,'失败');
-          }
-        }
-        //别人列表处理
-        foreach($tousersarr as $touser){
-          if($touser != $userid){
-            $otherlist = D('Chatlist') -> get_list($touser);
-
-            if($otherlist){
-              $onotop = 'q' . $otherlisttouserid . '.0'; 
-              $otop = 'q' . $otherlisttouserid . '.1'; 
-              $otheristop = 0;
-              $otherlistarr = explode(",",$otherlist['list']);
-              foreach($otherlistarr as $room){
-                if($room == $otop){
-                  $otheristop = 1;
-                }
-                if($room == $onotop){
-                  $otheristop = 2;
-                }
-              }
-              if($otheristop == 1){
-                //群聊在对方列表是置顶
-                $flag = $otop;
-                $newlist = $otop . ',';
-                foreach($otherlistarr as $room){
-                  if($room != $flag){
-                    $newlist .= $room.',';
-                  }
-                }
-                $data['list'] = substr($newlist,0,strlen($newlist)-1);
-                $res = D('Chatlist') -> update_list($touser,$data);
-                if($res){
-                  // return show(0,'成功',$res);
-                }else{
-                  // return show(-1,'失败');
-                }
-              }else{
-                //群聊在对方列表不是置顶
-                $flag = 1;
-                $newlist = '';
-                foreach($otherlistarr as $room){
-                  if($room != $onotop){
-                    if(strpos($room,'.1') == false){
-                      if($flag == 1){
-                        $flag = 0;
-                        $newlist .= $onotop .',' . $room .',';
-                      }else{
-                        $newlist .= $room . ',';
-                      }
-                    }else{
-                      $newlist .= $room . ',';
-                    }
-                  }
-                }
-                $data['list'] = substr($newlist,0,strlen($newlist)-1);
-                $res = D('Chatlist') -> update_list($touser,$data);
-                if($res){
-                  // return show(0,'成功',$res);
-                }else{
-                  // return show(-1,'失败');
-                }
-              }
-      
-            }else{
-              $data['list'] = 'q' . $otherlisttouserid . '.0';
-              $data['userid'] = $touser;
-              $res = D('Chatlist') -> add($data);
-              if($res){
-                // return show(0,'成功',$res);
-              }else{
-                // return show(-1,'失败');
-              }
-            }
-            //----
-          }
-        }
-        return show(0,'成功',$res);
-      }
-    }else if($action == 2){
-      //点击聊天按钮 创建列表
-      $list = D('Chatlist') -> get_list($userid);
-      if($list){
-        $touserid .= '.0'; 
-        $ishave = false;
-        if($type == 1){
-          $listarr = explode(",",$list['list']);
-          foreach($listarr as $room){
-            if(substr_count($room,'q') == false){
-              if($touserid == $room){
-                $ishave = true;
-              }
-            }
-          }
-        }else{
-          $touserid = 'q'.$touserid;
-          $listarr = explode(",",$list['list']);
-          foreach($listarr as $room){
-            if(substr_count($room,'q') != false){
-              if($touserid == $room){
-                $ishave = true;
-              }
-            }
-          }
-        }
-
-        if($ishave){
-          $data['type'] = 1;
-          $data['userid'] = substr($touserid,0,strpos($touserid, '.'));
-          return show(0,'已在列表中',$data);
-        }else{
-          $newlist;
-          $flag = 1;
-          foreach($listarr as $room){
-            if(strpos($room,'.1') == false){
-              if($flag == 1){
-                $newlist .= $touserid.','.$room.',';
-                $flag = 0;
-              }else{
-                $newlist .= $room.',';
-              }
-            }else{
-              $newlist .= $room.',';
-            }
-            
-          }
-          $data['list'] = substr($newlist,0,strlen($newlist)-1);
-          $res = D('Chatlist') -> update_list($userid,$data);
-          if($res){
-            return show(0,'成功',$res);
-          }else{
-            return show(-1,'失败');
-          }
-        }
-      }else{
-        if($type == 1){
-          $data['list'] = $touserid.'.0';
-        }else{
-          $data['list'] = 'q' . $touserid . '.0';
-        }
-        $data['userid'] = $userid;
-        $res = D('Chatlist') -> add($data);
-        if($res){
-          return show(0,'成功',$res);
-        }else{
-          return show(-1,'失败');
-        }
-        
-      }
-    }else if($action == 3){
-      //置顶
-      if($type == 1){
-        $flag = $touserid .'.0';
-        $touserid .= '.1';
-        $newlist = $touserid . ',';
-      }else{
-        $flag = 'q'.$touserid .'.0';
-        $touserid ='q'. $touserid .'.1';
-        $newlist = $touserid . ',';
-      }
-      $list = D('Chatlist') -> get_list($userid);
-      $listarr = explode(",",$list['list']);
-      foreach($listarr as $room){
-        if($room != $flag){
-          $newlist .= $room.',';
-        }
-      }
-      $data['list'] = substr($newlist,0,strlen($newlist)-1);
-      $res = D('Chatlist') -> update_list($userid,$data);
-      if($res){
-        return show(0,'成功',$res);
-      }else{
-        return show(-1,'失败');
-      }
-    }else if($action == 4){
-      //取消置顶
-      if($type == 1){
-        $touserid = $touserid.'.1';
-      }else{
-        $touserid = 'q'.$touserid.'.1';
-      }
-      $flag = 1;
-      $newlist;
-      $list = D('Chatlist') -> get_list($userid);
-      $listarr = explode(",",$list['list']);
-      foreach($listarr as $room){
-        if($room != $touserid){
-          if(strpos($room,'.1') == false){
-            if($flag == 1){
-              $flag = 0;
-              $newlist .= str_replace(".1",".0",$touserid).','.$room.',';
-            }else{
-              $newlist .= $room.',';
-            }
-          }else{
-            $newlist .= $room.',';
-          }
-        }
-      }
-      $data['list'] = substr($newlist,0,strlen($newlist)-1);
-      $res = D('Chatlist') -> update_list($userid,$data);
-      if($res){
-        return show(0,'成功',$res);
-      }else{
-        return show(-1,'失败');
-      } 
-    }else{
-      //删除
-      if($type == 1){
-        $touserid = $touserid;
-      }else{
-        $touserid = 'q'.$touserid;
-      }
-      $newlist;
-      $list = D('Chatlist') -> get_list($userid);
-      $listarr = explode(",",$list['list']);
-      foreach($listarr as $room){
-        if($room != $touserid.'.1' && $room != $touserid.'.0' ){
-          $newlist .= $room.',';
-        }
-      }
-      $data['list'] = substr($newlist,0,strlen($newlist)-1);
-      $res = D('Chatlist') -> update_list($userid,$data);
-      if($res){
-        return show(0,'成功',$res);
-      }else{
-        return show(-1,'失败');
-      }
-    }
-  }
-
+  
+  
+  //------------------------------------
   //获取列表
   public function get_chatList(){
     $userid = session('login');
     if(!$userid || $userid == '' )  missing_login();
-    $list = D('Chatlist') -> get_list($userid);
+    $listres = D('Chatlist') -> get_list($userid);
     $chatlist = array();
-    if($list){
-      $rooms = explode(",", $list['list']);
-      // print_r($rooms);exit;
-      foreach($rooms as $room){
-        if(substr_count($room,'q') != false){
-          // echo 1;
-          //群聊
-          if(strpos($room,'.0') != false){
-            $flag = false;
-          }else{
-            $flag = true;
+    if($listres){
+      $list = json_decode($listres['list'],true);
+      foreach($list['top'] as $top){
+        if($top['type'] == 1){
+          $userinfo = D('User') -> get_by_id($top['id']);
+          $lastmessage = false;
+          $lasttime = false;
+          $history = D('Chathistory') -> get_userlastone($userid,$top['id']);
+          if($history) {
+            $lastmessage = $history['message'];
+            $lasttime = $history['createtimes'];
           }
-          $groupid = substr($room,1,strpos($room, '.'));
-          $groupinfo = D('Groups') -> get_by_id($groupid);
+          $chatlist[] = array(
+            'type'        => 1,
+            'userid'      => $userinfo['id'],
+            'username'    => $userinfo['nickname'],
+            'useraccount' => $userinfo['account'],
+            'lastmessage' => $lastmessage,
+            'lasttime'    => $lasttime,
+            'top'         => true,
+            'picture'     => $userinfo['portrait']
+          );
+        }else{
+          $groupinfo = D('Groups') -> get_by_id($top['id']);
           $lastmessage = false;
           $lasttime = false;
           $history = D('Chathistory') -> get_grouplastone($groupinfo['id']);
@@ -454,18 +55,14 @@ class ChatController extends Controller{
             'top'         => $flag,
             'picture'     => 'http://tic.codergzw.com/Public/img/portraits/group.png' 
           );
-        }else{
-          //私聊
-          if(strpos($room,'.0') != false){
-            $flag = false;
-          }else{
-            $flag = true;
-          }
-          $touserid = substr($room,0,strpos($room, '.'));
-          $userinfo = D('User') -> get_by_id($touserid);
+        }
+      }
+      foreach($list['normal'] as $normal){
+        if($normal['type'] == 1){
+          $userinfo = D('User') -> get_by_id($normal['id']);
           $lastmessage = false;
           $lasttime = false;
-          $history = D('Chathistory') -> get_userlastone($userid,$userinfo['id']);
+          $history = D('Chathistory') -> get_userlastone($userid,$normal['id']);
           if($history) {
             $lastmessage = $history['message'];
             $lasttime = $history['createtimes'];
@@ -477,17 +74,544 @@ class ChatController extends Controller{
             'useraccount' => $userinfo['account'],
             'lastmessage' => $lastmessage,
             'lasttime'    => $lasttime,
-            'top'         => $flag,
+            'top'         => false,
             'picture'     => $userinfo['portrait']
           );
-        }  
+        }else{
+          $groupinfo = D('Groups') -> get_by_id($normal['id']);
+          $lastmessage = false;
+          $lasttime = false;
+          $history = D('Chathistory') -> get_grouplastone($groupinfo['id']);
+          if($history) {
+            $lastmessage = $history['message'];
+            $lasttime = $history['createtimes'];
+          }
+          $chatlist[] = array(
+            'type'        => 2,
+            'roomid'      => $groupinfo['id'],
+            'roomname'    => $groupinfo['group_name'],
+            'lastmessage' => $lastmessage,
+            'lasttime'    => $lasttime,
+            'top'         => $flag,
+            'picture'     => 'http://tic.codergzw.com/Public/img/portraits/group.png' 
+          );
+        }
       }
-      
       return show(0,'获取成功',$chatlist);
     }else{
-      return show(-1,'获取失败');
+      return show(0,'暂无列表信息');
     }
   }
+  //------------------------------------
+  //更新、创建、维护聊天列表
+  public function update_chatList(){
+    $userid = session('login');
+    // $userid = 5;
+    if(!$userid || $userid == '' )  missing_login();
+    $action = I('post.action'); //1:发送消息  2:点击按钮创建  3:置顶  4:取消置顶  5:删除
+    $touserid = I('post.touserid');
+    $type = I('post.type'); //1:私聊 2:群聊
+    if(!$action || $action == '' || !$type || $type == '' || !$touserid || $touserid == '' ) missing_parameter();
+    if($userid == $touserid){
+      return show(-1,'不能和自己聊天');
+    }
+    if($action == 1){
+      //发送消息
+      $listres = D('Chatlist') -> get_list($userid);
+      if($listres){
+        //数据库插入过此人记录
+        $flag = 0;
+        $list = json_decode($listres['list'],true);
+        $newlist = array(
+          'top'    => array(),
+          'normal' => array()
+        );
+        $i = 0;
+        $j = 0;
+        foreach($list['top'] as $top){
+          if($top['type'] == $type && $top['id'] == $touserid){
+            $flag = 'top';
+            $j = $i;
+          }else{
+            $newlist['top'][] = array(
+              'type' => $top['type'],
+              'id' => $top['id']
+            );
+          }
+          $i ++;
+        }
+        $m = 0;
+        $n = 0;
+        foreach($list['normal'] as $normal){
+          if($normal['type'] == $type && $normal['id'] == $touserid){
+            $flag = 'normal';
+            $n = $m;
+          }else{
+            $newlist['normal'][] = array(
+              'type' => $normal['type'],
+              'id' => $normal['id']
+            );
+          }
+          $m ++;
+        }
+        $needupdate = true;
+        if(!$flag){
+          return show(-1,'错误对话信息 错误代码:1_3');
+        }else if($j == 0 && $n == 0){
+          // return show(0,'该对话已在正确位置');
+          $needupdate = false;
+        }
+        $res = true;
+        if($needupdate){
+          $my = array(
+            'type' => $type,
+            'id' => $touserid
+          );
+          array_unshift($newlist[$flag], $my);
+          $data['list'] = json_encode($newlist);
+          $res = D('Chatlist') -> update_list($userid,$data);
+          if(!$res){
+            return show(-1,'失败 错误代码:1_4');
+          }
+        }
+        if($type == 1){
+          //私聊更新对方列表
+          $listres = D('Chatlist') -> get_list($touserid);
+          if($listres){
+            //数据库插入过此人记录
+            $list = json_decode($listres['list'],true);
+            $newlist = array(
+              'top'    => array(),
+              'normal' => array()
+            );
+            $flag = true;
+            $i = 0;
+            $j = 0;
+            $who;
+            foreach($list['top'] as $top){
+              if($top['type'] == $type && $top['id'] == $userid){
+                $flag = false;
+                $j = $i;
+                $who = 'top';
+              }else{
+                $newlist['top'][] = array(
+                  'type' => $top['type'],
+                  'id' => $top['id']
+                );
+              }
+              $i ++;
+            }
+            $m = 0;
+            $n = 0;
+            foreach($list['normal'] as $normal){
+              if($normal['type'] == $type && $normal['id'] == $userid){
+                $flag = false;
+                $n = $m;
+                $who = 'normal';
+              }else{
+                $newlist['normal'][] = array(
+                  'type' => $normal['type'],
+                  'id' => $normal['id']
+                );
+              }
+              $m ++;
+            }
+            if($flag){
+              $my = array(
+                'type' => $type,
+                'id' => $userid
+              );
+              array_unshift($newlist['normal'], $my);
+              $data['list'] = json_encode($newlist);
+              $res = D('Chatlist') -> update_list($touserid,$data);
+              if($res){
+                return show(0,'成功1_2',$res);
+              }else{
+                return show(-1,'失败 错误代码:1_6');
+              }
+            }else{
+              if($n == 0 && $j == 0){
+                return show(0,'成功 对方已在正确位置');
+              }else{
+                $my = array(
+                  'type' => $type,
+                  'id' => $userid
+                );
+                if($who == 'top'){
+                  array_unshift($newlist['top'], $my);
+                }else{
+                  array_unshift($newlist['normal'], $my);
+                }
+                
+                $data['list'] = json_encode($newlist);
+                $res = D('Chatlist') -> update_list($touserid,$data);
+                if($res){
+                  return show(0,'成功1_3',$res);
+                }else{
+                  return show(-1,'失败 错误代码:1_5');
+                }
+              }
+              // return show(0,'成功 对方已在列表中');
+            }
+          }else{
+            //数据库从未插入过此人记录 可理解为列表为空
+            $data['userid'] = $touserid;
+            $data['list'] = '{"top":[],"normal":[{"type":'.$type.',"id":'.$userid.'}]}';
+            $res = D('Chatlist') -> add($data);
+            if($res){
+              return show(0,'成功1_1',$res);
+            }else{
+              return show(-1,'失败 错误代码:1_2');
+            }
+          }
+        }else{
+          //群聊更新一群人列表
+          $groupinfo = D('Groups') -> get_by_id($touserid);
+          if($groupinfo){
+            // print_r($groupinfo);exit;
+            $users = explode(",",$groupinfo['group_user']);
+            foreach($users as $guserid){
+              if($guserid != $userid){
+                $listres = D('Chatlist') -> get_list($guserid);
+                if($listres){
+                  //数据库插入过此人记录
+                  $list = json_decode($listres['list'],true);
+                  $newlist = array(
+                    'top'    => array(),
+                    'normal' => array()
+                  );
+                  $flag = true;
+                  $i = 0;
+                  $j = 0;
+                  $who;
+                  foreach($list['top'] as $top){
+                    if($top['type'] == $type && $top['id'] == $touserid){
+                      $flag = false;
+                      $j = $i;
+                      $who = 'top';
+                    }else{
+                      $newlist['top'][] = array(
+                        'type' => $top['type'],
+                        'id' => $top['id']
+                      );
+                    }
+                    $i ++;
+                  }
+                  $m = 0;
+                  $n = 0;
+                  foreach($list['normal'] as $normal){
+                    if($normal['type'] == $type && $normal['id'] == $touserid){
+                      $flag = false;
+                      $n = $m;
+                      $who = 'normal';
+                    }else{
+                      $newlist['normal'][] = array(
+                        'type' => $normal['type'],
+                        'id' => $normal['id']
+                      );
+                    }
+                    $m ++;
+                  }
+                  if($flag){
+                    $my = array(
+                      'type' => $type,
+                      'id' => $touserid
+                    );
+                    array_unshift($newlist['normal'], $my);
+                    $data['list'] = json_encode($newlist);
+                    $res = D('Chatlist') -> update_list($guserid,$data);
+                    if($res){
+                      // return show(0,'成功1_3',$res);
+                    }else{
+                      return show(-1,'失败 错误代码:1_7');
+                    }
+                  }else{
+                    if($n == 0 && $j == 0){
+                      // return show(0,'成功 对方已在正确位置');
+                    }else{
+                      $my = array(
+                        'type' => $type,
+                        'id' => $touserid
+                      );
+                      if($who == 'top'){
+                        array_unshift($newlist['top'], $my);
+                      }else{
+                        array_unshift($newlist['normal'], $my);
+                      }
+                      
+                      $data['list'] = json_encode($newlist);
+                      $res = D('Chatlist') -> update_list($guserid,$data);
+                      if($res){
+                        // return show(0,'成功1_3',$res);
+                      }else{
+                        return show(-1,'失败 错误代码:1_8');
+                      }
+                    }
+                    // return show(0,'成功 对方已在列表中');
+                  }
+                }else{
+                  //数据库从未插入过此人记录 可理解为列表为空
+                  $data['userid'] = $guserid;
+                  $data['list'] = '{"top":[],"normal":[{"type":'.$type.',"id":'.$touserid.'}]}';
+                  $res = D('Chatlist') -> add($data);
+                  if($res){
+                    // return show(0,'成功1_1',$res);
+                  }else{
+                    return show(-1,'失败 错误代码:1_9');
+                  }
+                }
+              }
+            }
+            return show(0,'成功1_4',$res);
+          }else{
+            return show(-1,'群组不存在');
+          }
+          
+        }
+        // return show(0,'成功1_1',$res);
+
+          
+ 
+      }else{
+        return show(-1,'无列表信息 错误代码:1_1');
+      }
+    }else if($action == 2){
+      //点击按钮创建
+      $listres = D('Chatlist') -> get_list($userid);
+      if($listres){
+        //数据库插入过此人记录
+        $list = json_decode($listres['list'],true);
+        $flag = true;
+        $i = 0;
+        $j = 0;
+        $who;
+        $newlist = array(
+          'top'    => array(),
+          'normal' => array()
+        );
+        foreach($list['top'] as $top){
+          if($top['type'] == $type && $top['id'] == $touserid){
+            $flag = false;
+            $j = $i;
+            $who = 'top';
+          }else{
+            $newlist['top'][] = array(
+              'type' => $top['type'],
+              'id' => $top['id']
+            );
+          }
+          $i ++;
+        }
+        $m = 0;
+        $n = 0;
+        foreach($list['normal'] as $normal){
+          if($normal['type'] == $type && $normal['id'] == $touserid){
+            $flag = false;
+            $n = $m;
+            $who = 'normal';
+          }else{
+            $newlist['normal'][] = array(
+              'type' => $normal['type'],
+              'id' => $normal['id']
+            );
+          }
+          $m ++;
+        }
+        if($flag){
+          $my = array(
+            'type' => $type,
+            'id' => $touserid
+          );
+          array_unshift($newlist['normal'], $my);
+          $data['list'] = json_encode($newlist);
+          $res = D('Chatlist') -> update_list($userid,$data);
+          if($res){
+            return show(0,'成功2_1',$res);
+          }else{
+            return show(-1,'失败 错误代码:2_2');
+          }
+        }else{
+          if($n == 0 && $j == 0){
+            return show(0,'成功 对方已在正确位置');
+          }else{
+            $my = array(
+              'type' => $type,
+              'id' => $touserid
+            );
+            if($who == 'top'){
+              array_unshift($newlist['top'], $my);
+            }else{
+              array_unshift($newlist['normal'], $my);
+            }
+            
+            $data['list'] = json_encode($newlist);
+            $res = D('Chatlist') -> update_list($userid,$data);
+            if($res){
+              return show(0,'成功2_2',$res);
+            }else{
+              return show(-1,'失败 错误代码:2_3');
+            }
+          }
+          // return show(0,'成功 对方已在列表中');
+        }
+      }else{
+        //数据库从未插入过此人记录 可理解为列表为空
+        $data['userid'] = $userid;
+        $data['list'] = '{"top":[],"normal":[{"type":'.$type.',"id":'.$touserid.'}]}';
+        $res = D('Chatlist') -> add($data);
+        if($res){
+          return show(0,'成功2_1',$res);
+        }else{
+          return show(-1,'失败 错误代码:2_1');
+        }
+      }
+    }else if($action == 3){
+      //置顶
+      $listres = D('Chatlist') -> get_list($userid);
+      if($listres){
+        //数据库插入过此人记录
+        $flag = true;
+        $list = json_decode($listres['list'],true);
+        $newlist = array(
+          'top'    => array(),
+          'normal' => array()
+        );
+        $newlist['top'][] = array(
+          'type' => $type,
+          'id' => $touserid
+        );
+        foreach($list['top'] as $top){
+          if($top['type'] == $type && $top['id'] == $touserid){
+            return show(-1,'已是置顶 错误代码:3_2');
+          }else{
+            $newlist['top'][] = array(
+              'type' => $top['type'],
+              'id' => $top['id']
+            );
+          }
+        }
+        foreach($list['normal'] as $normal){
+          if($normal['type'] == $type && $normal['id'] == $touserid){
+            $flag = false;
+          }else{
+            $newlist['normal'][] = array(
+              'type' => $normal['type'],
+              'id' => $normal['id']
+            );
+          }
+        }
+        if($flag){
+          return show(-1,'错误对话信息 错误代码:3_3');
+        }
+        // print_r($newlist);exit;
+        $data['list'] = json_encode($newlist);
+        $res = D('Chatlist') -> update_list($userid,$data);
+        if($res){
+          return show(0,'成功3_1',$res);
+        }else{
+          return show(-1,'失败 错误代码:3_4');
+        }
+      }else{
+        return show(-1,'无列表信息 错误代码:3_1');
+      }
+    }else if($action == 4){
+      //取消置顶
+      $listres = D('Chatlist') -> get_list($userid);
+      if($listres){
+        //数据库插入过此人记录
+        $flag = true;
+        $list = json_decode($listres['list'],true);
+        $newlist = array(
+          'top'    => array(),
+          'normal' => array()
+        );
+        $newlist['normal'][] = array(
+          'type' => $type,
+          'id' => $touserid
+        );
+        foreach($list['top'] as $top){
+          if($top['type'] == $type && $top['id'] == $touserid){
+            $flag = false;
+          }else{
+            $newlist['top'][] = array(
+              'type' => $top['type'],
+              'id' => $top['id']
+            );
+          }
+        }
+        foreach($list['normal'] as $normal){
+          if($normal['type'] == $type && $normal['id'] == $touserid){
+            return show(-1,'已是未置顶 错误代码:4_2');
+          }else{
+            $newlist['normal'][] = array(
+              'type' => $normal['type'],
+              'id' => $normal['id']
+            );
+          }
+        }
+        if($flag){
+          return show(-1,'错误对话信息 错误代码:4_3');
+        }
+        // print_r($newlist);exit;
+        $data['list'] = json_encode($newlist);
+        $res = D('Chatlist') -> update_list($userid,$data);
+        if($res){
+          return show(0,'成功4_1',$res);
+        }else{
+          return show(-1,'失败 错误代码:4_4');
+        }
+      }else{
+        return show(-1,'无列表信息 错误代码:4_1');
+      }
+    }else{
+      //删除
+      $listres = D('Chatlist') -> get_list($userid);
+      if($listres){
+        //数据库插入过此人记录
+        $flag = true;
+        $list = json_decode($listres['list'],true);
+        $newlist = array(
+          'top'    => array(),
+          'normal' => array()
+        );
+        foreach($list['top'] as $top){
+          if($top['type'] == $type && $top['id'] == $touserid){
+            $flag = false;
+          }else{
+            $newlist['top'][] = array(
+              'type' => $top['type'],
+              'id' => $top['id']
+            );
+          }
+        }
+        foreach($list['normal'] as $normal){
+          if($normal['type'] == $type && $normal['id'] == $touserid){
+            $flag = false;
+          }else{
+            $newlist['normal'][] = array(
+              'type' => $normal['type'],
+              'id' => $normal['id']
+            );
+          }
+        }
+        if($flag){
+          return show(-1,'错误对话信息 错误代码:5_2');
+        }
+        // print_r($newlist);exit;
+        $data['list'] = json_encode($newlist);
+        $res = D('Chatlist') -> update_list($userid,$data);
+        if($res){
+          return show(0,'成功5_1',$res);
+        }else{
+          return show(-1,'失败 错误代码:5_3');
+        }
+      }else{
+        return show(-1,'无列表信息 错误代码:5_1');
+      }
+    }
+  }
+
+
 
   //创建群聊
   public function create_group(){
