@@ -4,14 +4,15 @@ use Think\Controller;
 
 class ChatController extends Controller{
   function __construct() {
-    if(!session('login')) return show(-999,'未登录');
+    // if(!session('login')) return show(-999,'未登录');
   }
   
   
   //------------------------------------
   //获取列表
   public function get_chatList(){
-    $userid = session('login');
+    // $userid = session('login');
+    $userid = 3;
     if(!$userid || $userid == '' )  missing_login();
     $listres = D('Chatlist') -> get_list($userid);
     $chatlist = array();
@@ -22,10 +23,15 @@ class ChatController extends Controller{
           $userinfo = D('User') -> get_by_id($top['id']);
           $lastmessage = false;
           $lasttime = false;
+          $isread = true;
+          // echo $userid.'  =  '.$top['id'];
           $history = D('Chathistory') -> get_userlastone($userid,$top['id']);
+          // print_r($history);exit;
           if($history) {
-            $lastmessage = $history['message'];
-            $lasttime = $history['createtimes'];
+            $lastmessage = $history[0]['message'];
+            $lasttime = $history[0]['createtimes'];
+            if($userid != $history[0]['send_user'])
+              $isread = $history[0]['isread'] == 2 ? false : true;
           }
           $chatlist[] = array(
             'type'        => 1,
@@ -34,6 +40,7 @@ class ChatController extends Controller{
             'useraccount' => $userinfo['account'],
             'lastmessage' => $lastmessage,
             'lasttime'    => $lasttime,
+            'isread'      => $isread,
             'top'         => true,
             'picture'     => $userinfo['portrait']
           );
@@ -41,10 +48,12 @@ class ChatController extends Controller{
           $groupinfo = D('Groups') -> get_by_id($top['id']);
           $lastmessage = false;
           $lasttime = false;
+          $isread = true;
           $history = D('Chathistory') -> get_grouplastone($groupinfo['id']);
           if($history) {
             $lastmessage = $history['message'];
             $lasttime = $history['createtimes'];
+            $isread = $history['isread'] == 2 ? false : true;
           }
           $chatlist[] = array(
             'type'        => 2,
@@ -52,7 +61,8 @@ class ChatController extends Controller{
             'roomname'    => $groupinfo['group_name'],
             'lastmessage' => $lastmessage,
             'lasttime'    => $lasttime,
-            'top'         => $flag,
+            'isread'      => $isread,
+            'top'         => true,
             'picture'     => 'http://tic.codergzw.com/Public/img/portraits/group.png' 
           );
         }
@@ -62,10 +72,13 @@ class ChatController extends Controller{
           $userinfo = D('User') -> get_by_id($normal['id']);
           $lastmessage = false;
           $lasttime = false;
+          $isread = true;
           $history = D('Chathistory') -> get_userlastone($userid,$normal['id']);
           if($history) {
-            $lastmessage = $history['message'];
-            $lasttime = $history['createtimes'];
+            $lastmessage = $history[0]['message'];
+            $lasttime = $history[0]['createtimes'];
+            if($userid != $history[0]['send_user'])
+            $isread = $history[0]['isread'] == 2 ? false : true;
           }
           $chatlist[] = array(
             'type'        => 1,
@@ -74,6 +87,7 @@ class ChatController extends Controller{
             'useraccount' => $userinfo['account'],
             'lastmessage' => $lastmessage,
             'lasttime'    => $lasttime,
+            'isread'      => $isread,
             'top'         => false,
             'picture'     => $userinfo['portrait']
           );
@@ -81,10 +95,12 @@ class ChatController extends Controller{
           $groupinfo = D('Groups') -> get_by_id($normal['id']);
           $lastmessage = false;
           $lasttime = false;
+          $isread = true;
           $history = D('Chathistory') -> get_grouplastone($groupinfo['id']);
           if($history) {
             $lastmessage = $history['message'];
             $lasttime = $history['createtimes'];
+            $isread = $history['isread'] == 2 ? false : true;
           }
           $chatlist[] = array(
             'type'        => 2,
@@ -92,7 +108,8 @@ class ChatController extends Controller{
             'roomname'    => $groupinfo['group_name'],
             'lastmessage' => $lastmessage,
             'lasttime'    => $lasttime,
-            'top'         => $flag,
+            'isread'      => $isread,
+            'top'         => false,
             'picture'     => 'http://tic.codergzw.com/Public/img/portraits/group.png' 
           );
         }
@@ -641,8 +658,8 @@ class ChatController extends Controller{
       return show(-1,'获取失败');
     }
   }
-   //获取群组详细信息
-   public function get_groupinfo(){
+  //获取群组详细信息
+  public function get_groupinfo(){
     $userid = session('login');
     if(!$userid || $userid == '' )  missing_login();
     $groupid = I('groupid');
@@ -696,6 +713,34 @@ class ChatController extends Controller{
       }
     }else{
       return show(-1,'群组不存在');
+    }
+  }
+  //获取聊天记录
+  public function get_chathistory(){
+    $otheruserid = I('post.otheruserid');
+    $userid = 7;
+    if($otheruserid > 50000){
+      //这里是群聊
+      $list = D('Chathistory') -> get_grouphistory($otheruserid);
+    }else{
+      //这里是私聊
+      $list = D('Chathistory') -> get_userhistory($otheruserid,$userid);
+    }
+    if($list){
+      return show(0,'成功',$list);
+    }else{
+      return show(0,'暂无历史记录');
+    }
+  }
+  public function isread_history(){
+    $otheruserid = I('post.otheruserid');
+    $userid = 7;
+    if(!$otheruserid || $otheruserid == '' ) missing_parameter();
+    $res = D('Chathistory') -> isread_history($otheruserid,$userid);
+    if($res){
+      return show(0,'成功',$res);
+    }else{
+      return show(-1,'失败');
     }
   }
   public function test(){
