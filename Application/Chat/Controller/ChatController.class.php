@@ -4,15 +4,14 @@ use Think\Controller;
 
 class ChatController extends Controller{
   function __construct() {
-    // if(!session('login')) return show(-999,'未登录');
+    if(!session('login')) return show(-999,'未登录');
   }
   
   
   //------------------------------------
   //获取列表
   public function get_chatList(){
-    // $userid = session('login');
-    $userid = 3;
+    $userid = session('login');
     if(!$userid || $userid == '' )  missing_login();
     $listres = D('Chatlist') -> get_list($userid);
     $chatlist = array();
@@ -24,9 +23,7 @@ class ChatController extends Controller{
           $lastmessage = false;
           $lasttime = false;
           $isread = true;
-          // echo $userid.'  =  '.$top['id'];
           $history = D('Chathistory') -> get_userlastone($userid,$top['id']);
-          // print_r($history);exit;
           if($history) {
             $lastmessage = $history[0]['message'];
             $lasttime = $history[0]['createtimes'];
@@ -717,8 +714,9 @@ class ChatController extends Controller{
   }
   //获取聊天记录
   public function get_chathistory(){
+    $userid = session('login');
+    if(!$userid || $userid == '' )  missing_login();
     $otheruserid = I('post.otheruserid');
-    $userid = 7;
     if($otheruserid > 50000){
       //这里是群聊
       $list = D('Chathistory') -> get_grouphistory($otheruserid);
@@ -733,8 +731,9 @@ class ChatController extends Controller{
     }
   }
   public function isread_history(){
+    $userid = session('login');
+    if(!$userid || $userid == '' )  missing_login();
     $otheruserid = I('post.otheruserid');
-    $userid = 7;
     if(!$otheruserid || $otheruserid == '' ) missing_parameter();
     $res = D('Chathistory') -> isread_history($otheruserid,$userid);
     if($res){

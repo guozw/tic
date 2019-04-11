@@ -846,3 +846,31 @@ NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\
 NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChathistoryModel.class.php 第 56 行.
 SQL: UPDATE `chathistory` SET `isread`='1' WHERE `send_user` = 3 AND `to_user` = 7 [ RunTime:0.0497s ]
 
+[ 2019-04-11T22:56:06+08:00 ] ::1 /tic/?m=chat&c=chat&a=get_chathistory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `chathistory` [ RunTime:0.0131s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChathistoryModel.class.php 第 10 行.
+SQL: SELECT c.type as type ,c.send_user as send_user,u.account as send_account,u.nickname as send_nickname,u.portrait as portrait,
+                    c.to_user as touser,c.message as message,c.isread as isread,c.createtimes as createtimes
+          FROM chathistory c
+          LEFT JOIN `user` u ON u.id = c.send_user
+          WHERE (c.to_user = "3" AND c.send_user = "7" ) OR (c.to_user = "7" AND c.send_user = "3" )
+          ORDER BY c.createtime ASC [ RunTime:0.0005s ]
+
+[ 2019-04-11T22:57:31+08:00 ] ::1 /tic/?m=chat&c=chat&a=isread_history
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `chathistory` [ RunTime:0.0107s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChathistoryModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ChathistoryModel.class.php 第 56 行.
+SQL: UPDATE `chathistory` SET `isread`='1' WHERE `send_user` = 3 AND `to_user` = 7 [ RunTime:0.0316s ]
+
