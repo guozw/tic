@@ -34,6 +34,10 @@ class FriendModel extends Model{
     $result = $this -> $_db -> query($sql);
     return $result;
   }
- 
+  public function delOne($userid,$friendid){
+    $where['userid'] = $userid;
+    $where['friendid'] = $friendid;
+    return $this -> $_db -> where($where) -> delete();
+  }
 
 }

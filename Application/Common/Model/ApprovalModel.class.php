@@ -56,6 +56,13 @@ class ApprovalModel extends Model{
     $data['isread'] = 2;
     return $this -> $_db -> where($where) -> save($data);
   }
+  public function isdouble($userid,$approvalid){
+    $where['userid'] = $userid;
+    $where['approvalid'] = $approvalid;
+    $where['isread'] = 3;
+    $data['isread'] = 1;
+    return $this -> $_db -> where($where) -> save($data);
+  }
   public function update_approval($id){
     $where['id'] = $id;
     $data['isread'] = 3;

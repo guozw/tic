@@ -717,6 +717,8 @@ class ChatController extends Controller{
     $userid = session('login');
     if(!$userid || $userid == '' )  missing_login();
     $otheruserid = I('post.otheruserid');
+    if(!$otheruserid || $otheruserid == '' ) missing_parameter();
+    
     if($otheruserid > 50000){
       //这里是群聊
       $list = D('Chathistory') -> get_grouphistory($otheruserid);

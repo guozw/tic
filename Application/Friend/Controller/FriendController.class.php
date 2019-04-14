@@ -78,7 +78,16 @@ class FriendController extends Controller{
     }
     $row = D('Approval') -> get_one($userid,$approvalid);
     if($row){
-      return show(-1,'您已申请，请勿重复申请');
+      if($row['isread'] == 3){
+        $res = D('Approval') -> isdouble($userid,$approvalid);
+        if($res){
+          return show(0,'申请成功',$res);
+        }else{
+          return show(-1,'申请失败 错误代码1_2');
+        }
+      }else{
+        return show(-1,'您已申请，请勿重复申请');
+      }
     }
     $data['userid'] = $userid;
     $data['approvalid'] = $approvalid;
@@ -123,7 +132,6 @@ class FriendController extends Controller{
     if(!$userid || $userid == '' )
       missing_login();
     // $userid = I('post.userid');
-    if(!$userid || $userid == '') missing_parameter();
     $list = D('Approval') -> get_noread_list($userid);
     if($list){
       return show(0,'获取成功',count($list));
@@ -131,7 +139,27 @@ class FriendController extends Controller{
       return show(0,'无未读信息',0);
     }
   }
-
+  //删除好友
+  public function delFriend(){
+    $userid = session('login');
+    if(!$userid || $userid == '' )
+      missing_login();
+    $friendid = I('post.friendid');
+    if(!$friendid || $friendid == '') missing_parameter();
+    if($userid < $friendid){
+      $res = D('Friend') -> delOne($userid,$friendid);
+    }else if($friendid < $userid){
+      $res = D('Friend') -> delOne($friendid,$userid);
+    }else{
+      return show(-1,'非法id');
+    }
+    
+    if($res){
+      return show(0,'删除成功',$res);
+    }else{
+      return show(-1,'删除失败');
+    }
+  }
 
 
 }
