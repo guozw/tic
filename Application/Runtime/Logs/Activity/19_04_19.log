@@ -1,0 +1,890 @@
+[ 2019-04-19T14:46:43+08:00 ] ::1 /tic/?m=activity&c=activity&a=add_activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0035s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 36 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2019-04-19T14:46:59+08:00 ] ::1 /tic/?m=activity&c=activity&a=add_activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 36 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 51 行.
+SQL: UPDATE `user` SET `score`='180' WHERE `id` = 3 [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0014s ]
+SQL: INSERT INTO `activity` (`title`,`type`,`content`,`userid`,`score`,`maxuser`,`systemscore`,`joinuser`) VALUES ('一起去看复联四','1','就要小姐姐,非小姐姐勿报名','3','20','4','10','3') [ RunTime:0.0009s ]
+
+[ 2019-04-19T14:48:22+08:00 ] ::1 /tic/?m=activity&c=activity&a=add_activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 36 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 51 行.
+SQL: UPDATE `user` SET `score`='160' WHERE `id` = 3 [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0016s ]
+SQL: INSERT INTO `activity` (`title`,`type`,`content`,`userid`,`score`,`maxuser`,`systemscore`,`joinuser`) VALUES ('一起去看复联四','1','就要小姐姐,非小姐姐勿报名','3','20','4','10','3') [ RunTime:0.0008s ]
+
+[ 2019-04-19T14:49:09+08:00 ] ::1 /tic/?m=activity&c=activity&a=add_activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0037s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 36 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 51 行.
+SQL: UPDATE `user` SET `score`='160' WHERE `id` = 3 [ RunTime:0.0011s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0035s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 21 行.
+SQL: INSERT INTO `activity` (`title`,`type`,`content`,`userid`,`score`,`maxuser`,`systemscore`,`joinuser`,`createtime`,`createtimes`,`status`) VALUES ('一起去看复联四','1','就要小姐姐,非小姐姐勿报名','3','20','4','10','3','1555656549','2019-04-19 14:49:09','1') [ RunTime:0.0010s ]
+
+[ 2019-04-19T15:30:11+08:00 ] ::1 /tic/?m=activity&c=activity&a=add_activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 36 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 51 行.
+SQL: UPDATE `user` SET `score`='140' WHERE `id` = 3 [ RunTime:0.0009s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 21 行.
+SQL: INSERT INTO `activity` (`title`,`type`,`content`,`starttimes`,`userid`,`score`,`maxuser`,`systemscore`,`joinuser`,`createtime`,`createtimes`,`status`) VALUES ('一起去看复联四','1','就要小姐姐,非小姐姐勿报名','2019-04-19 16:00:05','3','20','4','10','3','1555659011','2019-04-19 15:30:11','1') [ RunTime:0.0024s ]
+
+[ 2019-04-19T15:42:26+08:00 ] ::1 /tic/?m=activity&c=activity&a=join_activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 20 行.
+SQL: SELECT * FROM `activity` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-04-19T15:43:15+08:00 ] ::1 /tic/?m=activity&c=activity&a=join_activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 20 行.
+SQL: SELECT * FROM `activity` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-04-19T15:43:48+08:00 ] ::1 /tic/?m=activity&c=activity&a=join_activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0027s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 20 行.
+SQL: SELECT * FROM `activity` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-04-19T15:44:15+08:00 ] ::1 /tic/?m=activity&c=activity&a=join_activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 20 行.
+SQL: SELECT * FROM `activity` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-04-19T15:44:19+08:00 ] ::1 /tic/?m=activity&c=activity&a=join_activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0021s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 20 行.
+SQL: SELECT * FROM `activity` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2019-04-19T15:44:37+08:00 ] ::1 /tic/?m=activity&c=activity&a=join_activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 20 行.
+SQL: SELECT * FROM `activity` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-04-19T15:44:50+08:00 ] ::1 /tic/?m=activity&c=activity&a=join_activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001171s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0035s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 20 行.
+SQL: SELECT * FROM `activity` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0007s ]
+ERR: Think\Model:join_activity方法不存在！
+
+[ 2019-04-19T15:45:31+08:00 ] ::1 /tic/?m=activity&c=activity&a=join_activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 20 行.
+SQL: SELECT * FROM `activity` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 26 行.
+SQL: UPDATE `activity` SET `joinuser`='4|3' WHERE `id` = 4 [ RunTime:0.0086s ]
+
+[ 2019-04-19T15:45:41+08:00 ] ::1 /tic/?m=activity&c=activity&a=join_activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 20 行.
+SQL: SELECT * FROM `activity` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 26 行.
+SQL: UPDATE `activity` SET `joinuser`='4|2|3' WHERE `id` = 4 [ RunTime:0.0006s ]
+
+[ 2019-04-19T15:45:46+08:00 ] ::1 /tic/?m=activity&c=activity&a=join_activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 20 行.
+SQL: SELECT * FROM `activity` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 26 行.
+SQL: UPDATE `activity` SET `joinuser`='4|2|6|3' WHERE `id` = 4 [ RunTime:0.0067s ]
+
+[ 2019-04-19T15:45:55+08:00 ] ::1 /tic/?m=activity&c=activity&a=join_activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 20 行.
+SQL: SELECT * FROM `activity` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-04-19T15:50:54+08:00 ] ::1 /tic/?m=activity&c=activity&a=exit_activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 20 行.
+SQL: SELECT * FROM `activity` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 26 行.
+SQL: UPDATE `activity` SET `joinuser`='4|2|6' WHERE `id` = 4 [ RunTime:0.0016s ]
+
+[ 2019-04-19T15:50:57+08:00 ] ::1 /tic/?m=activity&c=activity&a=exit_activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 20 行.
+SQL: SELECT * FROM `activity` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-04-19T16:16:35+08:00 ] ::1 /tic/?m=activity&c=activity&a=finish_activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005974s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0204s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 20 行.
+SQL: SELECT * FROM `activity` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-04-19T16:16:44+08:00 ] ::1 /tic/?m=activity&c=activity&a=finish_activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 20 行.
+SQL: SELECT * FROM `activity` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0066s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 51 行.
+SQL: UPDATE `user` SET `score`=score+15 WHERE `id` = 4 [ RunTime:0.0027s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 51 行.
+SQL: UPDATE `user` SET `score`=score+15 WHERE `id` = 2 [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 51 行.
+SQL: UPDATE `user` SET `score`=score+15 WHERE `id` = 6 [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 51 行.
+SQL: UPDATE `user` SET `score`=score+15 WHERE `id` = 3 [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 26 行.
+SQL: UPDATE `activity` SET `stage`='3' WHERE `id` = 4 [ RunTime:0.0008s ]
+
+[ 2019-04-19T16:19:13+08:00 ] ::1 /tic/?m=activity&c=activity&a=throw_activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 20 行.
+SQL: SELECT * FROM `activity` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2019-04-19T16:19:16+08:00 ] ::1 /tic/?m=activity&c=activity&a=throw_activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 20 行.
+SQL: SELECT * FROM `activity` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2019-04-19T16:19:31+08:00 ] ::1 /tic/?m=activity&c=activity&a=throw_activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001673s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 20 行.
+SQL: SELECT * FROM `activity` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 51 行.
+SQL: UPDATE `user` SET `score`=score+20 WHERE `id` = 3 [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 26 行.
+SQL: UPDATE `activity` SET `stage`='4' WHERE `id` = 3 [ RunTime:0.0004s ]
+
+[ 2019-04-19T16:31:40+08:00 ] ::1 /tic/?m=activity&c=activity&a=get_activity_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001754s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0033s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 29 行.
+SQL: SELECT * FROM `activity` WHERE `status` = 1  [ RunTime:0.0500s ]
+
+[ 2019-04-19T16:35:20+08:00 ] ::1 /tic/?m=activity&c=activity&a=get_activity_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 29 行.
+SQL: SELECT * FROM `activity` WHERE `status` = 1  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001454s ]
+
+[ 2019-04-19T16:35:48+08:00 ] ::1 /tic/?m=activity&c=activity&a=get_activity_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 29 行.
+SQL: SELECT * FROM `activity` WHERE `status` = 1  [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001727s ]
+
+[ 2019-04-19T16:38:27+08:00 ] ::1 /tic/?m=activity&c=activity&a=get_activity_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 29 行.
+SQL: SELECT * FROM `activity` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: userarr /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 244 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 244 行.
+NOTIC: [8] Undefined variable: userarr /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 244 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 244 行.
+NOTIC: [8] Undefined variable: userarr /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 244 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 244 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001289s ]
+
+[ 2019-04-19T16:38:46+08:00 ] ::1 /tic/?m=activity&c=activity&a=get_activity_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0036s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 29 行.
+SQL: SELECT * FROM `activity` WHERE `status` = 1  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: userarr /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 244 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 244 行.
+NOTIC: [8] Undefined variable: userarr /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 244 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 244 行.
+NOTIC: [8] Undefined variable: userarr /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 244 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 244 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2019-04-19T16:39:05+08:00 ] ::1 /tic/?m=activity&c=activity&a=get_activity_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0031s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 29 行.
+SQL: SELECT * FROM `activity` WHERE `status` = 1  [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001206s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001284s ]
+
+[ 2019-04-19T16:49:43+08:00 ] ::1 /tic/?m=activity&c=activity&a=get_activity_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 35 行.
+SQL: SELECT * FROM `activity` WHERE `userid` = 3 AND `status` = 1  [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-19T16:49:59+08:00 ] ::1 /tic/?m=activity&c=activity&a=get_activity_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0035s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+SQL: SELECT
+              * 
+            FROM
+            activity 
+            WHERE
+              joinuser REGEXP "^3|" 
+              OR joinuser REGEXP "|3$" 
+              OR joinuser REGEXP "|3|" [ RunTime:0.0031s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0088s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-04-19T16:50:42+08:00 ] ::1 /tic/?m=activity&c=activity&a=get_activity_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 35 行.
+SQL: SELECT * FROM `activity` WHERE `userid` = 3 AND `status` = 1  [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-04-19T16:50:54+08:00 ] ::1 /tic/?m=activity&c=activity&a=get_activity_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+SQL: SELECT
+              * 
+            FROM
+            activity 
+            WHERE
+              joinuser REGEXP "^3|" 
+              OR joinuser REGEXP "|3$" 
+              OR joinuser REGEXP "|3|" [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0063s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0027s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-19T16:51:52+08:00 ] ::1 /tic/?m=activity&c=activity&a=get_activity_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0046s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+SQL: SELECT
+              * 
+            FROM
+            activity 
+            WHERE
+              joinuser REGEXP "^3|" 
+              OR joinuser REGEXP "|3$" 
+              OR joinuser = "3" 
+              OR joinuser REGEXP "|3|" [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-19T16:59:23+08:00 ] ::1 /tic/?m=activity&c=activity&a=get_activity_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0026s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 29 行.
+SQL: SELECT * FROM `activity` WHERE `status` = 1  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: one /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 277 行.
+NOTIC: [8] Undefined index: joinuser /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 283 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: userid /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 277 行.
+NOTIC: [8] Undefined index: joinuser /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 283 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: userid /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 277 行.
+NOTIC: [8] Undefined index: joinuser /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 283 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-19T17:01:26+08:00 ] ::1 /tic/?m=activity&c=activity&a=get_activity_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 29 行.
+SQL: SELECT * FROM `activity` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: one /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 283 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0027s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: one /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 283 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 2 /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 277 行.
+NOTIC: [8] Undefined variable: one /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 283 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-19T17:01:52+08:00 ] ::1 /tic/?m=activity&c=activity&a=get_activity_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 29 行.
+SQL: SELECT * FROM `activity` WHERE `status` = 1  [ RunTime:0.0004s ]
+
+[ 2019-04-19T17:02:32+08:00 ] ::1 /tic/?m=activity&c=activity&a=get_activity_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 29 行.
+SQL: SELECT * FROM `activity` WHERE `status` = 1  [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 2 /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 278 行.
+NOTIC: [8] Undefined index: joinuser /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 284 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-04-19T17:02:56+08:00 ] ::1 /tic/?m=activity&c=activity&a=get_activity_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 35 行.
+SQL: SELECT * FROM `activity` WHERE `userid` = 3 AND `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-19T17:03:03+08:00 ] ::1 /tic/?m=activity&c=activity&a=get_activity_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0026s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 29 行.
+SQL: SELECT * FROM `activity` WHERE `status` = 1  [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-19T17:03:43+08:00 ] ::1 /tic/?m=activity&c=activity&a=get_activity_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 29 行.
+SQL: SELECT * FROM `activity` WHERE `status` = 1  [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 2 /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 278 行.
+NOTIC: [8] Undefined index: joinuser /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 284 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-19T17:04:26+08:00 ] ::1 /tic/?m=activity&c=activity&a=get_activity_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 35 行.
+SQL: SELECT * FROM `activity` WHERE `userid` = 3 AND `status` = 1  [ RunTime:0.0016s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-19T17:05:24+08:00 ] ::1 /tic/?m=activity&c=activity&a=get_activity_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0032s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 29 行.
+SQL: SELECT * FROM `activity` WHERE `status` = 1  [ RunTime:0.0013s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 2 /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 277 行.
+NOTIC: [8] Undefined index: joinuser /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 283 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-04-19T17:06:07+08:00 ] ::1 /tic/?m=activity&c=activity&a=get_activity_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0038s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 29 行.
+SQL: SELECT * FROM `activity` WHERE `status` = 1  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0011s ]
+
