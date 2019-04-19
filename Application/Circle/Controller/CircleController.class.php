@@ -18,7 +18,6 @@ class CircleController extends Controller{
         $circle['circlecount'] = $circlecount;
         $usercount = count(D('Circle_user') -> get_by_circleid($circle['id']));
         $circle['circleusercount'] = $usercount;
-        
       }
       return show(0,'成功',$list);
     }else{
@@ -202,6 +201,57 @@ class CircleController extends Controller{
       return show(-1,'删除失败');
     }
   }
+  //管理员可删除帖子
+  public function delcircle(){
+    $userid = session('login');
+    if(!$userid || $userid == '' )
+      missing_login();
+    $circiesid = I('post.tieziid');
+    $circleid = I('post.circleid');
+    if(!$circiesid || $circiesid == '' || !$circleid || $circleid == '') missing_parameter();
+    $res = D('Circle_info') -> get_by_id($circleid);
+    if($res){
+      if($res['circle_admin'] == $userid){
+        $resdel = D('Circle') -> del_circles($circiesid);
+        if($resdel){
+          return show(0,'成功',$resdel);
+        }else{
+          return show(-1,'失败,错误代码1_2');
+        }
+      }else{
+        return show(-1,'您不是管理员无法删除帖子');
+      }
+    }else{
+      return show(-1,'失败,错误代码1_1');
+    }
+  }
+  //推荐圈子
+  public function get_recommend_Circle(){
+    $list = D('Circle_info') -> get_all();
+    if($list){
+      // print_r($list);exit;
+      foreach($list as &$circle){
+        $circlecount = count(D('Circle') -> get_by_circleid($circle['id']));
+        $circle['circlecount'] = $circlecount;
+        $usercount = count(D('Circle_user') -> get_by_circleid($circle['id']));
+        $circle['circleusercount'] = $usercount;
+      }
+      $count = count($list);
+      if($count > 1){
+        $seed = time();
+        mt_srand($seed);
+        $count = $count - 1;
+        $index = rand(0,$count);
+        $newlist = $list[$index];
+        return show(0,'成功',$newlist);
+      }else{
+        return show(0,'成功',$list);
+      }
+    }else{
+      return show(0,'暂无更多圈子');
+    }
+  }
+
   
   public function test(){
     print_r(session('login'));

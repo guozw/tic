@@ -41,4 +41,9 @@ class CircleModel extends Model{
     $where['id'] = $circlesid;
     return $this -> $_db -> where($where) -> save($data);
   }
+  public function del_circles($circlesid){
+    $where['id'] = $circlesid;
+    $data['status'] = -1;
+    return $this -> $_db -> where($where) -> save($data);
+  }
 }

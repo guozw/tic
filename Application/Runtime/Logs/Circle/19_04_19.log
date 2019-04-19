@@ -1,0 +1,106 @@
+[ 2019-04-19T10:09:33+08:00 ] ::1 /tic/?m=circle&c=circle&a=get_recommend_Circle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+NOTIC: [2048] Declaration of Common\Model\Circle_infoModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/Circle_infoModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `circle_info` [ RunTime:0.0033s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/Circle_infoModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/Circle_infoModel.class.php 第 24 行.
+SQL: SELECT ci.id as id,ci.circle_name,ci.circle_picture,u.id as userid,u.nickname,u.account,u.portrait
+            FROM circle_info ci
+            LEFT JOIN user u ON u.id = ci.circle_admin
+            WHERE  ci.`status` = 1 [ RunTime:0.0017s ]
+NOTIC: [2048] Declaration of Common\Model\CircleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/CircleModel.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `circle` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/CircleModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/CircleModel.class.php 第 23 行.
+SQL: SELECT * FROM `circle` WHERE `circleid` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\Circle_userModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/Circle_userModel.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `circle_user` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/Circle_userModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/Circle_userModel.class.php 第 28 行.
+SQL: SELECT * FROM `circle_user` WHERE `circleid` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/CircleModel.class.php 第 23 行.
+SQL: SELECT * FROM `circle` WHERE `circleid` = 2 AND `status` = 1  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/Circle_userModel.class.php 第 28 行.
+SQL: SELECT * FROM `circle_user` WHERE `circleid` = 2 AND `status` = 1  [ RunTime:0.0003s ]
+
+[ 2019-04-19T10:09:39+08:00 ] ::1 /tic/?m=circle&c=circle&a=get_recommend_Circle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+NOTIC: [2048] Declaration of Common\Model\Circle_infoModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/Circle_infoModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `circle_info` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/Circle_infoModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/Circle_infoModel.class.php 第 24 行.
+SQL: SELECT ci.id as id,ci.circle_name,ci.circle_picture,u.id as userid,u.nickname,u.account,u.portrait
+            FROM circle_info ci
+            LEFT JOIN user u ON u.id = ci.circle_admin
+            WHERE  ci.`status` = 1 [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\CircleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/CircleModel.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `circle` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/CircleModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/CircleModel.class.php 第 23 行.
+SQL: SELECT * FROM `circle` WHERE `circleid` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\Circle_userModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/Circle_userModel.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `circle_user` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/Circle_userModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/Circle_userModel.class.php 第 28 行.
+SQL: SELECT * FROM `circle_user` WHERE `circleid` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/CircleModel.class.php 第 23 行.
+SQL: SELECT * FROM `circle` WHERE `circleid` = 2 AND `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/Circle_userModel.class.php 第 28 行.
+SQL: SELECT * FROM `circle_user` WHERE `circleid` = 2 AND `status` = 1  [ RunTime:0.0003s ]
+
+[ 2019-04-19T10:09:44+08:00 ] ::1 /tic/?m=circle&c=circle&a=get_recommend_Circle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+NOTIC: [2048] Declaration of Common\Model\Circle_infoModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/Circle_infoModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `circle_info` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/Circle_infoModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/Circle_infoModel.class.php 第 24 行.
+SQL: SELECT ci.id as id,ci.circle_name,ci.circle_picture,u.id as userid,u.nickname,u.account,u.portrait
+            FROM circle_info ci
+            LEFT JOIN user u ON u.id = ci.circle_admin
+            WHERE  ci.`status` = 1 [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\CircleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/CircleModel.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `circle` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/CircleModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/CircleModel.class.php 第 23 行.
+SQL: SELECT * FROM `circle` WHERE `circleid` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\Circle_userModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/Circle_userModel.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `circle_user` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/Circle_userModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/Circle_userModel.class.php 第 28 行.
+SQL: SELECT * FROM `circle_user` WHERE `circleid` = 1 AND `status` = 1  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/CircleModel.class.php 第 23 行.
+SQL: SELECT * FROM `circle` WHERE `circleid` = 2 AND `status` = 1  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/Circle_userModel.class.php 第 28 行.
+SQL: SELECT * FROM `circle_user` WHERE `circleid` = 2 AND `status` = 1  [ RunTime:0.0002s ]
+
+[ 2019-04-19T10:31:33+08:00 ] ::1 /tic/?m=circle&c=circle&a=get_fans_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+
+[ 2019-04-19T10:31:53+08:00 ] ::1 /tic/?m=circle&c=circle&a=get_fans_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003817s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+

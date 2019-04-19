@@ -1,0 +1,30 @@
+[ 2019-04-19T10:32:18+08:00 ] ::1 /tic/?m=fans&c=fans&a=get_fans_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+SQL: SHOW COLUMNS FROM `fans` [ RunTime:0.0033s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/FansModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/FansModel.class.php 第 33 行.
+SQL: select u.id as id ,account,email,nickname,sex,portrait,score,province,city,phone,birthday,constellation,`describe`,u.createtimes as createtimes
+    from fans f
+    LEFT JOIN `user` u on f.fansid = u.id 
+    where f.userid = '3' [ RunTime:0.0027s ]
+
+[ 2019-04-19T10:33:17+08:00 ] ::1 /tic/?m=fans&c=fans&a=get_follow_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `fans` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/FansModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/FansModel.class.php 第 41 行.
+SQL: select u.id as id ,account,email,nickname,sex,portrait,score,province,city,phone,birthday,constellation,`describe`,u.createtimes as createtimes
+    from fans f
+    LEFT JOIN `user` u on f.fansid = u.id 
+    where f.fansid = '3' [ RunTime:0.0003s ]
+
