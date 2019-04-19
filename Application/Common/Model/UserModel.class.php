@@ -64,6 +64,11 @@ class UserModel extends Model{
     return $this -> $_db -> field('id,account,nickname') -> where($where) -> find();
     //  $this -> $_db->getLastSql();
   }
+  public function get_user_sortinfo2($userid){
+    $where['id'] = $userid;
+    return $this -> $_db -> field('id,account,nickname,portrait') -> where($where) -> find();
+    //  $this -> $_db->getLastSql();
+  }
   public function get_email_account($account,$email){
     $where['account'] = $account;
     $where['email'] = $email;

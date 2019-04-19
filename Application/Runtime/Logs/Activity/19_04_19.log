@@ -888,3 +888,218 @@ SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 6 LIMIT 1   [ Run
 NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 64 行.
 SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0011s ]
 
+[ 2019-04-19T17:19:27+08:00 ] ::1 /tic/?m=activity&c=activity&a=get_activity_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 29 行.
+SQL: SELECT * FROM `activity` WHERE `status` = 1  [ RunTime:0.0011s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: one /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 281 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: ownuserinfo /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 282 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: one /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 281 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: ownuserinfo /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 282 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: one /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 281 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: ownuserinfo /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 282 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-19T17:19:54+08:00 ] ::1 /tic/?m=activity&c=activity&a=get_activity_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 35 行.
+SQL: SELECT * FROM `activity` WHERE `userid` = 3 AND `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-19T17:20:01+08:00 ] ::1 /tic/?m=activity&c=activity&a=get_activity_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 29 行.
+SQL: SELECT * FROM `activity` WHERE `status` = 1  [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-04-19T17:20:11+08:00 ] ::1 /tic/?m=activity&c=activity&a=get_activity_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 29 行.
+SQL: SELECT * FROM `activity` WHERE `status` = 1  [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: one /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 281 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ownuserinfo /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 282 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: one /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 281 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: ownuserinfo /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 282 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: one /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 281 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: ownuserinfo /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 282 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-04-19T17:20:27+08:00 ] ::1 /tic/?m=activity&c=activity&a=get_activity_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 29 行.
+SQL: SELECT * FROM `activity` WHERE `status` = 1  [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: ownuserinfo /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 282 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: ownuserinfo /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 282 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: ownuserinfo /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Activity/Controller/ActivityController.class.php 第 282 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-04-19T17:20:48+08:00 ] ::1 /tic/?m=activity&c=activity&a=get_activity_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+NOTIC: [2048] Declaration of Common\Model\ActivityModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/ActivityModel.class.php 第 29 行.
+SQL: SELECT * FROM `activity` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: _db /Applications/XAMPP/xamppfiles/htdocs/tic/Application/Common/Model/UserModel.class.php 第 69 行.
+SQL: SELECT `id`,`account`,`nickname`,`portrait` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0011s ]
+

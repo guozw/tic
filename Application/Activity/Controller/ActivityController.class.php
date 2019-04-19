@@ -235,6 +235,8 @@ class ActivityController extends Controller{
       $list = D('Activity') -> get_list();
       if($list){
         foreach($list as &$one){
+          $ownuser = D('User') -> get_user_sortinfo2($one['userid']);
+          $one['ownuserinfo'] = $ownuser;
           if($one['userid'] == $userid){
             $one['isown'] = true;
           }else{
@@ -243,7 +245,7 @@ class ActivityController extends Controller{
           $joinuser = $one['joinuser'];
           $joinarr = explode('|',$joinuser);
           foreach($joinarr as &$userone){
-            $usersortinfo = D('User') -> get_user_sortinfo($userone);
+            $usersortinfo = D('User') -> get_user_sortinfo2($userone);
             $one['users'][] = $usersortinfo;
           }
         }
@@ -256,11 +258,13 @@ class ActivityController extends Controller{
       $list = D('Activity') -> get_list_own($userid);
       if($list){
         foreach($list as &$one){
+          $ownuser = D('User') -> get_user_sortinfo2($one['userid']);
+          $one['ownuserinfo'] = $ownuser;
           $one['isown'] = true;
           $joinuser = $one['joinuser'];
           $joinarr = explode('|',$joinuser);
           foreach($joinarr as &$userone){
-            $usersortinfo = D('User') -> get_user_sortinfo($userone);
+            $usersortinfo = D('User') -> get_user_sortinfo2($userone);
             $one['users'][] = $usersortinfo;
           }
         }
@@ -274,6 +278,8 @@ class ActivityController extends Controller{
       if($list){
         $count = count($list);
         for($i = 0 ; $i < $count ; $i ++){
+          $ownuser = D('User') -> get_user_sortinfo2($list[$i]['userid']);
+          $list[$i]['ownuserinfo'] = $ownuser;
           if($list[$i]['userid'] == $userid){
             $list[$i]['isown'] = true;
           }else{
@@ -286,7 +292,7 @@ class ActivityController extends Controller{
             if($userone == $userid){
               $flag = 0;
             }
-            $usersortinfo = D('User') -> get_user_sortinfo($userone);
+            $usersortinfo = D('User') -> get_user_sortinfo2($userone);
             $list[$i]['users'][] = $usersortinfo;
           }
           if($flag){
