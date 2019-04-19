@@ -226,7 +226,7 @@ class CircleController extends Controller{
     }
   }
   //推荐圈子
-  public function get_recommend_Circle(){
+  public function get_recommend_circle(){
     $list = D('Circle_info') -> get_all();
     if($list){
       // print_r($list);exit;
