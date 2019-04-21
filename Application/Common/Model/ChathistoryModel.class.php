@@ -26,7 +26,7 @@ class ChathistoryModel extends Model{
     return $result;
   }
   public function get_grouphistory($groupid){
-    $sql = 'SELECT c.type as type ,c.send_user as send_user,u.account as send_account,u.nickname as send_nickname,u.portrait as portrait,
+    $sql = 'SELECT c.id as historyid,c.type as type ,c.send_user as send_user,u.account as send_account,u.nickname as send_nickname,u.portrait as portrait,
                     c.to_user as touser,c.message as message,c.isread as isread,c.createtimes as createtimes
           FROM chathistory c
           LEFT JOIN `user` u ON u.id = c.send_user
@@ -38,7 +38,7 @@ class ChathistoryModel extends Model{
 
   }
   public function get_userhistory($userid,$touserid){
-    $sql = 'SELECT c.type as type ,c.send_user as send_user,u.account as send_account,u.nickname as send_nickname,u.portrait as portrait,
+    $sql = 'SELECT c.id as historyid,c.type as type ,c.send_user as send_user,u.account as send_account,u.nickname as send_nickname,u.portrait as portrait,
                     c.to_user as touser,c.message as message,c.isread as isread,c.createtimes as createtimes
           FROM chathistory c
           LEFT JOIN `user` u ON u.id = c.send_user
