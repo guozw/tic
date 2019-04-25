@@ -251,7 +251,53 @@ class CircleController extends Controller{
       return show(0,'暂无更多圈子');
     }
   }
-
+  //获取自己加入的的圈子
+  public function get_my_circle(){
+    $userid = session('login');
+    if(!$userid || $userid == '' )
+      missing_login();
+    $list = D('Circle_user') -> get_my_circle($userid);
+    // print_r($list);exit;
+    if($list){
+      // print_r($list);exit;
+      foreach($list as &$circle){
+        $circlecount = count(D('Circle') -> get_by_circleid($circle['id']));
+        $circle['circlecount'] = $circlecount;
+        $usercount = count(D('Circle_user') -> get_by_circleid($circle['id']));
+        $circle['circleusercount'] = $usercount;
+      }
+      return show(0,'成功',$list);
+    }else{
+      return show(0,'您未加入圈子');
+    }
+  }
+  //退出圈子
+  public function out_circle(){
+    $userid = session('login');
+    if(!$userid || $userid == '' )
+      missing_login();
+    $circleid = I('post.circleid');
+    if( !$circleid || $circleid == '' ) missing_parameter();
+    $ishave = D('Circle_info') -> get_by_id($circleid);
+    if($ishave){
+      $isjoin = D('Circle_user') -> get_by_userid($userid,$circleid);
+      if($isjoin){
+        $where['userid'] = $userid;
+        $where['circleid'] = $circleid;
+        $res = D('Circle_user') -> out_circle($where);
+        if($res){
+          return show(0,'成功',$res);
+        }else{
+          return show(-1,'失败');
+        }
+      }else{
+        return show(-1,'您未加入该圈子');
+        
+      }
+    }else{
+      return show(-1,'圈子不存在');
+    }
+  }
   
   public function test(){
     print_r(session('login'));

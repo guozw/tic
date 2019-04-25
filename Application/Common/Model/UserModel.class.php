@@ -75,5 +75,7 @@ class UserModel extends Model{
     return $this -> $_db -> where($where) -> find();
   }
 
-
+  public function get_score_rank(){
+    return $this -> $_db -> field('id,account,nickname,portrait,score') -> order('score desc') -> limit(10) -> select();
+  }
 }

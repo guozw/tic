@@ -49,7 +49,16 @@ class ActivityModel extends Model{
     $result = $Model->query($sql);
     return $result;
   }
-  
+  public function get_activity_rank(){
+    $sql = "select tt.id,tt.nickname,tt.account,tt.portrait,count(*) as activitynum
+    FROM activity c
+    left join `user` tt on c.userid = tt.id
+    group by tt.id
+    ORDER BY activitynum desc
+    LIMIT 10";
+    $result = $this -> $_db -> query($sql);
+    return $result;
+  }
   
  
 }

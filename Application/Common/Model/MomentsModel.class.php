@@ -42,4 +42,14 @@ class MomentsModel extends Model{
     return $this -> $_db -> where($where) -> save($data);
   }
 
+  public function get_moments_rank(){
+    $sql = "select tt.id,tt.nickname,tt.account,tt.portrait,count(*) as momentsnum
+    FROM moments c
+    left join `user` tt on c.userid = tt.id
+    group by tt.id
+    ORDER BY momentsnum desc
+    LIMIT 10";
+    $result = $this -> $_db -> query($sql);
+    return $result;
+  }
 }
