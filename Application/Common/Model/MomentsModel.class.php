@@ -43,11 +43,11 @@ class MomentsModel extends Model{
   }
 
   public function get_moments_rank(){
-    $sql = "select tt.id,tt.nickname,tt.account,tt.portrait,count(*) as momentsnum
+    $sql = "select tt.id,tt.nickname,tt.account,tt.portrait,count(*) as data
     FROM moments c
     left join `user` tt on c.userid = tt.id
     group by tt.id
-    ORDER BY momentsnum desc
+    ORDER BY data desc
     LIMIT 10";
     $result = $this -> $_db -> query($sql);
     return $result;

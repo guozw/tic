@@ -21,7 +21,7 @@ class RankController extends Controller{
           'account'  => 0,
           'nickname' => '暂无用户',
           'portrait' => 'http://tic.codergzw.com/Public/img/portraits/mandefault.png',
-          'score'    => 0
+          'data'    => 0
         );
       }
       $real_list = D('User') -> get_score_rank();
@@ -33,7 +33,7 @@ class RankController extends Controller{
           'account'   => 0,
           'nickname'  => '暂无用户',
           'portrait'  => 'http://tic.codergzw.com/Public/img/portraits/mandefault.png',
-          'circlenum' => 0
+          'data' => 0
         );
       }
       $real_list = D('Circle') -> get_circle_rank();
@@ -45,7 +45,7 @@ class RankController extends Controller{
           'account'   => 0,
           'nickname'  => '暂无用户',
           'portrait'  => 'http://tic.codergzw.com/Public/img/portraits/mandefault.png',
-          'momentsnum' => 0
+          'data' => 0
         );
       }
       $real_list = D('Moments') -> get_moments_rank();
@@ -57,7 +57,7 @@ class RankController extends Controller{
           'account'   => 0,
           'nickname'  => '暂无用户',
           'portrait'  => 'http://tic.codergzw.com/Public/img/portraits/mandefault.png',
-          'activitynum' => 0
+          'data' => 0
         );
       }
       $real_list = D('Activity') -> get_activity_rank();

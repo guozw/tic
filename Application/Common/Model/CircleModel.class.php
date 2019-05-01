@@ -47,11 +47,11 @@ class CircleModel extends Model{
     return $this -> $_db -> where($where) -> save($data);
   }
   public function get_circle_rank(){
-    $sql = "select tt.id,tt.nickname,tt.account,tt.portrait,count(*) as circlenum
+    $sql = "select tt.id,tt.nickname,tt.account,tt.portrait,count(*) as data
     FROM circle c
     left join `user` tt on c.userid = tt.id
     group by tt.id
-    ORDER BY circlenum desc
+    ORDER BY data desc
     LIMIT 10";
     $result = $this -> $_db -> query($sql);
     return $result;
