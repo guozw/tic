@@ -1,0 +1,120 @@
+[ 2019-05-01T10:57:32+08:00 ] ::1 /tic/?m=information&c=information&a=get_information
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `information` [ RunTime:0.0129s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\InformationModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\InformationModel.class.php 第 15 行.
+SQL: SELECT * FROM `information` ORDER BY istop desc,createtime desc  [ RunTime:0.0003s ]
+
+[ 2019-05-01T10:58:17+08:00 ] ::1 /tic/?m=information&c=information&a=get_information
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `information` [ RunTime:0.0128s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\InformationModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\InformationModel.class.php 第 15 行.
+SQL: SELECT `content`,`istop` FROM `information` ORDER BY istop desc,createtime desc  [ RunTime:0.0002s ]
+
+[ 2019-05-01T10:58:31+08:00 ] ::1 /tic/?m=information&c=information&a=get_information
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `information` [ RunTime:0.0133s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\InformationModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\InformationModel.class.php 第 15 行.
+SQL: SELECT `content`,`istop`,`createtimes` FROM `information` ORDER BY istop desc,createtime desc  [ RunTime:0.0002s ]
+
+[ 2019-05-01T11:02:32+08:00 ] ::1 /tic/?m=information&c=information&a=get_information
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `information` [ RunTime:0.0137s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\InformationModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\InformationModel.class.php 第 15 行.
+SQL: SELECT `content`,`istop`,`createtimes` FROM `information` ORDER BY istop desc,createtime desc LIMIT 3   [ RunTime:0.0002s ]
+
+[ 2019-05-01T11:03:31+08:00 ] ::1 /tic/?m=information&c=information&a=get_information
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `information` [ RunTime:0.0143s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\InformationModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\InformationModel.class.php 第 15 行.
+SQL: SELECT `content`,`istop`,`createtimes` FROM `information` ORDER BY istop desc,createtime desc LIMIT 3   [ RunTime:0.0002s ]
+
+[ 2019-05-01T11:03:38+08:00 ] ::1 /tic/?m=information&c=information&a=get_information
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `information` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\InformationModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\InformationModel.class.php 第 15 行.
+SQL: SELECT `content`,`istop`,`createtimes` FROM `information` ORDER BY istop desc,createtime desc LIMIT 3   [ RunTime:0.0003s ]
+
+[ 2019-05-01T11:04:39+08:00 ] ::1 /tic/?m=information&c=information&a=get_information
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `information` [ RunTime:0.0141s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\InformationModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\InformationModel.class.php 第 15 行.
+SQL: SELECT `content`,`istop`,`createtimes` FROM `information` ORDER BY istop desc,createtime desc LIMIT 3   [ RunTime:0.0003s ]
+
+[ 2019-05-01T11:04:48+08:00 ] ::1 /tic/?m=information&c=information&a=get_information
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `information` [ RunTime:0.0134s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\InformationModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\InformationModel.class.php 第 15 行.
+SQL: SELECT `content`,`istop`,`createtimes` FROM `information` ORDER BY istop desc,createtime desc LIMIT 3   [ RunTime:0.0003s ]
+
+[ 2019-05-01T11:05:01+08:00 ] ::1 /tic/?m=information&c=information&a=get_information
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `information` [ RunTime:0.0139s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\InformationModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\InformationModel.class.php 第 15 行.
+SQL: SELECT `content`,`istop`,`createtimes` FROM `information` ORDER BY istop desc,createtime desc LIMIT 3   [ RunTime:0.0002s ]
+
+[ 2019-05-01T11:05:20+08:00 ] ::1 /tic/?m=information&c=information&a=get_information
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `information` [ RunTime:0.0143s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\InformationModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\InformationModel.class.php 第 15 行.
+SQL: SELECT `content`,`istop`,`createtimes` FROM `information` ORDER BY istop desc,createtime desc LIMIT 3   [ RunTime:0.0002s ]
+

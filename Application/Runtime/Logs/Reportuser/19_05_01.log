@@ -1,0 +1,29 @@
+[ 2019-05-01T10:39:43+08:00 ] ::1 /tic/?m=reportuser&c=reportuser&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010455s ]
+
+[ 2019-05-01T10:44:12+08:00 ] ::1 /tic/?m=reportuser&c=reportuser&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+
+[ 2019-05-01T10:45:58+08:00 ] ::1 /tic/?m=reportuser&c=reportuser&a=add_report
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+NOTIC: [2048] Declaration of Common\Model\ReportuserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\ReportuserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `reportuser` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ReportuserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\ReportuserModel.class.php 第 17 行.
+SQL: INSERT INTO `reportuser` (`userid`,`reportuserid`,`content`,`createtime`,`createtimes`,`status`) VALUES ('3','2','发广告','1556678758','2019-05-01 10:45:58','1') [ RunTime:0.0350s ]
+

@@ -26,19 +26,19 @@ function showmiya($s, $m, $d=array()) {
       'data' => $d
   );
   header('Access-Control-Allow-Origin:*');
-// // 响应类型  
-header('Access-Control-Allow-Methods:*');
-// 响应头设置  
+  // // 响应类型  
+  header('Access-Control-Allow-Methods:*');
+  // 响应头设置  
 
-header('Access-Control-Allow-Origin:*'); 
-header('Access-Control-Allow-Origin:http://codermiya.com');
-header('Access-Control-Allow-Credentials:true');
-header('Access-Control-Allow-Headers:content-type'); 
-header('Access-Control-Request-Method:GET,POST,OPTIONS'); 
-if(strtoupper($_SERVER['REQUEST_METHOD'])== 'OPTIONS'){ 
-  exit;
-}
-  exit(json_encode($result, JSON_UNESCAPED_UNICODE));
+  header('Access-Control-Allow-Origin:*'); 
+  header('Access-Control-Allow-Origin:http://codermiya.com');
+  header('Access-Control-Allow-Credentials:true');
+  header('Access-Control-Allow-Headers:content-type'); 
+  header('Access-Control-Request-Method:GET,POST,OPTIONS'); 
+  if(strtoupper($_SERVER['REQUEST_METHOD'])== 'OPTIONS'){ 
+    exit;
+  }
+    exit(json_encode($result, JSON_UNESCAPED_UNICODE));
 }
 
 function missing_parameter(){
@@ -198,6 +198,16 @@ function sortbytime($a,$b){
   if($a['createtime'] < $b['createtime']){
     return 1;
   }else if($a['createtime'] == $b['createtime']){
+    return $a['id'] < $b['id'] ? 1 : -1;
+  }else{
+    return -1;
+  }
+
+}
+function sortbymatch($a,$b){
+  if($a['matchscore'] < $b['matchscore']){
+    return 1;
+  }else if($a['matchscore'] == $b['matchscore']){
     return $a['id'] < $b['id'] ? 1 : -1;
   }else{
     return -1;

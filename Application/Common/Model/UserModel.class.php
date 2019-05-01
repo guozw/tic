@@ -78,4 +78,8 @@ class UserModel extends Model{
   public function get_score_rank(){
     return $this -> $_db -> field('id,account,nickname,portrait,score as data') -> order('score desc') -> limit(10) -> select();
   }
+  public function get_all_user($userid){
+    $where['id'] = array('NEQ',$userid);
+    return $this -> $_db -> field('id,account,email,nickname,sex,portrait,score,province,city,phone,birthday,constellation,describe,createtime,createtimes,status') -> where($where) -> select();
+  }
 }

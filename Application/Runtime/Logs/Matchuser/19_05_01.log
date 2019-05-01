@@ -1,0 +1,322 @@
+[ 2019-05-01T11:43:38+08:00 ] ::1 /tic/?m=matchuser&c=matchuser&a=system_match
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0275s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 36 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 83 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` <> '3'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2019-05-01T11:59:05+08:00 ] ::1 /tic/?m=matchuser&c=matchuser&a=system_match
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0164s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 36 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 1146:Table 'tic.ciecle_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ciecle_user`
+ERR: 1146:Table 'tic.ciecle_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ciecle_user`
+
+[ 2019-05-01T11:59:24+08:00 ] ::1 /tic/?m=matchuser&c=matchuser&a=system_match
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0137s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 36 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 1146:Table 'tic.ciecle_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ciecle_user`
+ERR: 1146:Table 'tic.ciecle_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ciecle_user`
+
+[ 2019-05-01T11:59:33+08:00 ] ::1 /tic/?m=matchuser&c=matchuser&a=system_match
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0155s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 36 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\Circle_userModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `circle_user` [ RunTime:0.0099s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 36 行.
+SQL: SELECT ci.id as id,ci.circle_name,ci.circle_picture,u.id as userid,u.nickname,u.account,u.portrait
+      FROM circle_info ci
+      LEFT JOIN user u ON u.id = ci.circle_admin
+      LEFT JOIN circle_user cu ON cu.circleid = ci.id
+      WHERE  cu.`status` = 1 AND ci.`status` = 1 AND cu.userid = '3' [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 83 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` <> '3'  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 36 行.
+SQL: SELECT ci.id as id,ci.circle_name,ci.circle_picture,u.id as userid,u.nickname,u.account,u.portrait
+      FROM circle_info ci
+      LEFT JOIN user u ON u.id = ci.circle_admin
+      LEFT JOIN circle_user cu ON cu.circleid = ci.id
+      WHERE  cu.`status` = 1 AND ci.`status` = 1 AND cu.userid = '1' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 36 行.
+SQL: SELECT ci.id as id,ci.circle_name,ci.circle_picture,u.id as userid,u.nickname,u.account,u.portrait
+      FROM circle_info ci
+      LEFT JOIN user u ON u.id = ci.circle_admin
+      LEFT JOIN circle_user cu ON cu.circleid = ci.id
+      WHERE  cu.`status` = 1 AND ci.`status` = 1 AND cu.userid = '2' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 36 行.
+SQL: SELECT ci.id as id,ci.circle_name,ci.circle_picture,u.id as userid,u.nickname,u.account,u.portrait
+      FROM circle_info ci
+      LEFT JOIN user u ON u.id = ci.circle_admin
+      LEFT JOIN circle_user cu ON cu.circleid = ci.id
+      WHERE  cu.`status` = 1 AND ci.`status` = 1 AND cu.userid = '4' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 36 行.
+SQL: SELECT ci.id as id,ci.circle_name,ci.circle_picture,u.id as userid,u.nickname,u.account,u.portrait
+      FROM circle_info ci
+      LEFT JOIN user u ON u.id = ci.circle_admin
+      LEFT JOIN circle_user cu ON cu.circleid = ci.id
+      WHERE  cu.`status` = 1 AND ci.`status` = 1 AND cu.userid = '6' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 36 行.
+SQL: SELECT ci.id as id,ci.circle_name,ci.circle_picture,u.id as userid,u.nickname,u.account,u.portrait
+      FROM circle_info ci
+      LEFT JOIN user u ON u.id = ci.circle_admin
+      LEFT JOIN circle_user cu ON cu.circleid = ci.id
+      WHERE  cu.`status` = 1 AND ci.`status` = 1 AND cu.userid = '7' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 36 行.
+SQL: SELECT ci.id as id,ci.circle_name,ci.circle_picture,u.id as userid,u.nickname,u.account,u.portrait
+      FROM circle_info ci
+      LEFT JOIN user u ON u.id = ci.circle_admin
+      LEFT JOIN circle_user cu ON cu.circleid = ci.id
+      WHERE  cu.`status` = 1 AND ci.`status` = 1 AND cu.userid = '8' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2019-05-01T12:01:39+08:00 ] ::1 /tic/?m=matchuser&c=matchuser&a=system_match
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0142s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 36 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\Circle_userModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `circle_user` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 36 行.
+SQL: SELECT ci.id as id,ci.circle_name,ci.circle_picture,u.id as userid,u.nickname,u.account,u.portrait
+      FROM circle_info ci
+      LEFT JOIN user u ON u.id = ci.circle_admin
+      LEFT JOIN circle_user cu ON cu.circleid = ci.id
+      WHERE  cu.`status` = 1 AND ci.`status` = 1 AND cu.userid = '3' [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 83 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` <> '3'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 36 行.
+SQL: SELECT ci.id as id,ci.circle_name,ci.circle_picture,u.id as userid,u.nickname,u.account,u.portrait
+      FROM circle_info ci
+      LEFT JOIN user u ON u.id = ci.circle_admin
+      LEFT JOIN circle_user cu ON cu.circleid = ci.id
+      WHERE  cu.`status` = 1 AND ci.`status` = 1 AND cu.userid = '1' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 36 行.
+SQL: SELECT ci.id as id,ci.circle_name,ci.circle_picture,u.id as userid,u.nickname,u.account,u.portrait
+      FROM circle_info ci
+      LEFT JOIN user u ON u.id = ci.circle_admin
+      LEFT JOIN circle_user cu ON cu.circleid = ci.id
+      WHERE  cu.`status` = 1 AND ci.`status` = 1 AND cu.userid = '2' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 36 行.
+SQL: SELECT ci.id as id,ci.circle_name,ci.circle_picture,u.id as userid,u.nickname,u.account,u.portrait
+      FROM circle_info ci
+      LEFT JOIN user u ON u.id = ci.circle_admin
+      LEFT JOIN circle_user cu ON cu.circleid = ci.id
+      WHERE  cu.`status` = 1 AND ci.`status` = 1 AND cu.userid = '4' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 36 行.
+SQL: SELECT ci.id as id,ci.circle_name,ci.circle_picture,u.id as userid,u.nickname,u.account,u.portrait
+      FROM circle_info ci
+      LEFT JOIN user u ON u.id = ci.circle_admin
+      LEFT JOIN circle_user cu ON cu.circleid = ci.id
+      WHERE  cu.`status` = 1 AND ci.`status` = 1 AND cu.userid = '6' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 36 行.
+SQL: SELECT ci.id as id,ci.circle_name,ci.circle_picture,u.id as userid,u.nickname,u.account,u.portrait
+      FROM circle_info ci
+      LEFT JOIN user u ON u.id = ci.circle_admin
+      LEFT JOIN circle_user cu ON cu.circleid = ci.id
+      WHERE  cu.`status` = 1 AND ci.`status` = 1 AND cu.userid = '7' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 36 行.
+SQL: SELECT ci.id as id,ci.circle_name,ci.circle_picture,u.id as userid,u.nickname,u.account,u.portrait
+      FROM circle_info ci
+      LEFT JOIN user u ON u.id = ci.circle_admin
+      LEFT JOIN circle_user cu ON cu.circleid = ci.id
+      WHERE  cu.`status` = 1 AND ci.`status` = 1 AND cu.userid = '8' [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000758s ]
+
+[ 2019-05-01T12:07:58+08:00 ] ::1 /tic/?m=matchuser&c=matchuser&a=system_match
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0137s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 36 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\Circle_userModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `circle_user` [ RunTime:0.0104s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 36 行.
+SQL: SELECT ci.id as id,ci.circle_name,ci.circle_picture,u.id as userid,u.nickname,u.account,u.portrait
+      FROM circle_info ci
+      LEFT JOIN user u ON u.id = ci.circle_admin
+      LEFT JOIN circle_user cu ON cu.circleid = ci.id
+      WHERE  cu.`status` = 1 AND ci.`status` = 1 AND cu.userid = '3' [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 83 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` <> '3'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 36 行.
+SQL: SELECT ci.id as id,ci.circle_name,ci.circle_picture,u.id as userid,u.nickname,u.account,u.portrait
+      FROM circle_info ci
+      LEFT JOIN user u ON u.id = ci.circle_admin
+      LEFT JOIN circle_user cu ON cu.circleid = ci.id
+      WHERE  cu.`status` = 1 AND ci.`status` = 1 AND cu.userid = '1' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 36 行.
+SQL: SELECT ci.id as id,ci.circle_name,ci.circle_picture,u.id as userid,u.nickname,u.account,u.portrait
+      FROM circle_info ci
+      LEFT JOIN user u ON u.id = ci.circle_admin
+      LEFT JOIN circle_user cu ON cu.circleid = ci.id
+      WHERE  cu.`status` = 1 AND ci.`status` = 1 AND cu.userid = '2' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 36 行.
+SQL: SELECT ci.id as id,ci.circle_name,ci.circle_picture,u.id as userid,u.nickname,u.account,u.portrait
+      FROM circle_info ci
+      LEFT JOIN user u ON u.id = ci.circle_admin
+      LEFT JOIN circle_user cu ON cu.circleid = ci.id
+      WHERE  cu.`status` = 1 AND ci.`status` = 1 AND cu.userid = '4' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 36 行.
+SQL: SELECT ci.id as id,ci.circle_name,ci.circle_picture,u.id as userid,u.nickname,u.account,u.portrait
+      FROM circle_info ci
+      LEFT JOIN user u ON u.id = ci.circle_admin
+      LEFT JOIN circle_user cu ON cu.circleid = ci.id
+      WHERE  cu.`status` = 1 AND ci.`status` = 1 AND cu.userid = '6' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 36 行.
+SQL: SELECT ci.id as id,ci.circle_name,ci.circle_picture,u.id as userid,u.nickname,u.account,u.portrait
+      FROM circle_info ci
+      LEFT JOIN user u ON u.id = ci.circle_admin
+      LEFT JOIN circle_user cu ON cu.circleid = ci.id
+      WHERE  cu.`status` = 1 AND ci.`status` = 1 AND cu.userid = '7' [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 36 行.
+SQL: SELECT ci.id as id,ci.circle_name,ci.circle_picture,u.id as userid,u.nickname,u.account,u.portrait
+      FROM circle_info ci
+      LEFT JOIN user u ON u.id = ci.circle_admin
+      LEFT JOIN circle_user cu ON cu.circleid = ci.id
+      WHERE  cu.`status` = 1 AND ci.`status` = 1 AND cu.userid = '8' [ RunTime:0.0001s ]
+
+[ 2019-05-01T12:14:36+08:00 ] ::1 /tic/?m=matchuser&c=matchuser&a=hobby_match
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0141s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 36 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\Circle_userModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `circle_user` [ RunTime:0.0105s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 36 行.
+SQL: SELECT ci.id as id,ci.circle_name,ci.circle_picture,u.id as userid,u.nickname,u.account,u.portrait
+      FROM circle_info ci
+      LEFT JOIN user u ON u.id = ci.circle_admin
+      LEFT JOIN circle_user cu ON cu.circleid = ci.id
+      WHERE  cu.`status` = 1 AND ci.`status` = 1 AND cu.userid = '3' [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 83 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` <> '3'  [ RunTime:0.0003s ]
+
+[ 2019-05-01T12:16:08+08:00 ] ::1 /tic/?m=matchuser&c=matchuser&a=hobby_match
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0132s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 36 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\Circle_userModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `circle_user` [ RunTime:0.0097s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 36 行.
+SQL: SELECT ci.id as id,ci.circle_name,ci.circle_picture,u.id as userid,u.nickname,u.account,u.portrait
+      FROM circle_info ci
+      LEFT JOIN user u ON u.id = ci.circle_admin
+      LEFT JOIN circle_user cu ON cu.circleid = ci.id
+      WHERE  cu.`status` = 1 AND ci.`status` = 1 AND cu.userid = '3' [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 83 行.
+SQL: SELECT `id`,`account`,`email`,`nickname`,`sex`,`portrait`,`score`,`province`,`city`,`phone`,`birthday`,`constellation`,`describe`,`createtime`,`createtimes`,`status` FROM `user` WHERE `id` <> '3'  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 36 行.
+SQL: SELECT ci.id as id,ci.circle_name,ci.circle_picture,u.id as userid,u.nickname,u.account,u.portrait
+      FROM circle_info ci
+      LEFT JOIN user u ON u.id = ci.circle_admin
+      LEFT JOIN circle_user cu ON cu.circleid = ci.id
+      WHERE  cu.`status` = 1 AND ci.`status` = 1 AND cu.userid = '1' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 36 行.
+SQL: SELECT ci.id as id,ci.circle_name,ci.circle_picture,u.id as userid,u.nickname,u.account,u.portrait
+      FROM circle_info ci
+      LEFT JOIN user u ON u.id = ci.circle_admin
+      LEFT JOIN circle_user cu ON cu.circleid = ci.id
+      WHERE  cu.`status` = 1 AND ci.`status` = 1 AND cu.userid = '2' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 36 行.
+SQL: SELECT ci.id as id,ci.circle_name,ci.circle_picture,u.id as userid,u.nickname,u.account,u.portrait
+      FROM circle_info ci
+      LEFT JOIN user u ON u.id = ci.circle_admin
+      LEFT JOIN circle_user cu ON cu.circleid = ci.id
+      WHERE  cu.`status` = 1 AND ci.`status` = 1 AND cu.userid = '4' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 36 行.
+SQL: SELECT ci.id as id,ci.circle_name,ci.circle_picture,u.id as userid,u.nickname,u.account,u.portrait
+      FROM circle_info ci
+      LEFT JOIN user u ON u.id = ci.circle_admin
+      LEFT JOIN circle_user cu ON cu.circleid = ci.id
+      WHERE  cu.`status` = 1 AND ci.`status` = 1 AND cu.userid = '6' [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 36 行.
+SQL: SELECT ci.id as id,ci.circle_name,ci.circle_picture,u.id as userid,u.nickname,u.account,u.portrait
+      FROM circle_info ci
+      LEFT JOIN user u ON u.id = ci.circle_admin
+      LEFT JOIN circle_user cu ON cu.circleid = ci.id
+      WHERE  cu.`status` = 1 AND ci.`status` = 1 AND cu.userid = '7' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_userModel.class.php 第 36 行.
+SQL: SELECT ci.id as id,ci.circle_name,ci.circle_picture,u.id as userid,u.nickname,u.account,u.portrait
+      FROM circle_info ci
+      LEFT JOIN user u ON u.id = ci.circle_admin
+      LEFT JOIN circle_user cu ON cu.circleid = ci.id
+      WHERE  cu.`status` = 1 AND ci.`status` = 1 AND cu.userid = '8' [ RunTime:0.0001s ]
+
