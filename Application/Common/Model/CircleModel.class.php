@@ -56,4 +56,14 @@ class CircleModel extends Model{
     $result = $this -> $_db -> query($sql);
     return $result;
   }
+  public function admin_circle(){
+    $sql = "select c.*,ci.circle_name as cname,tt.nickname,tt.account,tt.portrait 
+    FROM circle c
+    left join `user` tt on c.userid = tt.id
+    left join `circle_info` ci on ci.id = c.circleid
+    where  c.status = 1";
+    $result = $this -> $_db -> query($sql);
+    return $result;
+
+  }
 }

@@ -82,4 +82,7 @@ class UserModel extends Model{
     $where['id'] = array('NEQ',$userid);
     return $this -> $_db -> field('id,account,email,nickname,sex,portrait,score,province,city,phone,birthday,constellation,describe,createtime,createtimes,status') -> where($where) -> select();
   }
+  public function admin_count(){
+    return $this -> $_db -> field('id,account,email,nickname,sex,portrait,score,province,city,phone,birthday,constellation,describe,createtime,createtimes,status') -> select();
+  }
 }
