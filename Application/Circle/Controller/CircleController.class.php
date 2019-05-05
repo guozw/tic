@@ -83,8 +83,17 @@ class CircleController extends Controller{
     if(!$circleid || $circleid == '') missing_parameter();
     $list = D('Circle') -> get_circle($circleid);
     $i = 0;
+    // print_r($list);exit;
     foreach($list as &$circle){
-      
+      if($circle['userid'] == $userid){
+        $circle['isfans'] = true;
+      }else{
+        if(D('Fans') -> is_fans($circle['userid'],$userid)){
+          $circle['isfans'] = true;
+        }else{
+          $circle['isfans'] = false;
+        }
+      }
       if($circle['like'] != 0){
         $likearr = explode("|", $circle['like']);
         

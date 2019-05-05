@@ -1,0 +1,153 @@
+[ 2019-05-05T14:53:40+08:00 ] ::1 /tic/?m=circle&c=circle&a=get_circle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010635s ]
+NOTIC: [2048] Declaration of Common\Model\CircleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\CircleModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `circle` [ RunTime:0.0595s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\CircleModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\CircleModel.class.php 第 31 行.
+SQL: select c.*,tt.nickname,tt.account,tt.portrait 
+    FROM circle c
+    left join `user` tt on c.userid = tt.id
+    where  circleid = '1' AND c.status = 1 [ RunTime:0.0255s ]
+NOTIC: [2048] Declaration of Common\Model\Circle_remarkModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\Circle_remarkModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `circle_remark` [ RunTime:0.0408s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_remarkModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_remarkModel.class.php 第 25 行.
+SQL: select cr.id as remarkid , cr.userid as userid , nickname , content , cr.createtime as createtime ,  cr.createtimes as createtimes
+    FROM circle_remark cr
+    LEFT JOIN `user` u on cr.userid = u.id
+    WHERE cr.circleid = '1' AND cr.status = 1 [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0136s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_remarkModel.class.php 第 25 行.
+SQL: select cr.id as remarkid , cr.userid as userid , nickname , content , cr.createtime as createtime ,  cr.createtimes as createtimes
+    FROM circle_remark cr
+    LEFT JOIN `user` u on cr.userid = u.id
+    WHERE cr.circleid = '3' AND cr.status = 1 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_remarkModel.class.php 第 25 行.
+SQL: select cr.id as remarkid , cr.userid as userid , nickname , content , cr.createtime as createtime ,  cr.createtimes as createtimes
+    FROM circle_remark cr
+    LEFT JOIN `user` u on cr.userid = u.id
+    WHERE cr.circleid = '4' AND cr.status = 1 [ RunTime:0.0001s ]
+
+[ 2019-05-05T14:54:03+08:00 ] ::1 /tic/?m=circle&c=circle&a=get_circle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+NOTIC: [2048] Declaration of Common\Model\CircleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\CircleModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `circle` [ RunTime:0.0136s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\CircleModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\CircleModel.class.php 第 31 行.
+SQL: select c.*,tt.nickname,tt.account,tt.portrait 
+    FROM circle c
+    left join `user` tt on c.userid = tt.id
+    where  circleid = '1' AND c.status = 1 [ RunTime:0.0003s ]
+
+[ 2019-05-05T14:58:33+08:00 ] ::1 /tic/?m=circle&c=circle&a=get_circle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+NOTIC: [2048] Declaration of Common\Model\CircleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\CircleModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `circle` [ RunTime:0.0167s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\CircleModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\CircleModel.class.php 第 31 行.
+SQL: select c.*,tt.nickname,tt.account,tt.portrait 
+    FROM circle c
+    left join `user` tt on c.userid = tt.id
+    where  circleid = '1' AND c.status = 1 [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\Circle_remarkModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\Circle_remarkModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `circle_remark` [ RunTime:0.0094s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_remarkModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_remarkModel.class.php 第 25 行.
+SQL: select cr.id as remarkid , cr.userid as userid , nickname , content , cr.createtime as createtime ,  cr.createtimes as createtimes
+    FROM circle_remark cr
+    LEFT JOIN `user` u on cr.userid = u.id
+    WHERE cr.circleid = '1' AND cr.status = 1 [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0093s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_remarkModel.class.php 第 25 行.
+SQL: select cr.id as remarkid , cr.userid as userid , nickname , content , cr.createtime as createtime ,  cr.createtimes as createtimes
+    FROM circle_remark cr
+    LEFT JOIN `user` u on cr.userid = u.id
+    WHERE cr.circleid = '3' AND cr.status = 1 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fans` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FansModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FansModel.class.php 第 17 行.
+SQL: SELECT * FROM `fans` WHERE `userid` = 4 AND `fansid` = 3 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_remarkModel.class.php 第 25 行.
+SQL: select cr.id as remarkid , cr.userid as userid , nickname , content , cr.createtime as createtime ,  cr.createtimes as createtimes
+    FROM circle_remark cr
+    LEFT JOIN `user` u on cr.userid = u.id
+    WHERE cr.circleid = '4' AND cr.status = 1 [ RunTime:0.0002s ]
+
+[ 2019-05-05T14:59:01+08:00 ] ::1 /tic/?m=circle&c=circle&a=get_circle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+NOTIC: [2048] Declaration of Common\Model\CircleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\CircleModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `circle` [ RunTime:0.0165s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\CircleModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\CircleModel.class.php 第 31 行.
+SQL: select c.*,tt.nickname,tt.account,tt.portrait 
+    FROM circle c
+    left join `user` tt on c.userid = tt.id
+    where  circleid = '1' AND c.status = 1 [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\Circle_remarkModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\Circle_remarkModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `circle_remark` [ RunTime:0.0103s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_remarkModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_remarkModel.class.php 第 25 行.
+SQL: select cr.id as remarkid , cr.userid as userid , nickname , content , cr.createtime as createtime ,  cr.createtimes as createtimes
+    FROM circle_remark cr
+    LEFT JOIN `user` u on cr.userid = u.id
+    WHERE cr.circleid = '1' AND cr.status = 1 [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0103s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_remarkModel.class.php 第 25 行.
+SQL: select cr.id as remarkid , cr.userid as userid , nickname , content , cr.createtime as createtime ,  cr.createtimes as createtimes
+    FROM circle_remark cr
+    LEFT JOIN `user` u on cr.userid = u.id
+    WHERE cr.circleid = '3' AND cr.status = 1 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fans` [ RunTime:0.0099s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FansModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FansModel.class.php 第 17 行.
+SQL: SELECT * FROM `fans` WHERE `userid` = 4 AND `fansid` = 3 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\UserModel.class.php 第 64 行.
+SQL: SELECT `id`,`account`,`nickname` FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\Circle_remarkModel.class.php 第 25 行.
+SQL: select cr.id as remarkid , cr.userid as userid , nickname , content , cr.createtime as createtime ,  cr.createtimes as createtimes
+    FROM circle_remark cr
+    LEFT JOIN `user` u on cr.userid = u.id
+    WHERE cr.circleid = '4' AND cr.status = 1 [ RunTime:0.0001s ]
+
