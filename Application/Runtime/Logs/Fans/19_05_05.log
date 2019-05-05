@@ -1,0 +1,117 @@
+[ 2019-05-05T16:57:55+08:00 ] ::1 /tic/?m=fans&c=fans&a=get_fans_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `fans` [ RunTime:0.0181s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FansModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FansModel.class.php 第 33 行.
+SQL: select u.id as id ,account,email,nickname,sex,portrait,score,province,city,phone,birthday,constellation,`describe`,u.createtimes as createtimes
+    from fans f
+    LEFT JOIN `user` u on f.fansid = u.id 
+    where f.userid = '3' [ RunTime:0.0006s ]
+
+[ 2019-05-05T16:58:19+08:00 ] ::1 /tic/?m=fans&c=fans&a=get_fans_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+SQL: SHOW COLUMNS FROM `fans` [ RunTime:0.0143s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FansModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FansModel.class.php 第 33 行.
+SQL: select u.id as id ,account,email,nickname,sex,portrait,score,province,city,phone,birthday,constellation,`describe`,u.createtimes as createtimes
+    from fans f
+    LEFT JOIN `user` u on f.fansid = u.id 
+    where f.userid = '3' [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: userid E:\phpstudy\WWW\tic\Application\Fans\Controller\FansController.class.php 第 39 行.
+NOTIC: [8] Undefined index: userid E:\phpstudy\WWW\tic\Application\Fans\Controller\FansController.class.php 第 42 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FansModel.class.php 第 17 行.
+SQL: SELECT * FROM `fans` WHERE `userid` = null AND `fansid` = 3 AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2019-05-05T16:58:46+08:00 ] ::1 /tic/?m=fans&c=fans&a=get_fans_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `fans` [ RunTime:0.0213s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FansModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FansModel.class.php 第 33 行.
+SQL: select u.id as id ,account,email,nickname,sex,portrait,score,province,city,phone,birthday,constellation,`describe`,u.createtimes as createtimes
+    from fans f
+    LEFT JOIN `user` u on f.fansid = u.id 
+    where f.userid = '3' [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FansModel.class.php 第 17 行.
+SQL: SELECT * FROM `fans` WHERE `userid` = 4 AND `fansid` = 3 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-05-05T16:59:28+08:00 ] ::1 /tic/?m=fans&c=fans&a=get_fans_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `fans` [ RunTime:0.0179s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FansModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FansModel.class.php 第 33 行.
+SQL: select u.id as id ,account,email,nickname,sex,portrait,score,province,city,phone,birthday,constellation,`describe`,u.createtimes as createtimes
+    from fans f
+    LEFT JOIN `user` u on f.fansid = u.id 
+    where f.userid = '3' [ RunTime:0.0003s ]
+
+[ 2019-05-05T17:00:03+08:00 ] ::1 /tic/?m=fans&c=fans&a=get_fans_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `fans` [ RunTime:0.0144s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FansModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FansModel.class.php 第 33 行.
+SQL: select u.id as id ,account,email,nickname,sex,portrait,score,province,city,phone,birthday,constellation,`describe`,u.createtimes as createtimes
+    from fans f
+    LEFT JOIN `user` u on f.fansid = u.id 
+    where f.userid = '3' [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FansModel.class.php 第 17 行.
+SQL: SELECT * FROM `fans` WHERE `userid` = 4 AND `fansid` = 3 AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2019-05-05T17:00:18+08:00 ] ::1 /tic/?m=fans&c=fans&a=get_fans_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `fans` [ RunTime:0.0187s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FansModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FansModel.class.php 第 33 行.
+SQL: select u.id as id ,account,email,nickname,sex,portrait,score,province,city,phone,birthday,constellation,`describe`,u.createtimes as createtimes
+    from fans f
+    LEFT JOIN `user` u on f.fansid = u.id 
+    where f.userid = '3' [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FansModel.class.php 第 17 行.
+SQL: SELECT * FROM `fans` WHERE `userid` = 4 AND `fansid` = 3 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-05-05T17:00:26+08:00 ] ::1 /tic/?m=fans&c=fans&a=get_fans_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `fans` [ RunTime:0.0145s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FansModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FansModel.class.php 第 33 行.
+SQL: select u.id as id ,account,email,nickname,sex,portrait,score,province,city,phone,birthday,constellation,`describe`,u.createtimes as createtimes
+    from fans f
+    LEFT JOIN `user` u on f.fansid = u.id 
+    where f.userid = '3' [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _db E:\phpstudy\WWW\tic\Application\Common\Model\FansModel.class.php 第 17 行.
+SQL: SELECT * FROM `fans` WHERE `userid` = 4 AND `fansid` = 3 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+

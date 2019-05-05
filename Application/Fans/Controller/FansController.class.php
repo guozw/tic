@@ -35,6 +35,18 @@ class FansController extends Controller{
     if(!$userid || $userid == '' )
       missing_login();
     $list = D('Fans') -> get_fans_list($userid);
+    // print_r($list);exit;
+    foreach($list as &$one){
+      if($one['id'] == $userid){
+        $one['isfans'] = true;
+      }else{
+        if(D('Fans') -> is_fans($one['id'],$userid)){
+          $one['isfans'] = true;
+        }else{
+          $one['isfans'] = false;
+        }
+      }
+    }
     if($list){
       return show(0,'成功',$list);
     }else{
